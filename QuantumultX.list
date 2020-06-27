@@ -239,13 +239,6 @@ DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,ads.wakamoment.tk,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
-
-# baidu
-
-
-# taobao
-
-
 # Yahoo Weather
 DOMAIN,m.yap.yahoo.com,REJECT
 DOMAIN,geo.yahoo.com,REJECT
@@ -256,11 +249,8 @@ DOMAIN,locdrop.query.yahoo.com,REJECT
 DOMAIN-SUFFIX,comet.yahoo.com,REJECT
 DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
 DOMAIN,analytics.query.yahoo.com,REJECT
-
 # UA
 USER-AGENT,BaiduWallet*,REJECT
-
-
 # Youtube
 DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
 DOMAIN-SUFFIX,couchcoaster.jp,REJECT
@@ -269,7 +259,6 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-
 # Site
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
@@ -277,7 +266,6 @@ DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
 DOMAIN-SUFFIX,itv.hexun.com,REJECT
 DOMAIN-SUFFIX,utrack.hexun.com,REJECT
 #URL-REGEX,^https?:\/\/h\w{2}\.hxsame\.hexun\.com,REJECT
-
 # Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
@@ -290,6 +278,13 @@ DOMAIN-SUFFIX,logger.baofeng.com,REJECT
 
 
 # DIRECT
+# Local Area Network
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
 # China Area Network
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
