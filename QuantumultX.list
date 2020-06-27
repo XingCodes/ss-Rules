@@ -1,6 +1,9 @@
 # https:# fx1999.github.io/ss-Rules/QuantumultX.list
 # REJECT
 
+DOMAIN-KEYWORD,ad-channel,REJECT
+DOMAIN-KEYWORD,adservice,REJECT
+DOMAIN-KEYWORD,ad-display,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,flurry.cachefly.net,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
