@@ -1,18 +1,21 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
+# General
 DOMAIN-SUFFIX,baidu.com,DIRECT
-DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
 DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
 DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
-DOMAIN-SUFFIX,alipayobjects.com,DIRECT
-DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,zhihu.com,DIRECT
-DOMAIN-SUFFIX,weibo.com,DIRECT
-DOMAIN-SUFFIX,bilibili.com,DIRECT
-DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
 DOMAIN-SUFFIX,dl.google.com,DIRECT
-#Apple
+DOMAIN-SUFFIX,v2ex.com,DIRECT
+# > Alibaba
+DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+DOMAIN-SUFFIX,alibaba.com,DIRECT
+DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+# > Apple
 DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
@@ -31,7 +34,37 @@ DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
-#IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
-#PayPal
+# > PayPal
 USER-AGENT,PayPal*,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
+DOMAIN-SUFFIX,paypal.me,DIRECT
+DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+# > bilibili
+DOMAIN-SUFFIX,acgvideo.com,DIRECT
+DOMAIN-SUFFIX,biliapi.com,DIRECT
+DOMAIN-SUFFIX,biliapi.net,DIRECT
+DOMAIN-SUFFIX,bilibili.com,DIRECT
+DOMAIN-SUFFIX,bilibili.tv,DIRECT
+DOMAIN-SUFFIX,hdslb.com,DIRECT
+# > ByteDance
+DOMAIN-SUFFIX,feiliao.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+# > Microsoft
+DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,msecnd.net,DIRECT
+DOMAIN-SUFFIX,office365.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
+DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+DOMAIN-SUFFIX,visualstudio.com,DIRECT
+DOMAIN-SUFFIX,windows.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+# > Sina
+DOMAIN-SUFFIX,sina.com,DIRECT
+DOMAIN-SUFFIX,weibo.com,DIRECT
+DOMAIN-SUFFIX,weibocdn.com,DIRECT
+# > Tencent
+IP-CIDR,119.28.28.28/32,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT
