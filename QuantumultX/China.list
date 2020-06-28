@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
 DOMAIN-SUFFIX,zhihu.com,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
 DOMAIN-SUFFIX,dl.google.com,DIRECT
+DOMAIN-SUFFIX,v2ex.co,DIRECT
 DOMAIN-SUFFIX,v2ex.com,DIRECT
 # > Alibaba
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
