@@ -14,6 +14,8 @@ DOMAIN-KEYWORD,adsrvmedia,REJECT
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 
+DOMAIN-SUFFIX,ad-channel.wikawika.xyz,REJECT
+DOMAIN-SUFFIX,ad-display.wikawika.xyz,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,flurry.cachefly.net,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
