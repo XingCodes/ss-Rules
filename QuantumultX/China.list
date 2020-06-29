@@ -17,6 +17,11 @@ DOMAIN-SUFFIX,alipay.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,tmall.com,DIRECT
 # > Apple
+USER-AGENT,com.apple.appstored*,DIRECT
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,cloudd*,DIRECT
+USER-AGENT,com.apple.geod*,DIRECT
+USER-AGENT,com.apple.Maps,DIRECT
 DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
@@ -35,6 +40,7 @@ DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
 # > PayPal
 USER-AGENT,PayPal*,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
