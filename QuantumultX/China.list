@@ -87,6 +87,7 @@ DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-SUFFIX,wechat.com,DIRECT
 DOMAIN-SUFFIX,servicewechat.com,DIRECT
+DOMAIN-SUFFIX,weixinbridge.com,DIRECT
 DOMAIN-SUFFIX,idqqimg.com,DIRECT
 DOMAIN-SUFFIX,igamecj.com,DIRECT
 DOMAIN-SUFFIX,myapp.com,DIRECT
