@@ -285,6 +285,17 @@ DOMAIN-SUFFIX,float.kankan.com,REJECT
 DOMAIN-SUFFIX,houyi.baofeng.net,REJECT
 DOMAIN-SUFFIX,iadctest.qwapi.com,REJECT
 DOMAIN-SUFFIX,logger.baofeng.com,REJECT
+# > Alibaba
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 # > Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
