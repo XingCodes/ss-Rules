@@ -276,7 +276,6 @@ DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
 DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
 DOMAIN-SUFFIX,itv.hexun.com,REJECT
 DOMAIN-SUFFIX,utrack.hexun.com,REJECT
-# URL-REGEX,^https?:\/\/h\w{2}\.hxsame\.hexun\.com,REJECT
 # Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
@@ -286,3 +285,11 @@ DOMAIN-SUFFIX,float.kankan.com,REJECT
 DOMAIN-SUFFIX,houyi.baofeng.net,REJECT
 DOMAIN-SUFFIX,iadctest.qwapi.com,REJECT
 DOMAIN-SUFFIX,logger.baofeng.com,REJECT
+# > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
+DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
