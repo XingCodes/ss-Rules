@@ -211,7 +211,6 @@ DOMAIN-SUFFIX,ads.wakamoment.tk,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
-USER-AGENT,BaiduWallet*,REJECT
 DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,inmobi.net,REJECT
@@ -336,14 +335,6 @@ DOMAIN,yt-adp.ws.126.net,REJECT
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN,api.newad.ifeng.com,REJECT
 DOMAIN,ifengad.3g.ifeng.com,REJECT
-# Sina
-DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-DOMAIN,adimg.uve.weibo.com,REJECT
-DOMAIN,adimg.vue.weibo.com,REJECT
-DOMAIN,u1.img.mobile.sina.cn,REJECT
-DOMAIN,sax.sina.com.cn,REJECT
-DOMAIN,saxs.sina.com.cn,REJECT
-DOMAIN,saxn.sina.com.cn,REJECT
 # Site
 DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
 DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
@@ -356,20 +347,6 @@ DOMAIN-SUFFIX,aty.sohu.com,REJECT
 DOMAIN,imp.optaim.com,REJECT
 DOMAIN,v2.reachmax.cn,REJECT
 DOMAIN,hui.sohu.com,REJECT
-# Tencent
-DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.tc.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 # Tencent Music
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
