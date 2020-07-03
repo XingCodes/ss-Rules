@@ -17,6 +17,7 @@ DOMAIN-KEYWORD,adsrvmedia,REJECT
 DOMAIN-KEYWORD,adsystem,REJECT
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
+DOMAIN-KEYWORD,assoc-amazon,REJECT
 
 DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
@@ -69,14 +70,6 @@ DOMAIN-SUFFIX,aan.amazon.com,REJECT
 DOMAIN-SUFFIX,aax-eu-dub.amazon.com,REJECT
 DOMAIN-SUFFIX,aax-us-iad.amazon.com,REJECT
 DOMAIN-SUFFIX,device-messaging-na.amazon.com,REJECT
-DOMAIN-SUFFIX,assoc-amazon.ca,REJECT
-DOMAIN-SUFFIX,assoc-amazon.cn,REJECT
-DOMAIN-SUFFIX,assoc-amazon.co.uk,REJECT
-DOMAIN-SUFFIX,assoc-amazon.com,REJECT
-DOMAIN-SUFFIX,assoc-amazon.de,REJECT
-DOMAIN-SUFFIX,assoc-amazon.es,REJECT
-DOMAIN-SUFFIX,assoc-amazon.fr,REJECT
-DOMAIN-SUFFIX,assoc-amazon.it,REJECT
 DOMAIN-SUFFIX,affilate-img-affasi.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,affiliationjs.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,airpushmarketing.s3.amazonaws.com,REJECT
