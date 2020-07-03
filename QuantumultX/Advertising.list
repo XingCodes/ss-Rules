@@ -15,6 +15,7 @@ DOMAIN-KEYWORD,adsite,REJECT
 DOMAIN-KEYWORD,adsmogo,REJECT
 DOMAIN-KEYWORD,adsrvmedia,REJECT
 DOMAIN-KEYWORD,adsystem,REJECT
+DOMAIN-KEYWORD,advertising,REJECT
 DOMAIN-KEYWORD,adwords,REJECT
 DOMAIN-KEYWORD,partnerad,REJECT
 DOMAIN-KEYWORD,assoc-amazon,REJECT
@@ -210,14 +211,14 @@ DOMAIN-SUFFIX,ads.wakamoment.tk,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
-# UA
 USER-AGENT,BaiduWallet*,REJECT
-# Site
-DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
-DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
-DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
-DOMAIN-SUFFIX,itv.hexun.com,REJECT
-DOMAIN-SUFFIX,utrack.hexun.com,REJECT
+DOMAIN-SUFFIX,inmobi.cn,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,inmobi.net,REJECT
+DOMAIN-SUFFIX,inmobicdn.cn,REJECT
+DOMAIN-SUFFIX,inmobicdn.net,REJECT
+DOMAIN-SUFFIX,adchina.com,REJECT
+DOMAIN-SUFFIX,adcloud.net,REJECT
 # Alibaba
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # Amap
@@ -331,6 +332,10 @@ DOMAIN,n.3g.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
+# Phoenix New Media
+DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+DOMAIN,api.newad.ifeng.com,REJECT
+DOMAIN,ifengad.3g.ifeng.com,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
@@ -339,6 +344,18 @@ DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
 DOMAIN,saxs.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
+# Site
+DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
+DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
+DOMAIN-SUFFIX,itv.hexun.com,REJECT
+DOMAIN-SUFFIX,utrack.hexun.com,REJECT
+# SOHU
+DOMAIN-SUFFIX,ad.sohu.com,REJECT
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,hui.sohu.com,REJECT
 # Tencent
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
@@ -353,6 +370,17 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# Tencent Music
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+DOMAIN,g.koowo.com,REJECT
+DOMAIN,kgmobilestat.kugou.com,REJECT
+DOMAIN,kgmobilestatbak.kugou.com,REJECT
+DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,mobilead.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
 # Thunder
 DOMAIN,adsp.xunlei.com,REJECT
 DOMAIN,etl.xlmc.sandai.net,REJECT
@@ -377,7 +405,16 @@ DOMAIN,adsebs.ximalaya.com,REJECT
 DOMAIN,ads-img-qc.xhscdn.com,REJECT
 DOMAIN,ads-video-qc.xhscdn.com,REJECT
 DOMAIN,t-ads.xiaohongshu.com,REJECT
-# Yahoo Weather
+# Yahoo
+DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
+DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
+DOMAIN-SUFFIX,yap.yahoo.com,REJECT
+DOMAIN,admarketing.yahoo.net,REJECT
+DOMAIN,ads.auctions.yahoo.com,REJECT
+DOMAIN,ads.finance.yahoo.com,REJECT
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,ads.yahoo.de,REJECT
 DOMAIN,m.yap.yahoo.com,REJECT
 DOMAIN,geo.yahoo.com,REJECT
 DOMAIN,doubleplay-conf-yql.media.yahoo.com,REJECT
