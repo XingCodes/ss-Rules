@@ -220,17 +220,6 @@ DOMAIN-SUFFIX,itv.hexun.com,REJECT
 DOMAIN-SUFFIX,utrack.hexun.com,REJECT
 # Alibaba
 DOMAIN,tunion-api.m.taobao.com,REJECT
-# > privacy
-DOMAIN,acs4baichuan.m.taobao.com,REJECT
-DOMAIN,adash.m.taobao.com,REJECT
-DOMAIN,adash.man.aliyuncs.com,REJECT
-DOMAIN,adashbc.ut.taobao.com,REJECT
-DOMAIN,adash-c.ut.taobao.com,REJECT
-DOMAIN,adashx.m.taobao.com,REJECT
-DOMAIN,adashx4yt.m.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 # Amap
 DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
@@ -256,12 +245,6 @@ DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN-SUFFIX,baidustatic.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
-# ByteDance
-# > privacy
-DOMAIN,applog.musical.ly,REJECT
-DOMAIN,log-lq.snssdk.com,REJECT
-DOMAIN,track.toutiao.com,REJECT
-DOMAIN,xlog.snssdk.com,REJECT
 # iQIYI
 DOMAIN,t7z.cupid.iqiyi.com,REJECT
 IP-CIDR,101.227.97.240/32,REJECT
@@ -370,22 +353,9 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-# > privacy
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN,pingma.qq.com,REJECT
-DOMAIN,pingtcss.qq.com,REJECT
-DOMAIN,tajs.qq.com,REJECT
-DOMAIN,btrace.qq.com,REJECT
-DOMAIN,mtrace.qq.com,REJECT
 # Thunder
 DOMAIN,adsp.xunlei.com,REJECT
 DOMAIN,etl.xlmc.sandai.net,REJECT
-# Umeng
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
-DOMAIN-SUFFIX,umeng.co,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-DOMAIN-SUFFIX,umengcloud.com,REJECT
 # Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
