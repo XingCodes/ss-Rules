@@ -357,6 +357,12 @@ DOMAIN,minfo.wps.cn,REJECT
 DOMAIN,mobad.ijinshan.com,REJECT
 DOMAIN,ups.ksmobile.net,REJECT
 DOMAIN,ws.ksmobile.net,REJECT
+# MI
+DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
+DOMAIN,adv.sec.intl.miui.com,REJECT
+DOMAIN,adv.sec.miui.com,REJECT
 # NetEase
 DOMAIN-SUFFIX,dsp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
