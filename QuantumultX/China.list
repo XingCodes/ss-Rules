@@ -1,5 +1,6 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
 # General
+DOMAIN-SUFFIX,edu.cn,DIRECT
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
 DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT

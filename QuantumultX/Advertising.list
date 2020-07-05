@@ -285,7 +285,7 @@ DOMAIN-SUFFIX,myscoop-tracking.googlecode.com,REJECT
 DOMAIN-SUFFIX,salefile.googlecode.com,REJECT
 DOMAIN-SUFFIX,trakksocial.googlecode.com,REJECT
 DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT
-DOMAIN-SUFFIX,firebaselogging.googleapis.com,REJECT
+DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,blaaaa12.googlecode.com,REJECT
 DOMAIN-SUFFIX,mail-ads.google.com,REJECT
