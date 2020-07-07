@@ -42,10 +42,6 @@ DOMAIN,adashx4yt.m.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
-# > Baidu
-DOMAIN-SUFFIX,baidustatic.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
-DOMAIN,hmma.baidu.com,REJECT
 # > ByteDance
 DOMAIN,applog.musical.ly,REJECT
 DOMAIN,log-lq.snssdk.com,REJECT
