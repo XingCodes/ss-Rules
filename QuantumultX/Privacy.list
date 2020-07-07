@@ -1,4 +1,3 @@
-
 # Privacy
 DOMAIN-SUFFIX,247-inc.net,REJECT
 DOMAIN-SUFFIX,42trck.com,REJECT
@@ -68,6 +67,8 @@ DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,track.uc.cn,REJECT
 # > Umeng
+DOMAIN,msg.umeng.com,DIRECT
+DOMAIN,msg.umengcloud.com,DIRECT
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
