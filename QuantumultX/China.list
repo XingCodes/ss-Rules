@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,paypal.me,DIRECT
 DOMAIN-SUFFIX,paypalobjects.com,DIRECT
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com,DIRECT
+DOMAIN-SUFFIX,bigfun.cn,DIRECT
 DOMAIN-SUFFIX,biliapi.com,DIRECT
 DOMAIN-SUFFIX,biliapi.net,DIRECT
 DOMAIN-SUFFIX,bilibili.com,DIRECT
