@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
 DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
 DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
-DOMAIN-SUFFIX,zhihu.com,DIRECT
 DOMAIN-SUFFIX,dl.google.com,DIRECT
 DOMAIN-SUFFIX,v2ex.co,DIRECT
 DOMAIN-SUFFIX,v2ex.com,DIRECT
@@ -71,6 +70,8 @@ DOMAIN-SUFFIX,pstatp.com,DIRECT
 DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,iesdouyin.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,DIRECT
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,msecnd.net,DIRECT
@@ -166,3 +167,6 @@ DOMAIN-SUFFIX,westlaw.com,DIRECT
 DOMAIN-SUFFIX,wiley.com,DIRECT
 DOMAIN-SUFFIX,worldbank.org,DIRECT
 DOMAIN-SUFFIX,worldscientific.com,DIRECT
+# Zhihu
+DOMAIN-SUFFIX,zhihu.com,DIRECT
+DOMAIN-SUFFIX,zhimg.com,DIRECT
