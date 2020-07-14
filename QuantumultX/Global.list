@@ -39,6 +39,7 @@ USER-AGENT,Twitch*,PROXY
 USER-AGENT,WhatsApp*,PROXY
 USER-AGENT,TwDramas,PROXY
 DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
+DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN-SUFFIX,proxydocker.com,PROXY
 DOMAIN-SUFFIX,img.skrt.best,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
