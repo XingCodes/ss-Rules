@@ -534,12 +534,6 @@ DOMAIN,ssl.google-analytics.com,REJECT
 DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
-# happycast
-DOMAIN,ad.hpplay.cn,REJECT
-DOMAIN,adc.hpplay.cn,REJECT
-DOMAIN,adcdn.hpplay.cn,REJECT
-DOMAIN,adeng.hpplay.cn,REJECT
-DOMAIN,rp.hpplay.cn,REJECT
 # HunanTV
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
