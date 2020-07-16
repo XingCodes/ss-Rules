@@ -5,7 +5,6 @@ DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-KEYWORD,adsite,REJECT
 
 DOMAIN-SUFFIX,tanv.com,REJECT
-DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN-SUFFIX,ad-channel.wikawika.xyz,REJECT
 DOMAIN-SUFFIX,ad-display.wikawika.xyz,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
@@ -452,6 +451,7 @@ DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
 # Alibaba
+DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # Amap
 DOMAIN,optimus-ads.amap.com,REJECT
@@ -534,6 +534,12 @@ DOMAIN,ssl.google-analytics.com,REJECT
 DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
+# happycast
+DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adc.hpplay.cn,REJECT
+DOMAIN,adcdn.hpplay.cn,REJECT
+DOMAIN,adeng.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
 # HunanTV
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
@@ -564,6 +570,11 @@ DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
 DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
 DOMAIN,adv.sec.intl.miui.com,REJECT
 DOMAIN,adv.sec.miui.com,REJECT
+# MojiWeather
+DOMAIN,ad.api.moji.com,REJECT
+DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ads.mojicdn.com,REJECT
+DOMAIN,v1.log.moji.com,REJECT
 # NetEase
 DOMAIN-SUFFIX,dsp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
@@ -581,10 +592,25 @@ DOMAIN,n.3g.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
+# PConline
+DOMAIN,ad-analysis.pconline.com.cn,REJECT
+DOMAIN,iad0ssl.pcauto.com.cn,REJECT
+DOMAIN,iad0ssl.pconline.com.cn,REJECT
+DOMAIN,imgad0.pcauto.com.cn,REJECT
+DOMAIN,imgad0.pconline.com.cn,REJECT
+DOMAIN,ivy.pchouse.com.cn,REJECT
 # Phoenix New Media
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN,api.newad.ifeng.com,REJECT
 DOMAIN,ifengad.3g.ifeng.com,REJECT
+# Photoable
+DOMAIN,regist.fotoable.com,REJECT
+DOMAIN,cdn.adapi.fotoable.com,REJECT
+# PPTV
+DOMAIN,ads.aplus.pptv.com,REJECT
+DOMAIN,ads.aplusapi.pptv.com,REJECT
+DOMAIN,asimgs.pplive.cn,REJECT
+DOMAIN,de.as.pptv.com,REJECT
 # Site
 DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
 DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
@@ -597,6 +623,20 @@ DOMAIN-SUFFIX,aty.sohu.com,REJECT
 DOMAIN,imp.optaim.com,REJECT
 DOMAIN,v2.reachmax.cn,REJECT
 DOMAIN,hui.sohu.com,REJECT
+# Tencent
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pgdt.gtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 # Tencent Music
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
