@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,xuexi.cn,DIRECT
 DOMAIN-SUFFIX,chsi.com.cn,DIRECT
 DOMAIN-SUFFIX,chei.com.cn,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
+DOMAIN-SUFFIX,qidian.com,DIRECT
+DOMAIN-SUFFIX,yuewen.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba
