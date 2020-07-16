@@ -113,7 +113,6 @@ DOMAIN-SUFFIX,mobileads.msn.com,REJECT
 DOMAIN-SUFFIX,doubleclick.ctfile.com,REJECT
 DOMAIN-SUFFIX,doubleclick.tv002.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
-DOMAIN-SUFFIX,appcenter.ms,REJECT
 DOMAIN-SUFFIX,clc.stackoverflow.com,REJECT
 DOMAIN-SUFFIX,log.quora.com,REJECT
 DOMAIN-SUFFIX,alb.reddit.com,REJECT
