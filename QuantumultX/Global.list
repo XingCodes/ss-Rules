@@ -23,7 +23,6 @@ USER-AGENT,Coinbase*,PROXY
 USER-AGENT,Resilio Sync*,PROXY
 USER-AGENT,TikTok*,PROXY
 USER-AGENT,TwDramas,PROXY
-DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
 DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN-SUFFIX,proxydocker.com,PROXY
 DOMAIN-SUFFIX,img.skrt.best,PROXY
@@ -5003,6 +5002,7 @@ DOMAIN-SUFFIX,ameba.jp,PROXY
 DOMAIN-SUFFIX,hayabusa.io,PROXY
 DOMAIN-KEYWORD,abematv.akamaized.net,PROXY
 # Akamai
+DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY
 DOMAIN,a248.e.akamai.net,PROXY
 DOMAIN,a771.dscq.akamai.net,PROXY
 # All 4
