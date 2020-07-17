@@ -1,8 +1,4 @@
 # > General
-USER-AGENT,archero*,DIRECT
-USER-AGENT,coffeecorp*,DIRECT
-USER-AGENT,Coffee%20Corp*,DIRECT
-USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 # > Alibaba
 DOMAIN,log.mmstat.com,DIRECT
