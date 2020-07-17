@@ -10,10 +10,6 @@ DOMAIN-SUFFIX,chei.com.cn,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
 DOMAIN-SUFFIX,qidian.com,DIRECT
 DOMAIN-SUFFIX,yuewen.com,DIRECT
-DOMAIN,safebrowsing.googleapis.com,DIRECT
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
-DOMAIN,dl.google.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba
