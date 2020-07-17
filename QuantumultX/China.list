@@ -1,10 +1,7 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
 # General
 DOMAIN-SUFFIX,edu.cn,DIRECT
-DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
-DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
 DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
-DOMAIN-SUFFIX,dl.google.com,DIRECT
 DOMAIN-SUFFIX,v2ex.co,DIRECT
 DOMAIN-SUFFIX,v2ex.com,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
@@ -14,6 +11,9 @@ DOMAIN-SUFFIX,chei.com.cn,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
 DOMAIN-SUFFIX,qidian.com,DIRECT
 DOMAIN-SUFFIX,yuewen.com,DIRECT
+DOMAIN,fonts.googleapis.com,DIRECT
+DOMAIN,fonts.gstatic.com,DIRECT
+DOMAIN,dl.google.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba
