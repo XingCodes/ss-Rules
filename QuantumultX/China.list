@@ -12,6 +12,9 @@ DOMAIN-SUFFIX,qidian.com,DIRECT
 DOMAIN-SUFFIX,yuewen.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
+IP-CIDR,101.80.0.0/12,DIRECT
+IP-CIDR,101.224.0.0/13,DIRECT
+IP-CIDR,183.0.0.0/10,DIRECT
 # > Alibaba
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
 DOMAIN-SUFFIX,alibaba.com,DIRECT
