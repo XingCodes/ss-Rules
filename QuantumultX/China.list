@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,chei.com.cn,DIRECT
 DOMAIN-SUFFIX,sspai.com,DIRECT
 DOMAIN-SUFFIX,qidian.com,DIRECT
 DOMAIN-SUFFIX,yuewen.com,DIRECT
+DOMAIN-SUFFIX,meituan.com,DIRECT
+DOMAIN-SUFFIX,meituan.net,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 IP-CIDR,101.80.0.0/12,DIRECT
@@ -79,13 +81,17 @@ DOMAIN-SUFFIX,bilivideo.com,DIRECT
 DOMAIN-SUFFIX,bilibili.tv,DIRECT
 DOMAIN-SUFFIX,hdslb.com,DIRECT
 # > ByteDance
+DOMAIN-SUFFIX,bytedance.com,DIRECT
+DOMAIN-SUFFIX,bytedance.cn,DIRECT
 DOMAIN-SUFFIX,feiliao.com,DIRECT
 DOMAIN-SUFFIX,pstatp.com,DIRECT
 DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,iesdouyin.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,toutiao.cn,DIRECT
 DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,ctobsnssdk.com,DIRECT
 # > CCTV
 DOMAIN-SUFFIX,cctv.com,DIRECT
 DOMAIN-SUFFIX,cctvpic.com,DIRECT
@@ -97,6 +103,12 @@ DOMAIN-SUFFIX,elemecdn.com,DIRECT
 # > HunanTV
 DOMAIN-SUFFIX,hitv.com,DIRECT
 DOMAIN-SUFFIX,mgtv.com,DIRECT
+# > Hupu
+DOMAIN-SUFFIX,hupu.com,DIRECT
+DOMAIN-SUFFIX,hupucdn.com,DIRECT
+DOMAIN-SUFFIX,hoopchina.com,DIRECT
+DOMAIN-SUFFIX,hoopchina.com.cn,DIRECT
+DOMAIN-SUFFIX,liangle.com,DIRECT
 # > iQiyi
 DOMAIN-SUFFIX,iqiyi.com,DIRECT
 DOMAIN-SUFFIX,iqiyipic.com,DIRECT
