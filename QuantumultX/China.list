@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,yuewen.com,DIRECT
 DOMAIN-SUFFIX,kunlun-cdn.com,DIRECT
 DOMAIN-SUFFIX,jianshu.com,DIRECT
 DOMAIN-SUFFIX,jianshu.io,DIRECT
+DOMAIN-SUFFIX,getui.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 IP-CIDR,101.80.0.0/12,DIRECT
@@ -55,6 +56,7 @@ DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,apple.cn,DIRECT
 DOMAIN-SUFFIX,apple.com.cn,DIRECT
 DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
 DOMAIN-SUFFIX,appstore.com,DIRECT
 DOMAIN-SUFFIX,appsto.re,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
