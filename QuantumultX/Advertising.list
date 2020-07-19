@@ -670,6 +670,10 @@ DOMAIN,fcmatch.youtube.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
+DOMAIN,analytics.zhihu.com,REJECT
+DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
+DOMAIN,lc-push.zhihu.com,REJECT
+DOMAIN,event.zhihu.com,REJECT
 # ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
