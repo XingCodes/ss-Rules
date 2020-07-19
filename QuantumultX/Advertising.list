@@ -26,8 +26,6 @@ DOMAIN-SUFFIX,ld.kuaigames.com,REJECT
 DOMAIN-SUFFIX,logstat.t.sfht.com,REJECT
 DOMAIN-SUFFIX,match.rtbidder.net,REJECT
 DOMAIN-SUFFIX,mixer.cupid.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,msg.c002.ottcn.com,REJECT
-DOMAIN-SUFFIX,msga.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,njwxh.com,REJECT
 DOMAIN-SUFFIX,nl.rcd.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,n-st.vip.com,REJECT
@@ -56,11 +54,6 @@ DOMAIN-SUFFIX,doubleclick.tv002.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
 DOMAIN-SUFFIX,clc.stackoverflow.com,REJECT
 DOMAIN-SUFFIX,log.quora.com,REJECT
-DOMAIN-SUFFIX,alb.reddit.com,REJECT
-DOMAIN-SUFFIX,buttons.reddit.com,REJECT
-DOMAIN-SUFFIX,events.reddit.com,REJECT
-DOMAIN-SUFFIX,pixel.reddit.com,REJECT
-DOMAIN-SUFFIX,events.redditmedia.com,REJECT
 DOMAIN-SUFFIX,analytics.eip.telegraph.co.uk,REJECT
 DOMAIN-SUFFIX,cf-particle-html.eip.telegraph.co.uk,REJECT
 DOMAIN-SUFFIX,gcpdata.telegraph.co.uk,REJECT
@@ -81,7 +74,6 @@ DOMAIN-SUFFIX,insta-cash.net,REJECT
 DOMAIN-SUFFIX,instadia.net,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,aoovqo8t.stats.lncld.net,REJECT
-DOMAIN-SUFFIX,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,voiceads.cn,REJECT
 DOMAIN-SUFFIX,microad-cn.com,REJECT
 DOMAIN-SUFFIX,microad.jp,REJECT
@@ -117,7 +109,6 @@ DOMAIN-SUFFIX,sdownload.stargame.com,REJECT
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com,REJECT
 DOMAIN-SUFFIX,img.adnyg.com,REJECT
 DOMAIN-SUFFIX,tagtic.cn,REJECT
-DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
 DOMAIN-SUFFIX,qchannel01.cn,REJECT
@@ -382,6 +373,14 @@ DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
+DOMAIN,pv.sohu.com,REJECT
+DOMAIN,alb.reddit.com,REJECT
+DOMAIN,buttons.reddit.com,REJECT
+DOMAIN,events.reddit.com,REJECT
+DOMAIN,pixel.reddit.com,REJECT
+DOMAIN,events.redditmedia.com,REJECT
+DOMAIN,msg.c002.ottcn.com,REJECT
+DOMAIN,msga.ptqy.gitv.tv,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
@@ -424,6 +423,16 @@ DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,cpro.tieba.baidu.com,REJECT
+DOMAIN,cm.pos.baidu.com,REJECT
+DOMAIN,dlsw.baidu.com,REJECT
+DOMAIN,cpro.zhidao.baidu.com,REJECT
+DOMAIN,cpro2.baidu.com,REJECT
+DOMAIN,click.bes.baidu.com,REJECT
+DOMAIN,click.hm.baidu.com,REJECT
+DOMAIN,dl.ops.baidu.com,REJECT
+DOMAIN,dl1sw.baidu.com,REJECT
+DOMAIN,dlsw.br.baidu.com,REJECT
 # Facebook
 DOMAIN-SUFFIX,badge.facebook.com,REJECT
 DOMAIN-SUFFIX,pixel.facebook.com,REJECT
@@ -441,6 +450,7 @@ DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googleadsl.com,REJECT
 DOMAIN,mobileads.google.com,REJECT
 DOMAIN,www-google-analytics.l.google.com,REJECT
 DOMAIN,afd.l.google.com,REJECT
@@ -456,7 +466,6 @@ DOMAIN,ssl.google-analytics.com,REJECT
 DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,mail-ads.google.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
-DOMAIN,fcmatch.youtube.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN,googlevideoads.com,REJECT
 DOMAIN,googlerank.info,REJECT
@@ -464,6 +473,23 @@ DOMAIN,googletrackmanager.com,REJECT
 DOMAIN,googletakes.com,REJECT
 DOMAIN,video-stats.video.google.com,REJECT
 DOMAIN,plusone.google.com,REJECT
+DOMAIN,s1.dugoogle.com,REJECT
+DOMAIN,google-rank.org,REJECT
+DOMAIN,fcmatch.google.com,REJECT
+DOMAIN,static.googleadsserving.cn,REJECT
+DOMAIN,googleanalytcs.com,REJECT
+DOMAIN,googleapi.club,REJECT
+DOMAIN,footprints-pa.googleapis.com,REJECT
+DOMAIN,attributiontrackingga.googlecode.com,REJECT
+DOMAIN,bloggergreetbox.googlecode.com,REJECT
+DOMAIN,imgpop.googlecode.com,REJECT
+DOMAIN,salefile.googlecode.com,REJECT
+DOMAIN,trakksocial.googlecode.com,REJECT
+DOMAIN,googlecommerce.com,REJECT
+DOMAIN,badad.googleplex.com,REJECT
+DOMAIN,googleplus.party,REJECT
+DOMAIN,googlespider1.cn,REJECT
+DOMAIN,lzzht.googlespider1.cn,REJECT
 # happycast
 DOMAIN,ad.hpplay.cn,REJECT
 DOMAIN,adc.hpplay.cn,REJECT
@@ -632,13 +658,14 @@ DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
 DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 # Youtube
-DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
-DOMAIN-SUFFIX,couchcoaster.jp,REJECT
-DOMAIN-SUFFIX,delivery.dmkt-sp.jp,REJECT
-DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
-DOMAIN-SUFFIX,m-78.jp,REJECT
-DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
-DOMAIN-SUFFIX,nicorette.co.kr,REJECT
+DOMAIN,azabu-u.ac.jp,REJECT
+DOMAIN,couchcoaster.jp,REJECT
+DOMAIN,delivery.dmkt-sp.jp,REJECT
+DOMAIN,ehg-youtube.hitbox.com,REJECT
+DOMAIN,m-78.jp,REJECT
+DOMAIN,nichibenren.or.jp,REJECT
+DOMAIN,nicorette.co.kr,REJECT
+DOMAIN,fcmatch.youtube.com,REJECT
 # Zhihu
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,appcloud2.zhihu.com,REJECT
