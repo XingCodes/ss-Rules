@@ -6,7 +6,6 @@ DOMAIN-KEYWORD,adshow,REJECT
 DOMAIN-KEYWORD,adserver,REJECT
 DOMAIN-KEYWORD,adservice,REJECT
 
-DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
@@ -384,6 +383,7 @@ DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
 # Alibaba
+DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # Amap
