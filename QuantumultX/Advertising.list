@@ -533,6 +533,7 @@ DOMAIN-SUFFIX,d1.sina.com.cn,REJECT
 DOMAIN-SUFFIX,d2.sina.com.cn,REJECT
 DOMAIN-SUFFIX,d3.sina.com.cn,REJECT
 DOMAIN-SUFFIX,dmp.sina.cn,REJECT
+DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
 DOMAIN,ad.sina.com.cn,REJECT
 DOMAIN,adm.leju.sina.com.cn,REJECT
