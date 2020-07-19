@@ -529,9 +529,19 @@ DOMAIN,asimgs.pplive.cn,REJECT
 DOMAIN,de.as.pptv.com,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN-SUFFIX,d1.sina.com.cn,REJECT
+DOMAIN-SUFFIX,d2.sina.com.cn,REJECT
+DOMAIN-SUFFIX,d3.sina.com.cn,REJECT
+DOMAIN-SUFFIX,dmp.sina.cn,REJECT
+DOMAIN,ad.us.sinaimg.cn,REJECT
+DOMAIN,ad.sina.com.cn,REJECT
+DOMAIN,adm.leju.sina.com.cn,REJECT
+DOMAIN,adbox.sina.com.cn,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,adimg.mobile.sina.cn,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
 DOMAIN,saxs.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
