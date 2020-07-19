@@ -446,6 +446,7 @@ DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,mobileads.google.com,REJECT
 DOMAIN,ssl.google-analytics.com,REJECT
 DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
@@ -529,11 +530,7 @@ DOMAIN,asimgs.pplive.cn,REJECT
 DOMAIN,de.as.pptv.com,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d1.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d2.sina.com.cn,REJECT
-DOMAIN-SUFFIX,d3.sina.com.cn,REJECT
-DOMAIN-SUFFIX,dmp.sina.cn,REJECT
-DOMAIN-SUFFIX,biz.weibo.com,REJECT
+DOMAIN-SUFFIX,ads.sina.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
 DOMAIN,ad.sina.com.cn,REJECT
 DOMAIN,adm.leju.sina.com.cn,REJECT
@@ -546,6 +543,20 @@ DOMAIN,sax.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
 DOMAIN,saxs.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
+# > 可能有误杀
+DOMAIN-SUFFIX,dmp.sina.cn,REJECT
+DOMAIN-SUFFIX,biz.weibo.com,REJECT
+DOMAIN-SUFFIX,biz.weibo.com.cn,REJECT
+DOMAIN-SUFFIX,game.weibo.cn,REJECT
+DOMAIN-SUFFIX,game.weibo.com,REJECT
+DOMAIN-SUFFIX,game.weibo.com.cn,REJECT
+DOMAIN,d1.sina.com.cn,REJECT
+DOMAIN,d2.sina.com.cn,REJECT
+DOMAIN,d3.sina.com.cn,REJECT
+DOMAIN,d4.sina.com.cn,REJECT
+DOMAIN,d5.sina.com.cn,REJECT
+DOMAIN,click.uve.weibo.com,REJECT
+DOMAIN,dp.im.weibo.cn,REJECT
 # Site
 DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
 DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
