@@ -395,7 +395,6 @@ DOMAIN,ja.chushou.tv,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
@@ -649,6 +648,11 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
+# Zhihu
+DOMAIN,sugar.zhihu.com,REJECT
+DOMAIN,event.zhihu.com,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
 # ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
