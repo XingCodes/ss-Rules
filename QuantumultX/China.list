@@ -16,8 +16,6 @@ DOMAIN-SUFFIX,jianshu.io,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
-IP-CIDR,101.80.0.0/12,DIRECT
-IP-CIDR,101.224.0.0/13,DIRECT
 # > Alibaba
 DOMAIN-SUFFIX,alibaba.com,DIRECT
 DOMAIN-SUFFIX,alibaba.com.cn,DIRECT
