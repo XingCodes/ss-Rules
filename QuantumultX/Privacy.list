@@ -31,6 +31,7 @@ DOMAIN,log-lq.snssdk.com,REJECT
 DOMAIN,track.toutiao.com,REJECT
 DOMAIN,xlog.snssdk.com,REJECT
 DOMAIN,xlog-va.byteoversea.com,REJECT
+DOMAIN,dm.bytedance.com,REJECT
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
 # > MI
