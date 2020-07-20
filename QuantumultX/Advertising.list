@@ -584,6 +584,9 @@ DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
 DOMAIN,click.uve.mobile.sina.cn,REJECT
 DOMAIN,cm.dmp.sina.cn,REJECT
+DOMAIN,d4.sinaimg.cn,REJECT
+DOMAIN,d5.sinaimg.cn,REJECT
+DOMAIN,d9.sinaimg.cn,REJECT
 DOMAIN,r.dmp.sina.cn,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
 DOMAIN,sax.sina.cn,REJECT
