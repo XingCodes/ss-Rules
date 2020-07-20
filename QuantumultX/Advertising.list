@@ -523,9 +523,6 @@ DOMAIN,n.3g.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
-# Photoable
-DOMAIN,regist.fotoable.com,REJECT
-DOMAIN,cdn.adapi.fotoable.com,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN,ad1.sina.com.cn,REJECT
