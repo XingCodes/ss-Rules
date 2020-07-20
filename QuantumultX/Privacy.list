@@ -4,10 +4,33 @@ DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
+DOMAIN,applog.mobike.com,REJECT
+DOMAIN,gs.getui.com,REJECT
+DOMAIN,track.sohu.com,REJECT
+DOMAIN,traffic.mogujie.com,REJECT
+DOMAIN,wmlog.meituan.com,REJECT
 
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
+# > Alibaba
+DOMAIN-SUFFIX,mmstat.com,REJECT
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+# > ByteDance
+DOMAIN,applog.musical.ly,REJECT
+DOMAIN,log-lq.snssdk.com,REJECT
+DOMAIN,track.toutiao.com,REJECT
+DOMAIN,xlog.snssdk.com,REJECT
+DOMAIN,xlog-va.byteoversea.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
@@ -16,6 +39,9 @@ DOMAIN,tracking.intl.miui.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
+# > UC
+DOMAIN,adtrack.ucweb.com,REJECT
+DOMAIN,track.uc.cn,REJECT
 # > Umeng
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
