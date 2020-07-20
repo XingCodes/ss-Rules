@@ -39,6 +39,12 @@ DOMAIN,tracking.intl.miui.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,aeventlog.beacon.qq.com,REJECT
+DOMAIN,astrategy.beacon.qq.com,REJECT
+DOMAIN,eventlog.beacon.qq.com,REJECT
+DOMAIN,otheve.beacon.qq.com,REJECT
+DOMAIN,strategy.beacon.qq.com,REJECT
+DOMAIN,jrlt.beacon.qq.com,REJECT
 # > UC
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,track.uc.cn,REJECT
