@@ -573,13 +573,38 @@ DOMAIN,asimgs.pplive.cn,REJECT
 DOMAIN,de.as.pptv.com,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,ad1.sina.com.cn,REJECT
+DOMAIN,ad2.sina.com.cn,REJECT
+DOMAIN,ad3.sina.com.cn,REJECT
+DOMAIN,ad4.sina.com,REJECT
+DOMAIN,ad5.sina.com.cn,REJECT
+DOMAIN,ads.sina.com,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
 DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,click.uve.mobile.sina.cn,REJECT
+DOMAIN,cm.dmp.sina.cn,REJECT
+DOMAIN,r.dmp.sina.cn,REJECT
 DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.cn,REJECT
 DOMAIN,sax.sina.com.cn,REJECT
-DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,sax1.sina.com.cn,REJECT
+DOMAIN,sax2.sina.com.cn,REJECT
+DOMAIN,sax3.sina.com.cn,REJECT
+DOMAIN,sax4.sina.com.cn,REJECT
+DOMAIN,sax5.sina.com.cn,REJECT
+DOMAIN,sax6.sina.com.cn,REJECT
+DOMAIN,sax7.sina.com.cn,REJECT
+DOMAIN,sax8.sina.com.cn,REJECT
+DOMAIN,sax9.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+# 可能存在误杀
+DOMAIN,m.game.weibo.cn,REJECT
+DOMAIN,c.biz.weibo.com,REJECT
+DOMAIN,c.wcpt.biz.weibo.com,REJECT
+DOMAIN,zc.biz.weibo.com,REJECT
+DOMAIN,wbapp.uve.weibo.com,REJECT
 # SOHU
 DOMAIN-SUFFIX,ad.sohu.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT
