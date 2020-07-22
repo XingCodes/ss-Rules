@@ -10,6 +10,7 @@ DOMAIN-KEYWORD,adserver,REJECT
 DOMAIN-KEYWORD,adservice,REJECT
 DOMAIN-KEYWORD,guanggao,REJECT
 
+DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,tanv.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,localytics.com,REJECT
@@ -555,11 +556,23 @@ DOMAIN,sax9.sina.com.cn,REJECT
 DOMAIN,saxn.sina.com.cn,REJECT
 DOMAIN,saxs.sina.com.cn,REJECT
 # 可能存在误杀
-DOMAIN,m.game.weibo.cn,REJECT
-DOMAIN,c.biz.weibo.com,REJECT
-DOMAIN,c.wcpt.biz.weibo.com,REJECT
-DOMAIN,zc.biz.weibo.com,REJECT
+DOMAIN-SUFFIX,biz.weibo.cn,REJECT
+DOMAIN-SUFFIX,biz.weibo.com,REJECT
+DOMAIN-SUFFIX,biz.weibo.com.cn,REJECT
+DOMAIN-SUFFIX,game.weibo.cn,REJECT
+DOMAIN-SUFFIX,game.weibo.com.cn,REJECT
+DOMAIN-SUFFIX,wax.weibo.com.cn,REJECT
+# DOMAIN,c.biz.weibo.com,REJECT
+# DOMAIN,c.wcpt.biz.weibo.com,REJECT
+# DOMAIN,zc.biz.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
+DOMAIN,s.alitui.weibo.com,REJECT
+DOMAIN,sdkapp.uve.weibo.com,REJECT
+DOMAIN,tui.weibo.com,REJECT
+DOMAIN,alitui.weibo.com.cn,REJECT
+DOMAIN,rs.sinajs.cn,REJECT
+DOMAIN,newspush.sinajs.cn,REJECT
+DOMAIN,tjs.sjs.sinajs.cn,REJECT
 # SOHU
 DOMAIN-SUFFIX,ad.sohu.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT

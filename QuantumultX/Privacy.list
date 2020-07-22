@@ -34,20 +34,33 @@ DOMAIN,xlog-va.byteoversea.com,REJECT
 DOMAIN,dm.bytedance.com,REJECT
 DOMAIN,dm.pstatp.com,REJECT
 DOMAIN,pb3.pstatp.com,REJECT
+DOMAIN,bds.snssdk.com,REJECT
+DOMAIN,extlog.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
+DOMAIN,mon.snssdk.com,REJECT
+DOMAIN,sdfp.snssdk.com,REJECT
+DOMAIN,toblog.snssdk.com,REJECT
+DOMAIN,ug.snssdk.com,REJECT
+DOMAIN,analytics.snssdk.com,REJECT
+DOMAIN,ic.snssdk.com,REJECT
+DOMAIN,is.snssdk.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,temai.snssdk.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > Tencent
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
-DOMAIN,aeventlog.beacon.qq.com,REJECT
-DOMAIN,astrategy.beacon.qq.com,REJECT
-DOMAIN,eventlog.beacon.qq.com,REJECT
-DOMAIN,otheve.beacon.qq.com,REJECT
-DOMAIN,strategy.beacon.qq.com,REJECT
-DOMAIN,jrlt.beacon.qq.com,REJECT
+# DOMAIN,aeventlog.beacon.qq.com,REJECT
+# DOMAIN,astrategy.beacon.qq.com,REJECT
+# DOMAIN,eventlog.beacon.qq.com,REJECT
+# DOMAIN,otheve.beacon.qq.com,REJECT
+# DOMAIN,strategy.beacon.qq.com,REJECT
+# DOMAIN,jrlt.beacon.qq.com,REJECT
 # > UC
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,track.uc.cn,REJECT
