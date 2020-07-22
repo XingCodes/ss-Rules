@@ -46,6 +46,7 @@ DOMAIN,ic.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
 DOMAIN,log.snssdk.com,REJECT
 DOMAIN,temai.snssdk.com,REJECT
+DOMAIN,v3-ad.ixigua.com,REJECT
 # > Google
 DOMAIN,app-measurement.com,REJECT
 # > MI
