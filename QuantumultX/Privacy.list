@@ -46,6 +46,8 @@ DOMAIN,ic.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
 DOMAIN,log.snssdk.com,REJECT
 DOMAIN,temai.snssdk.com,REJECT
+# > Google
+DOMAIN,app-measurement.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
