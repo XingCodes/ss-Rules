@@ -26,6 +26,13 @@ USER-AGENT,Coinbase*,PROXY
 USER-AGENT,Resilio Sync*,PROXY
 USER-AGENT,TikTok*,PROXY
 USER-AGENT,TwDramas,PROXY
+DOMAIN-SUFFIX,spiegel.de,PROXY
+DOMAIN-SUFFIX,radio.garden,PROXY
+DOMAIN-SUFFIX,nitter.net,PROXY
+DOMAIN-SUFFIX,nbcnews.com,PROXY
+DOMAIN-SUFFIX,knowyourmeme.com,PROXY
+DOMAIN-SUFFIX,independent.co.uk,PROXY
+DOMAIN-SUFFIX,huffpost.com,PROXY
 DOMAIN-SUFFIX,adguard.com,PROXY
 DOMAIN-SUFFIX,freetls.fastly.net,PROXY
 DOMAIN-SUFFIX,proxydocker.com,PROXY
@@ -52,6 +59,7 @@ DOMAIN-SUFFIX,edx-cdn.org,PROXY
 DOMAIN-SUFFIX,brave.com,PROXY
 DOMAIN-SUFFIX,buzzfeed.com,PROXY
 DOMAIN-SUFFIX,cloudcone.com,PROXY
+DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
 DOMAIN-SUFFIX,bangkokpost.com,PROXY
 DOMAIN-SUFFIX,fanguochengqiang.com,PROXY
 DOMAIN-SUFFIX,addthis.com,PROXY

@@ -48,6 +48,7 @@ DOMAIN,log.snssdk.com,REJECT
 DOMAIN,temai.snssdk.com,REJECT
 DOMAIN,v3-ad.ixigua.com,REJECT
 # > Google
+DOMAIN-SUFFIX,metric.gstatic.com,REJECT
 DOMAIN,app-measurement.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
