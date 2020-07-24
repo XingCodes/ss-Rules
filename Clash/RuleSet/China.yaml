@@ -111,6 +111,7 @@ payload:
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,bytecdn.com
+  - DOMAIN-SUFFIX,bytexservice.com
   # > CCTV
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
