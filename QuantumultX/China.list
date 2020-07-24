@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,kunlun-cdn.com,DIRECT
 DOMAIN-SUFFIX,jianshu.com,DIRECT
 DOMAIN-SUFFIX,jianshu.io,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
+DOMAIN-SUFFIX,nvidia.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba
@@ -145,6 +146,7 @@ IP-CIDR,203.76.216.0/22,DIRECT
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,msecnd.net,DIRECT
+DOMAIN-SUFFIX,office.com,DIRECT
 DOMAIN-SUFFIX,office365.com,DIRECT
 DOMAIN-SUFFIX,outlook.com,DIRECT
 DOMAIN-SUFFIX,s-microsoft.com,DIRECT

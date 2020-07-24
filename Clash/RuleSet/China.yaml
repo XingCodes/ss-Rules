@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,jianshu.com
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,download.jetbrains.com
   # > Alibaba
@@ -146,6 +147,7 @@ payload:
   # > Microsoft
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,msecnd.net
+  - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,s-microsoft.com
