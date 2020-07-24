@@ -117,6 +117,12 @@ payload:
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
   - DOMAIN-SUFFIX,livechina.com
+  # > Douyu
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,douyu.tv
+  - DOMAIN-SUFFIX,douyucdn.cn
+  - DOMAIN-SUFFIX,douyucdn2.cn
+  - DOMAIN-SUFFIX,douyuscdn.com
   # > Eleme
   - DOMAIN-SUFFIX,eleme.cn
   - DOMAIN-SUFFIX,ele.me
@@ -132,6 +138,9 @@ payload:
   - DOMAIN-SUFFIX,hoopchina.com
   - DOMAIN-SUFFIX,hoopchina.com.cn
   - DOMAIN-SUFFIX,liangle.com
+  # > Huya
+  - DOMAIN-SUFFIX,huya.com
+  - DOMAIN-SUFFIX,msstatic.com
   # > iQiyi
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyipic.com
@@ -289,7 +298,6 @@ payload:
   - DOMAIN-SUFFIX,docschina.org
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,doubanio.com
-  - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,dxycdn.com
   - DOMAIN-SUFFIX,dytt8.net
   - DOMAIN-SUFFIX,eastmoney.com
@@ -309,7 +317,6 @@ payload:
   - DOMAIN-SUFFIX,hongxiu.com
   - DOMAIN-SUFFIX,hostbuf.com
   - DOMAIN-SUFFIX,huxiucdn.com
-  - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,infinitynewtab.com
   - DOMAIN-SUFFIX,ithome.com
