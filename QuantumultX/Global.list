@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,sg,PROXY
 DOMAIN-SUFFIX,tw,PROXY
 DOMAIN-SUFFIX,uk,PROXY
 DOMAIN-SUFFIX,taipei,PROXY
+DOMAIN-SUFFIX,edu,PROXY
 DOMAIN-SUFFIX,gov,PROXY
 DOMAIN-SUFFIX,mil,PROXY
 DOMAIN-KEYWORD,appledaily,PROXY
@@ -379,7 +380,6 @@ DOMAIN-SUFFIX,abitno.linpie.com,PROXY
 DOMAIN-SUFFIX,ablwang.com,PROXY
 DOMAIN-SUFFIX,aboluowang.com,PROXY
 DOMAIN-SUFFIX,aboutgfw.com,PROXY
-DOMAIN-SUFFIX,abs.edu,PROXY
 DOMAIN-SUFFIX,jiruan.net,PROXY
 DOMAIN-SUFFIX,accim.org,PROXY
 DOMAIN-SUFFIX,aceros-de-hispania.com,PROXY
@@ -708,7 +708,6 @@ DOMAIN-SUFFIX,bird.so,PROXY
 DOMAIN-SUFFIX,bit-z.com,PROXY
 DOMAIN-SUFFIX,bit.do,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
-DOMAIN-SUFFIX,bitc.bme.emory.edu,PROXY
 DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitcoinworld.com,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
@@ -939,7 +938,6 @@ DOMAIN-SUFFIX,certificate.revocationcheck.com,PROXY
 DOMAIN-SUFFIX,cfos.de,PROXY
 DOMAIN-SUFFIX,cftfc.com,PROXY
 DOMAIN-SUFFIX,cgdepot.org,PROXY
-DOMAIN-SUFFIX,cgst.edu,PROXY
 DOMAIN-SUFFIX,ch.shvoong.com,PROXY
 DOMAIN-SUFFIX,change.org,PROXY
 DOMAIN-SUFFIX,changeip.name,PROXY
@@ -1201,7 +1199,6 @@ DOMAIN-SUFFIX,dajusha.baywords.com,PROXY
 DOMAIN-SUFFIX,dalailama-archives.org,PROXY
 DOMAIN-SUFFIX,dalailama.com,PROXY
 DOMAIN-SUFFIX,dalailama.mn,PROXY
-DOMAIN-SUFFIX,dalailama.usc.edu,PROXY
 DOMAIN-SUFFIX,dalailama80.org,PROXY
 DOMAIN-SUFFIX,dalailamacenter.org,PROXY
 DOMAIN-SUFFIX,dalailamafellows.org,PROXY
@@ -1513,7 +1510,6 @@ DOMAIN-SUFFIX,fakku.net,PROXY
 DOMAIN-SUFFIX,falsefire.com,PROXY
 DOMAIN-SUFFIX,falun-co.org,PROXY
 DOMAIN-SUFFIX,falun-ny.net,PROXY
-DOMAIN-SUFFIX,falun.caltech.edu,PROXY
 DOMAIN-SUFFIX,falunart.org,PROXY
 DOMAIN-SUFFIX,falunasia.info,PROXY
 DOMAIN-SUFFIX,falunau.org,PROXY
@@ -2040,7 +2036,6 @@ DOMAIN-SUFFIX,hkbc.net,PROXY
 DOMAIN-SUFFIX,hkbf.org,PROXY
 DOMAIN-SUFFIX,hkbookcity.com,PROXY
 DOMAIN-SUFFIX,hkchurch.org,PROXY
-DOMAIN-SUFFIX,hkcmi.edu,PROXY
 DOMAIN-SUFFIX,hkcnews.com,PROXY
 DOMAIN-SUFFIX,hkcoc.com,PROXY
 DOMAIN-SUFFIX,hkday.net,PROXY
@@ -2261,7 +2256,6 @@ DOMAIN-SUFFIX,is-a-hunter.com,PROXY
 DOMAIN-SUFFIX,is.gd,PROXY
 DOMAIN-SUFFIX,isaacmao.com,PROXY
 DOMAIN-SUFFIX,isasecret.com,PROXY
-DOMAIN-SUFFIX,isc.sans.edu,PROXY
 DOMAIN-SUFFIX,isgreat.org,PROXY
 DOMAIN-SUFFIX,islahhaber.net,PROXY
 DOMAIN-SUFFIX,islamawareness.net,PROXY
@@ -2283,7 +2277,6 @@ DOMAIN-SUFFIX,itaboo.info,PROXY
 DOMAIN-SUFFIX,italiatibet.org,PROXY
 DOMAIN-SUFFIX,itasoftware.com,PROXY
 DOMAIN-SUFFIX,itemdb.com,PROXY
-DOMAIN-SUFFIX,its.caltech.edu,PROXY
 DOMAIN-SUFFIX,itsaol.com,PROXY
 DOMAIN-SUFFIX,itshidden.com,PROXY
 DOMAIN-SUFFIX,itsky.it,PROXY
@@ -3592,7 +3585,6 @@ DOMAIN-SUFFIX,smartdnsproxy.com,PROXY
 DOMAIN-SUFFIX,smarthide.com,PROXY
 DOMAIN-SUFFIX,smchbooks.com,PROXY
 DOMAIN-SUFFIX,smhric.org,PROXY
-DOMAIN-SUFFIX,smith.edu,PROXY
 DOMAIN-SUFFIX,smyxy.org,PROXY
 DOMAIN-SUFFIX,snapchat.com,PROXY
 DOMAIN-SUFFIX,snaptu.com,PROXY
@@ -3686,7 +3678,6 @@ DOMAIN-SUFFIX,sstmlt.moe,PROXY
 DOMAIN-SUFFIX,sstmlt.net,PROXY
 DOMAIN-SUFFIX,stackoverflow.com,PROXY
 DOMAIN-SUFFIX,standupfortibet.org,PROXY
-DOMAIN-SUFFIX,stanford.edu,PROXY
 DOMAIN-SUFFIX,starfishfx.com,PROXY
 DOMAIN-SUFFIX,starp2p.com,PROXY
 DOMAIN-SUFFIX,startpage.com,PROXY
@@ -3850,7 +3841,6 @@ DOMAIN-SUFFIX,thebcomplex.com,PROXY
 DOMAIN-SUFFIX,theblemish.com,PROXY
 DOMAIN-SUFFIX,thebobs.com,PROXY
 DOMAIN-SUFFIX,thebodyshop-usa.com,PROXY
-DOMAIN-SUFFIX,thecenter.mit.edu,PROXY
 DOMAIN-SUFFIX,thechinabeat.org,PROXY
 DOMAIN-SUFFIX,thedalailamamovie.com,PROXY
 DOMAIN-SUFFIX,thedw.us,PROXY
@@ -4209,7 +4199,6 @@ DOMAIN-SUFFIX,uku.im,PROXY
 DOMAIN-SUFFIX,ulike.net,PROXY
 DOMAIN-SUFFIX,ulop.net,PROXY
 DOMAIN-SUFFIX,ultraxs.com,PROXY
-DOMAIN-SUFFIX,umich.edu,PROXY
 DOMAIN-SUFFIX,unblock-us.com,PROXY
 DOMAIN-SUFFIX,unblock.cn.com,PROXY
 DOMAIN-SUFFIX,unblockdmm.com,PROXY
@@ -4253,7 +4242,6 @@ DOMAIN-SUFFIX,users.skynet.be,PROXY
 DOMAIN-SUFFIX,usfk.mil,PROXY
 DOMAIN-SUFFIX,ushuarencity.echainhost.com,PROXY
 DOMAIN-SUFFIX,usinfo.state.gov,PROXY
-DOMAIN-SUFFIX,usma.edu,PROXY
 DOMAIN-SUFFIX,usmc.mil,PROXY
 DOMAIN-SUFFIX,usmgtcg.ning.com,PROXY
 DOMAIN-SUFFIX,usno.navy.mil,PROXY
@@ -4356,8 +4344,6 @@ DOMAIN-SUFFIX,voxer.com,PROXY
 DOMAIN-SUFFIX,voy.com,PROXY
 DOMAIN-SUFFIX,vpn.ac,PROXY
 DOMAIN-SUFFIX,vpn.cjb.net,PROXY
-DOMAIN-SUFFIX,vpn.cmu.edu,PROXY
-DOMAIN-SUFFIX,vpn.sv.cmu.edu,PROXY
 DOMAIN-SUFFIX,vpn4all.com,PROXY
 DOMAIN-SUFFIX,vpnaccount.org,PROXY
 DOMAIN-SUFFIX,vpnaccounts.com,PROXY
@@ -4473,7 +4459,6 @@ DOMAIN-SUFFIX,westca.com,PROXY
 DOMAIN-SUFFIX,westernshugdensociety.org,PROXY
 DOMAIN-SUFFIX,westernwolves.com,PROXY
 DOMAIN-SUFFIX,westkit.net,PROXY
-DOMAIN-SUFFIX,westpoint.edu,PROXY
 DOMAIN-SUFFIX,wetplace.com,PROXY
 DOMAIN-SUFFIX,wetpussygames.com,PROXY
 DOMAIN-SUFFIX,wexiaobo.org,PROXY
@@ -4592,7 +4577,6 @@ DOMAIN-SUFFIX,gmiddle.net,PROXY
 DOMAIN-SUFFIX,idlcoyote.com,PROXY
 DOMAIN-SUFFIX,klip.me,PROXY
 DOMAIN-SUFFIX,lamenhu.com,PROXY
-DOMAIN-SUFFIX,virginia.edu,PROXY
 DOMAIN-SUFFIX,linksalpha.com,PROXY
 DOMAIN-SUFFIX,metro.taipei,PROXY
 DOMAIN-SUFFIX,monlamit.org,PROXY
@@ -4612,7 +4596,6 @@ DOMAIN-SUFFIX,www.wan-press.org,PROXY
 DOMAIN-SUFFIX,wangruowang.org,PROXY
 DOMAIN-SUFFIX,websnapr.com,PROXY
 DOMAIN-SUFFIX,freerk.com,PROXY
-DOMAIN-SUFFIX,american.edu,PROXY
 DOMAIN-SUFFIX,www1.biz,PROXY
 DOMAIN-SUFFIX,ohchr.org,PROXY
 DOMAIN-SUFFIX,www2.rocketbbs.com,PROXY
@@ -4846,7 +4829,6 @@ DOMAIN-SUFFIX,search.xxx,PROXY
 DOMAIN-SUFFIX,azurewebsites.net,PROXY
 DOMAIN-SUFFIX,4sqi.net,PROXY
 DOMAIN-SUFFIX,picturedip.com,PROXY
-DOMAIN-SUFFIX,uchicago.edu,PROXY
 DOMAIN-SUFFIX,xda-developers.com,PROXY
 DOMAIN-SUFFIX,news.ycombinator.com,PROXY
 IP-CIDR,14.102.250.18/32,PROXY
