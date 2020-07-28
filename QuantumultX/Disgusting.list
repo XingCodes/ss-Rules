@@ -1,0 +1,6 @@
+# https://fx1999.github.io/ss-Rules/QuantumultX/Disgusting.list
+# Disgusting
+DOMAIN-KEYWORD,epochtimes,REJECT
+DOMAIN-KEYWORD,pincong,REJECT
+
+DOMAIN-SUFFIX,epochhk.com,REJECT

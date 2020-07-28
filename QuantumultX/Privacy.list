@@ -73,3 +73,5 @@ DOMAIN,track.uc.cn,REJECT
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,log.umsns.com,REJECT
+DOMAIN-SUFFIX,log.umtrack.com,REJECT
