@@ -29,6 +29,7 @@ DOMAIN,gs.getui.com,REJECT
 DOMAIN,track.sohu.com,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,log.b612kaji.com,REJECT
 
 # > 58
 DOMAIN,track.58.com,REJECT
