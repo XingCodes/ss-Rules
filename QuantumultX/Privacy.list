@@ -60,6 +60,8 @@ DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
 # DOMAIN,aeventlog.beacon.qq.com,REJECT
 # DOMAIN,astrategy.beacon.qq.com,REJECT
 # DOMAIN,eventlog.beacon.qq.com,REJECT
