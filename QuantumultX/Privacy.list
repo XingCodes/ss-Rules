@@ -1,6 +1,25 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/Privacy.list
 # Privacy
+DOMAIN-SUFFIX,247-inc.net,REJECT
+DOMAIN-SUFFIX,42trck.com,REJECT
+DOMAIN-SUFFIX,51.la,REJECT
+DOMAIN-SUFFIX,81plug.com,REJECT
+DOMAIN-SUFFIX,actionteaser.ru,REJECT
+DOMAIN-SUFFIX,adalyser.com,REJECT
+DOMAIN-SUFFIX,addnow.com,REJECT
+DOMAIN-SUFFIX,adinfuse.com,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,analysys.cn,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,branch.io,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
+DOMAIN-SUFFIX,voicefive.com,REJECT
+DOMAIN-SUFFIX,xiti.com,REJECT
+DOMAIN-SUFFIX,youramigo.com,REJECT
+DOMAIN-SUFFIX,zoomboya.com,REJECT
+
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
