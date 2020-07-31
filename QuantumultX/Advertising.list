@@ -399,6 +399,8 @@ DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,ja.chushou.tv,REJECT
+DOMAIN,log.51wnl-cq.com,REJECT
+DOMAIN,r.51wnl-cq.com,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
@@ -708,3 +710,4 @@ DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,lc-push.zhihu.com,REJECT
 DOMAIN,event.zhihu.com,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
