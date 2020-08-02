@@ -584,6 +584,7 @@ DOMAIN,yt-adp.ws.126.net,REJECT
 # Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,ad.sina.com.cn,REJECT
+DOMAIN,ad.weibo.com,REJECT
 DOMAIN,ad1.sina.com.cn,REJECT
 DOMAIN,ad2.sina.com.cn,REJECT
 DOMAIN,ad3.sina.com.cn,REJECT
@@ -618,11 +619,14 @@ DOMAIN-SUFFIX,biz.weibo.cn,REJECT
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN-SUFFIX,biz.weibo.com.cn,REJECT
 DOMAIN-SUFFIX,game.weibo.cn,REJECT
+DOMAIN-SUFFIX,game.weibo.com,REJECT
 DOMAIN-SUFFIX,game.weibo.com.cn,REJECT
 DOMAIN-SUFFIX,wax.weibo.com.cn,REJECT
-# DOMAIN,c.biz.weibo.com,REJECT
-# DOMAIN,c.wcpt.biz.weibo.com,REJECT
-# DOMAIN,zc.biz.weibo.com,REJECT
+DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,REJECT
+DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn,REJECT
+DOMAIN-SUFFIX,zymo.mps.weibo.com,REJECT
+DOMAIN-SUFFIX,click.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,dsp.edm.weibo.cn,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
 DOMAIN,s.alitui.weibo.com,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
@@ -703,11 +707,14 @@ DOMAIN,nicorette.co.kr,REJECT
 DOMAIN,fcmatch.youtube.com,REJECT
 # Zhihu
 DOMAIN-SUFFIX,analytics.zhihu.com,REJECT
-DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
+DOMAIN-SUFFIX,mqtt.zhihu.com,REJECT
 DOMAIN-SUFFIX,zhihu-analytics.zhihu.com,REJECT
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
+DOMAIN-SUFFIX,zhstatic.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,lc-push.zhihu.com,REJECT
 DOMAIN,event.zhihu.com,REJECT
+DOMAIN,oia.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT
