@@ -368,7 +368,6 @@ DOMAIN,flurry.cachefly.net,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.360in.com,REJECT
-DOMAIN,ad.51wnl-cq.com,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
 DOMAIN,ad.hzyoka.com,REJECT
@@ -378,7 +377,6 @@ DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
 DOMAIN,ad.zing.vn,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
-DOMAIN,adextra.51wnl-cq.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
 DOMAIN,ads.daydaycook.com.cn,REJECT
@@ -400,8 +398,6 @@ DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
 DOMAIN,ja.chushou.tv,REJECT
-DOMAIN,log.51wnl-cq.com,REJECT
-DOMAIN,r.51wnl-cq.com,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
@@ -413,6 +409,11 @@ DOMAIN,pixel.reddit.com,REJECT
 DOMAIN,events.redditmedia.com,REJECT
 DOMAIN,msg.c002.ottcn.com,REJECT
 DOMAIN,msga.ptqy.gitv.tv,REJECT
+# 51wnl
+DOMAIN,ad.51wnl-cq.com,REJECT
+DOMAIN,adextra.51wnl-cq.com,REJECT
+DOMAIN,log.51wnl-cq.com,REJECT
+DOMAIN,r.51wnl-cq.com,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
