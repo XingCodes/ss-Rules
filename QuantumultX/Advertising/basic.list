@@ -408,11 +408,6 @@ DOMAIN,pixel.reddit.com,REJECT
 DOMAIN,events.redditmedia.com,REJECT
 DOMAIN,msg.c002.ottcn.com,REJECT
 DOMAIN,msga.ptqy.gitv.tv,REJECT
-# 51wnl
-DOMAIN,ad.51wnl-cq.com,REJECT
-DOMAIN,adextra.51wnl-cq.com,REJECT
-DOMAIN,log.51wnl-cq.com,REJECT
-DOMAIN,r.51wnl-cq.com,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
@@ -443,32 +438,6 @@ DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
-# Hupu
-DOMAIN,adx.hupu.com,REJECT
-DOMAIN,adx-api.hupu.com,REJECT
-DOMAIN,goblin.hupu.com,REJECT
-# MojiWeather
-DOMAIN,ad.api.moji.com,REJECT
-DOMAIN,adlaunch.moji.com,REJECT
-DOMAIN,ads.mojicdn.com,REJECT
-DOMAIN,v1.log.moji.com,REJECT
-# NetEase
-DOMAIN-SUFFIX,dsp.youdao.com,REJECT
-DOMAIN-SUFFIX,union.youdao.com,REJECT
-DOMAIN,ad.bn.netease.com,REJECT
-DOMAIN,ad.yixin.im,REJECT
-DOMAIN,admusicpic.music.126.net,REJECT
-DOMAIN,gorgon.youdao.com,REJECT
-DOMAIN,iad.g.163.com,REJECT
-DOMAIN,iadmat.nosdn.127.net,REJECT
-DOMAIN,iadmusicmat.music.126.net,REJECT
-DOMAIN,iadmusicmatvideo.music.126.net,REJECT
-DOMAIN,impservice.dictapp.youdao.com,REJECT
-DOMAIN,impservice.youdao.com,REJECT
-DOMAIN,n.3g.163.com,REJECT
-DOMAIN,nex.163.com,REJECT
-DOMAIN,yt-adp.nosdn.127.net,REJECT
-DOMAIN,yt-adp.ws.126.net,REJECT
 # SOHU
 DOMAIN-SUFFIX,ad.sohu.com,REJECT
 DOMAIN-SUFFIX,ads.sohu.com,REJECT
