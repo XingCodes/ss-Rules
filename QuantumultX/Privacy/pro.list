@@ -77,6 +77,7 @@ DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
 # > Tencent
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
