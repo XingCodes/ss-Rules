@@ -13,6 +13,7 @@ DOMAIN,dl.google.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Tencent
+DOMAIN,sdk.e.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
 # > Umeng
