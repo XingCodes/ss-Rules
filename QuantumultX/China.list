@@ -171,6 +171,8 @@ DOMAIN-SUFFIX,weibo.com,DIRECT
 DOMAIN-SUFFIX,weibo.cn,DIRECT
 DOMAIN-SUFFIX,weibocdn.com,DIRECT
 DOMAIN-SUFFIX,miaopai.com,DIRECT
+# > Speedtest
+DOMAIN-KEYWORD,speedtest,DIRECT
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
