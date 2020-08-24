@@ -85,11 +85,6 @@ DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
 DOMAIN,toots-a.akamaihd.net,REJECT
-DOMAIN,alb.reddit.com,REJECT
-DOMAIN,buttons.reddit.com,REJECT
-DOMAIN,events.reddit.com,REJECT
-DOMAIN,pixel.reddit.com,REJECT
-DOMAIN,events.redditmedia.com,REJECT
 DOMAIN,msg.c002.ottcn.com,REJECT
 DOMAIN,msga.ptqy.gitv.tv,REJECT
 # Alibaba
