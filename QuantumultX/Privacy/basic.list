@@ -1,5 +1,12 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/Privacy/basic.list
 # Privacy
+DOMAIN-SUFFIX,addnow.com,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,branch.io,REJECT
+DOMAIN-SUFFIX,cnzz.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
+
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
