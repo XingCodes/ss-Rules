@@ -168,14 +168,10 @@ DOMAIN-SUFFIX,a-ads.com,REJECT
 DOMAIN-SUFFIX,aarki.com,REJECT
 DOMAIN-SUFFIX,aarki.net,REJECT
 DOMAIN-SUFFIX,abtasty.com,REJECT
-DOMAIN-SUFFIX,accesstrade.com,REJECT
-DOMAIN-SUFFIX,accesstrade.com.vn,REJECT
-DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,acento.com,REJECT
 DOMAIN-SUFFIX,actionads.ru,REJECT
 DOMAIN-SUFFIX,actionpay.ru,REJECT
 DOMAIN-SUFFIX,ad.gt,REJECT
-DOMAIN-SUFFIX,ad.org.vn,REJECT
 DOMAIN-SUFFIX,ad1.ru,REJECT
 DOMAIN-SUFFIX,ad120m.com,REJECT
 DOMAIN-SUFFIX,ad127m.com,REJECT
@@ -184,7 +180,8 @@ DOMAIN-SUFFIX,ad132m.com,REJECT
 DOMAIN-SUFFIX,ad1data.com,REJECT
 DOMAIN-SUFFIX,ad2games.com,REJECT
 DOMAIN-SUFFIX,ad2iction.com,REJECT
-DOMAIN-SUFFIX,ad360.vn,REJECT
+DOMAIN-SUFFIX,adxadserv.com,REJECT
+DOMAIN-SUFFIX,aiclk.com,REJECT
 DOMAIN-SUFFIX,ad4.com.cn,REJECT
 DOMAIN-SUFFIX,ad4game.com,REJECT
 DOMAIN-SUFFIX,ad6media.co.uk,REJECT
@@ -375,7 +372,6 @@ DOMAIN,ad.jiemian.com,REJECT
 DOMAIN,ad.qingting.fm,REJECT
 DOMAIN,ad.toutiao.com,REJECT
 DOMAIN,ad.wappalyzer.com,REJECT
-DOMAIN,ad.zing.vn,REJECT
 DOMAIN,ad-cn.jovcloud.com,REJECT
 DOMAIN,ads.adadapted.com,REJECT
 DOMAIN,ads.chinadaily.com.cn,REJECT
@@ -397,7 +393,6 @@ DOMAIN,g.ousns.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
-DOMAIN,ja.chushou.tv,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
@@ -815,7 +810,6 @@ DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,lc-push.zhihu.com,REJECT
 DOMAIN,event.zhihu.com,REJECT
 DOMAIN,oia.zhihu.com,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
 # ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
