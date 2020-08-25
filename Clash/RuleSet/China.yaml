@@ -2,6 +2,7 @@ payload:
   # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
   # General
   - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,news.cn
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,gov.cn
@@ -15,6 +16,11 @@ payload:
   - DOMAIN-SUFFIX,jianshu.com
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,people.com.cn
+  - DOMAIN-SUFFIX,china.com.cn
+  - DOMAIN-SUFFIX,tibet.cn
+  - DOMAIN-SUFFIX,chinatibet.net
+  - DOMAIN-SUFFIX,ctibet.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,download.jetbrains.com
   # > Alibaba
@@ -87,31 +93,13 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,hdslb.com
   # > ByteDance
-  - DOMAIN-SUFFIX,bytedance.cn
-  - DOMAIN-SUFFIX,bytedance.com
-  - DOMAIN-SUFFIX,bytedance.net
   - DOMAIN-SUFFIX,feiliao.com
   - DOMAIN-SUFFIX,pstatp.com
   - DOMAIN-SUFFIX,snssdk.com
   - DOMAIN-SUFFIX,iesdouyin.com
-  - DOMAIN-SUFFIX,toutiao.cn
   - DOMAIN-SUFFIX,toutiao.com
-  - DOMAIN-SUFFIX,toutiaocdn.cn
-  - DOMAIN-SUFFIX,toutiaocdn.com
-  - DOMAIN-SUFFIX,toutiaocdn.net
-  - DOMAIN-SUFFIX,toutiaoimg.cn
-  - DOMAIN-SUFFIX,toutiaoimg.com
-  - DOMAIN-SUFFIX,toutiaoimg.net
-  - DOMAIN-SUFFIX,zijieimg.net
-  - DOMAIN-SUFFIX,zijiecdn.com
-  - DOMAIN-SUFFIX,zijiecdn.cn
-  - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,ixigua.com
-  - DOMAIN-SUFFIX,douyincdn.com
-  - DOMAIN-SUFFIX,bytecdn.cn
-  - DOMAIN-SUFFIX,bytecdn.com
-  - DOMAIN-SUFFIX,bytexservice.com
   # > CCTV
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
@@ -190,6 +178,8 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,miaopai.com
+  # > Speedtest
+  - DOMAIN-KEYWORD,speedtest
   # > Tencent
   # USER-AGENT,MicroMessenger%20Client
   # USER-AGENT,WeChat*
