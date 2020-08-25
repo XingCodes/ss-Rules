@@ -1,6 +1,7 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
 # General
 DOMAIN-SUFFIX,edu.cn,DIRECT
+DOMAIN-SUFFIX,news.cn,DIRECT
 DOMAIN-SUFFIX,v2ex.co,DIRECT
 DOMAIN-SUFFIX,v2ex.com,DIRECT
 DOMAIN-SUFFIX,gov.cn,DIRECT
@@ -14,6 +15,11 @@ DOMAIN-SUFFIX,kunlun-cdn.com,DIRECT
 DOMAIN-SUFFIX,jianshu.com,DIRECT
 DOMAIN-SUFFIX,jianshu.io,DIRECT
 DOMAIN-SUFFIX,getui.com,DIRECT
+DOMAIN-SUFFIX,people.com.cn,DIRECT
+DOMAIN-SUFFIX,china.com.cn,DIRECT
+DOMAIN-SUFFIX,tibet.cn,DIRECT
+DOMAIN-SUFFIX,chinatibet.net,DIRECT
+DOMAIN-SUFFIX,ctibet.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba

@@ -2,5 +2,6 @@
 # Disgusting
 DOMAIN-KEYWORD,epochtimes,REJECT
 DOMAIN-KEYWORD,pincong,REJECT
+DOMAIN-KEYWORD,falun,REJECT
 
 DOMAIN-SUFFIX,epochhk.com,REJECT
