@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,china.com.cn,DIRECT
 DOMAIN-SUFFIX,tibet.cn,DIRECT
 DOMAIN-SUFFIX,chinatibet.net,DIRECT
 DOMAIN-SUFFIX,ctibet.com,DIRECT
+DOMAIN-SUFFIX,vip.com,DIRECT
+DOMAIN-SUFFIX,hbooker.com,DIRECT
 DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
 # > Alibaba
@@ -167,6 +169,11 @@ USER-AGENT,PayPal*,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
 DOMAIN-SUFFIX,paypal.me,DIRECT
 DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+# > PDD
+DOMAIN-SUFFIX,pinduoduo.com,DIRECT
+DOMAIN-SUFFIX,pinduoduo.net,DIRECT
+DOMAIN-SUFFIX,pddpic.com,DIRECT
+DOMAIN-SUFFIX,yangkeduo.com,DIRECT
 # > Sina
 DOMAIN-SUFFIX,sina.com,DIRECT
 DOMAIN-SUFFIX,sina.cn,DIRECT
@@ -363,6 +370,5 @@ DOMAIN-SUFFIX,xiachufang.com,DIRECT
 DOMAIN-SUFFIX,ximalaya.com,DIRECT
 DOMAIN-SUFFIX,xinhuanet.com,DIRECT
 DOMAIN-SUFFIX,xmcdn.com,DIRECT
-DOMAIN-SUFFIX,yangkeduo.com,DIRECT
 DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
 DOMAIN-SUFFIX,zhuihd.com,DIRECT
