@@ -21,6 +21,8 @@ payload:
   - DOMAIN-SUFFIX,tibet.cn
   - DOMAIN-SUFFIX,chinatibet.net
   - DOMAIN-SUFFIX,ctibet.com
+  - DOMAIN-SUFFIX,vip.com
+  - DOMAIN-SUFFIX,hbooker.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,download.jetbrains.com
   # > Alibaba
@@ -144,7 +146,6 @@ payload:
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,msecnd.net
   - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,visualstudio.com
@@ -168,6 +169,11 @@ payload:
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
+  # > PDD
+  - DOMAIN-SUFFIX,pinduoduo.com
+  - DOMAIN-SUFFIX,pinduoduo.net
+  - DOMAIN-SUFFIX,pddpic.com
+  - DOMAIN-SUFFIX,yangkeduo.com
   # > Sina
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,sina.cn
@@ -364,6 +370,5 @@ payload:
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xinhuanet.com
   - DOMAIN-SUFFIX,xmcdn.com
-  - DOMAIN-SUFFIX,yangkeduo.com
   - DOMAIN-SUFFIX,zhangzishi.cc
   - DOMAIN-SUFFIX,zhuihd.com
