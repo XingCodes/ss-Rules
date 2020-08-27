@@ -2,12 +2,9 @@
 # Privacy
 DOMAIN-SUFFIX,actionteaser.ru,REJECT
 DOMAIN-SUFFIX,addnow.com,REJECT
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,adjust.io,REJECT
 DOMAIN-SUFFIX,analysys.cn,REJECT
 DOMAIN-SUFFIX,branch.io,REJECT
 DOMAIN-SUFFIX,cnzz.com,REJECT
-DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,xiti.com,REJECT
 
 DOMAIN,track.tiara.daum.net,REJECT
