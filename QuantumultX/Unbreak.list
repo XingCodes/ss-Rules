@@ -16,6 +16,7 @@ DOMAIN,analytics.strava.com,DIRECT
 DOMAIN,sdk.e.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
+DOMAIN,ipv4.gdt.qq.com,DIRECT
 # > Umeng
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
