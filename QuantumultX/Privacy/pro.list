@@ -28,6 +28,10 @@ DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
 DOMAIN,log.b612kaji.com,REJECT
 
+# > 51.LA
+DOMAIN,js.users.51.la,REJECT
+DOMAIN,mc.51.la,REJECT
+DOMAIN,wc.51.la,REJECT
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT

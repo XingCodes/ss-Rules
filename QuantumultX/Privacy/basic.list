@@ -12,6 +12,10 @@ DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,zgsdk.zhugeio.com,REJECT
 
+# > 51.LA
+DOMAIN,js.users.51.la,REJECT
+DOMAIN,mc.51.la,REJECT
+DOMAIN,wc.51.la,REJECT
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
@@ -22,3 +26,5 @@ DOMAIN,app-measurement.com,REJECT
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
 DOMAIN,tracking.intl.miui.com,REJECT
+# > Umeng
+DOMAIN-KEYWORD,logs.umeng,REJECT

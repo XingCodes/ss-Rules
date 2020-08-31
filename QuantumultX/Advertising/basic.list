@@ -125,6 +125,7 @@ DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googleadsl.com,REJECT
+DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN,mobileads.google.com,REJECT
 DOMAIN,www-google-analytics.l.google.com,REJECT
 DOMAIN,afd.l.google.com,REJECT
@@ -136,8 +137,6 @@ DOMAIN,clientservices.googleapis.com,REJECT
 DOMAIN,blaaaa12.googlecode.com,REJECT
 DOMAIN,myscoop-tracking.googlecode.com,REJECT
 DOMAIN,pagead.google.com,REJECT
-DOMAIN,ssl.google-analytics.com,REJECT
-DOMAIN,www.google-analytics.com,REJECT
 DOMAIN,mail-ads.google.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
