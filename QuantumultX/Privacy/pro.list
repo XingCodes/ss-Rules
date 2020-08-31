@@ -88,8 +88,4 @@ DOMAIN,tajs.qq.com,REJECT
 DOMAIN,adtrack.ucweb.com,REJECT
 DOMAIN,track.uc.cn,REJECT
 # > Umeng
-DOMAIN-SUFFIX,umeng.co,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-DOMAIN-SUFFIX,umengcloud.com,REJECT
-DOMAIN-SUFFIX,log.umsns.com,REJECT
-DOMAIN-SUFFIX,log.umtrack.com,REJECT
+DOMAIN-KEYWORD,logs.umeng,REJECT
