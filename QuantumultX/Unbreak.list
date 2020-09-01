@@ -6,10 +6,11 @@ DOMAIN,log.mmstat.com,DIRECT
 DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
-DOMAIN,safebrowsing.googleapis.com,DIRECT
+DOMAIN,dl.google.com,DIRECT
 DOMAIN,fonts.googleapis.com,DIRECT
 DOMAIN,fonts.gstatic.com,DIRECT
-DOMAIN,dl.google.com,DIRECT
+DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,safebrowsing.googleapis.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Tencent
