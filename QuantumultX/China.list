@@ -25,7 +25,6 @@ DOMAIN-SUFFIX,alibabacloud.com,DIRECT
 DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
 DOMAIN-SUFFIX,alikunlun.com,DIRECT
 DOMAIN-SUFFIX,alipay.com,DIRECT
-DOMAIN-SUFFIX,alipay.cn,DIRECT
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
 DOMAIN-SUFFIX,alicdn.com,DIRECT
 DOMAIN-SUFFIX,aliapp.org,DIRECT
@@ -128,7 +127,6 @@ DOMAIN-SUFFIX,360buyimg.com,DIRECT
 # > Meituan
 DOMAIN-SUFFIX,meituan.com,DIRECT
 DOMAIN-SUFFIX,meituan.net,DIRECT
-IP-CIDR,203.76.216.0/22,DIRECT
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,msecnd.net,DIRECT
