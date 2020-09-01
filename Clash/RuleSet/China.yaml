@@ -2,13 +2,9 @@ payload:
   # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
   # General
   - DOMAIN-SUFFIX,edu.cn
-  - DOMAIN-SUFFIX,news.cn
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,gov.cn
-  - DOMAIN-SUFFIX,xuexi.cn
-  - DOMAIN-SUFFIX,chsi.com.cn
-  - DOMAIN-SUFFIX,chei.com.cn
   - DOMAIN-SUFFIX,sspai.com
   - DOMAIN-SUFFIX,qidian.com
   - DOMAIN-SUFFIX,yuewen.com
@@ -16,9 +12,6 @@ payload:
   - DOMAIN-SUFFIX,jianshu.com
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,getui.com
-  - DOMAIN-SUFFIX,people.com.cn
-  - DOMAIN-SUFFIX,china.com.cn
-  - DOMAIN-SUFFIX,tibet.cn
   - DOMAIN-SUFFIX,chinatibet.net
   - DOMAIN-SUFFIX,ctibet.com
   - DOMAIN-SUFFIX,vip.com
@@ -28,7 +21,6 @@ payload:
   # > Alibaba
   - DOMAIN-KEYWORD,alipay
   - DOMAIN-SUFFIX,alibaba.com
-  - DOMAIN-SUFFIX,alibaba.com.cn
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabausercontent.com
   - DOMAIN-SUFFIX,alikunlun.com
@@ -86,8 +78,6 @@ payload:
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
   # > Bilibili
   - DOMAIN-SUFFIX,acgvideo.com
-  - DOMAIN-SUFFIX,bigfun.cn
-  - DOMAIN-SUFFIX,bigfunapp.cn
   - DOMAIN-SUFFIX,biliapi.com
   - DOMAIN-SUFFIX,biliapi.net
   - DOMAIN-SUFFIX,bilibili.com
@@ -110,11 +100,8 @@ payload:
   # > Douyu
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
-  - DOMAIN-SUFFIX,douyucdn.cn
-  - DOMAIN-SUFFIX,douyucdn2.cn
   - DOMAIN-SUFFIX,douyuscdn.com
   # > Eleme
-  - DOMAIN-SUFFIX,eleme.cn
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,elemecdn.com
   # > Google
@@ -126,7 +113,6 @@ payload:
   - DOMAIN-SUFFIX,hupu.com
   - DOMAIN-SUFFIX,hupucdn.com
   - DOMAIN-SUFFIX,hoopchina.com
-  - DOMAIN-SUFFIX,hoopchina.com.cn
   - DOMAIN-SUFFIX,liangle.com
   # > Huya
   - DOMAIN-SUFFIX,huya.com
@@ -176,12 +162,7 @@ payload:
   - DOMAIN-SUFFIX,yangkeduo.com
   # > Sina
   - DOMAIN-SUFFIX,sina.com
-  - DOMAIN-SUFFIX,sina.cn
-  - DOMAIN-SUFFIX,sina.com.cn
-  - DOMAIN-SUFFIX,sinajs.cn
-  - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,weibo.com
-  - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,miaopai.com
   # > Speedtest
@@ -196,8 +177,6 @@ payload:
   - DOMAIN-SUFFIX,qmail.com
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,gtimg.com
-  - DOMAIN-SUFFIX,gtimg.cn
-  - DOMAIN-SUFFIX,gtimg.com.cn
   - DOMAIN-SUFFIX,gcloudcs.com
   - DOMAIN-SUFFIX,gcloudsdk.com
   - DOMAIN-SUFFIX,tgovcloud.com
@@ -207,7 +186,6 @@ payload:
   - DOMAIN-SUFFIX,tencent.net
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tencent-cloud.com
-  - DOMAIN-SUFFIX,tencent-cloud.cn
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tencentpay.com
   - DOMAIN-SUFFIX,wechat.com
@@ -218,10 +196,7 @@ payload:
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,myapp.com
   - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,qlogo.cn
-  - DOMAIN-SUFFIX,qpimg.cn
   - DOMAIN-SUFFIX,qcloud.com
-  - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,ovscdns.net
