@@ -102,7 +102,6 @@ DOMAIN-SUFFIX,douyu.com,DIRECT
 DOMAIN-SUFFIX,douyu.tv,DIRECT
 DOMAIN-SUFFIX,douyuscdn.com,DIRECT
 # > Eleme
-DOMAIN-SUFFIX,eleme.cn,DIRECT
 DOMAIN-SUFFIX,ele.me,DIRECT
 DOMAIN-SUFFIX,elemecdn.com,DIRECT
 # > Google
@@ -114,7 +113,6 @@ DOMAIN-SUFFIX,mgtv.com,DIRECT
 DOMAIN-SUFFIX,hupu.com,DIRECT
 DOMAIN-SUFFIX,hupucdn.com,DIRECT
 DOMAIN-SUFFIX,hoopchina.com,DIRECT
-DOMAIN-SUFFIX,hoopchina.com.cn,DIRECT
 DOMAIN-SUFFIX,liangle.com,DIRECT
 # > Huya
 DOMAIN-SUFFIX,huya.com,DIRECT
@@ -188,7 +186,6 @@ DOMAIN-SUFFIX,tencent.com,DIRECT
 DOMAIN-SUFFIX,tencent.net,DIRECT
 DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
 DOMAIN-SUFFIX,tencent-cloud.com,DIRECT
-DOMAIN-SUFFIX,tencent-cloud.cn,DIRECT
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-SUFFIX,tencentpay.com,DIRECT
 DOMAIN-SUFFIX,wechat.com,DIRECT
