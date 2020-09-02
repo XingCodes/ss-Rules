@@ -19,6 +19,9 @@ DOMAIN,wc.51.la,REJECT
 # > 58
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
+# > Baidu
+DOMAIN,hm.baidu.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
 # > Google
 DOMAIN-SUFFIX,metric.gstatic.com,REJECT
 DOMAIN,app-measurement.com,REJECT
