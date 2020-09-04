@@ -167,7 +167,6 @@ DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,abchinese.com,PROXY
 DOMAIN-SUFFIX,abclite.net,PROXY
 DOMAIN-SUFFIX,abebooks.com,PROXY
-DOMAIN-SUFFIX,abitno.linpie.com,PROXY
 DOMAIN-SUFFIX,ablwang.com,PROXY
 DOMAIN-SUFFIX,aboluowang.com,PROXY
 DOMAIN-SUFFIX,aboutgfw.com,PROXY
@@ -1512,6 +1511,7 @@ DOMAIN-SUFFIX,freewww.biz,PROXY
 DOMAIN-SUFFIX,freewww.info,PROXY
 DOMAIN-SUFFIX,freexinwen.com,PROXY
 DOMAIN-SUFFIX,freeyellow.com,PROXY
+DOMAIN-SUFFIX,frienddy.com,PROXY
 DOMAIN-SUFFIX,friendfeed-media.com,PROXY
 DOMAIN-SUFFIX,friendfeed.com,PROXY
 DOMAIN-SUFFIX,friendfinder.com,PROXY
@@ -1708,6 +1708,7 @@ DOMAIN-SUFFIX,gotgeeks.com,PROXY
 DOMAIN-SUFFIX,gotrusted.com,PROXY
 DOMAIN-SUFFIX,gr8domain.biz,PROXY
 DOMAIN-SUFFIX,gr8name.biz,PROXY
+DOMAIN-SUFFIX,gradconnection.com,PROXY
 DOMAIN-SUFFIX,grammaly.com,PROXY
 DOMAIN-SUFFIX,grandtrial.org,PROXY
 DOMAIN-SUFFIX,grangorz.org,PROXY
@@ -1716,7 +1717,6 @@ DOMAIN-SUFFIX,greasespot.net,PROXY
 DOMAIN-SUFFIX,great-firewall.com,PROXY
 DOMAIN-SUFFIX,great-roc.org,PROXY
 DOMAIN-SUFFIX,greatfire.org,PROXY
-DOMAIN-SUFFIX,greatfire.us7.list-manage.com,PROXY
 DOMAIN-SUFFIX,greatfirewall.biz,PROXY
 DOMAIN-SUFFIX,greatfirewallofchina.net,PROXY
 DOMAIN-SUFFIX,greatfirewallofchina.org,PROXY
@@ -1728,7 +1728,6 @@ DOMAIN-SUFFIX,greenvpn.net,PROXY
 DOMAIN-SUFFIX,greenvpn.org,PROXY
 DOMAIN-SUFFIX,grotty-monday.com,PROXY
 DOMAIN-SUFFIX,gs-discuss.com,PROXY
-DOMAIN-SUFFIX,gsp.target.com,PROXY
 DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,gtricks.com,PROXY
 DOMAIN-SUFFIX,gts-vpn.com,PROXY
@@ -1783,7 +1782,6 @@ DOMAIN-SUFFIX,have8.com,PROXY
 DOMAIN-SUFFIX,hbg.com,PROXY
 DOMAIN-SUFFIX,hcaptcha.com,PROXY
 DOMAIN-SUFFIX,hclips.com,PROXY
-DOMAIN-SUFFIX,hd.stheadline.com,PROXY
 DOMAIN-SUFFIX,hdlt.me,PROXY
 DOMAIN-SUFFIX,hdtvb.net,PROXY
 DOMAIN-SUFFIX,hdzog.com,PROXY
@@ -1843,8 +1841,6 @@ DOMAIN-SUFFIX,hizb-ut-tahrir.org,PROXY
 DOMAIN-SUFFIX,hizbuttahrir.org,PROXY
 DOMAIN-SUFFIX,hjclub.info,PROXY
 DOMAIN-SUFFIX,hk-pub.com,PROXY
-DOMAIN-SUFFIX,hk.frienddy.com,PROXY
-DOMAIN-SUFFIX,hk.gradconnection.com,PROXY
 DOMAIN-SUFFIX,hk.hao123img.com,PROXY
 DOMAIN-SUFFIX,hk.jiepang.com,PROXY
 DOMAIN-SUFFIX,hk01.com,PROXY
@@ -2353,10 +2349,12 @@ DOMAIN-SUFFIX,linkideo.com,PROXY
 DOMAIN-SUFFIX,linksalpha.com,PROXY
 DOMAIN-SUFFIX,linkuswell.com,PROXY
 DOMAIN-SUFFIX,linode.com,PROXY
+DOMAIN-SUFFIX,linpie.com,PROXY
 DOMAIN-SUFFIX,linuxtoy.org,PROXY
 DOMAIN-SUFFIX,lionsroar.com,PROXY
 DOMAIN-SUFFIX,lipuman.com,PROXY
 DOMAIN-SUFFIX,liquidvpn.com,PROXY
+DOMAIN-SUFFIX,list-manage.com,PROXY
 DOMAIN-SUFFIX,listennotes.com,PROXY
 DOMAIN-SUFFIX,listorious.com,PROXY
 DOMAIN-SUFFIX,lists.w3.org,PROXY
@@ -2386,7 +2384,6 @@ DOMAIN-SUFFIX,localdomain.ws,PROXY
 DOMAIN-SUFFIX,localpresshk.com,PROXY
 DOMAIN-SUFFIX,lockestek.com,PROXY
 DOMAIN-SUFFIX,logbot.net,PROXY
-DOMAIN-SUFFIX,login.target.com,PROXY
 DOMAIN-SUFFIX,logiqx.com,PROXY
 DOMAIN-SUFFIX,longmusic.com,PROXY
 DOMAIN-SUFFIX,longtermly.net,PROXY
@@ -3196,7 +3193,6 @@ DOMAIN-SUFFIX,rarbgprx.org,PROXY
 DOMAIN-SUFFIX,raremovie.cc,PROXY
 DOMAIN-SUFFIX,raremovie.net,PROXY
 DOMAIN-SUFFIX,razyboard.com,PROXY
-DOMAIN-SUFFIX,rcam.target.com,PROXY
 DOMAIN-SUFFIX,rconversation.blogs.com,PROXY
 DOMAIN-SUFFIX,rd.com,PROXY
 DOMAIN-SUFFIX,rdio.com,PROXY
@@ -3563,6 +3559,7 @@ DOMAIN-SUFFIX,steganos.com,PROXY
 DOMAIN-SUFFIX,steganos.net,PROXY
 DOMAIN-SUFFIX,stepchina.com,PROXY
 DOMAIN-SUFFIX,stephaniered.com,PROXY
+DOMAIN-SUFFIX,stheadline.com,PROXY
 DOMAIN-SUFFIX,sthoo.com,PROXY
 DOMAIN-SUFFIX,stickam.com,PROXY
 DOMAIN-SUFFIX,stickeraction.com,PROXY
@@ -3664,6 +3661,7 @@ DOMAIN-SUFFIX,tapanwap.com,PROXY
 DOMAIN-SUFFIX,tapatalk.com,PROXY
 DOMAIN-SUFFIX,tapbots.com,PROXY
 DOMAIN-SUFFIX,tapbots.net,PROXY
+DOMAIN-SUFFIX,target.com,PROXY
 DOMAIN-SUFFIX,taup.net,PROXY
 DOMAIN-SUFFIX,taweet.com,PROXY
 DOMAIN-SUFFIX,tbcollege.org,PROXY
