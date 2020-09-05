@@ -1,13 +1,9 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/Advertising/basic.list
 # Advertising
 # > General
-DOMAIN-KEYWORD,adsage,REJECT
-DOMAIN-KEYWORD,adsite,REJECT
-DOMAIN-KEYWORD,adshow,REJECT
 DOMAIN-KEYWORD,adjust,REJECT
-DOMAIN-KEYWORD,admarvel,REJECT
-DOMAIN-KEYWORD,admaster,REJECT
-DOMAIN-KEYWORD,adserv,REJECT
+DOMAIN-KEYWORD,adservi,REJECT
+DOMAIN-KEYWORD,adserver,REJECT
 DOMAIN-KEYWORD,advert,REJECT
 DOMAIN-KEYWORD,adsystem,REJECT
 DOMAIN-KEYWORD,guanggao,REJECT
