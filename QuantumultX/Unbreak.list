@@ -1,11 +1,7 @@
 # > General
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
-# > Alibaba
-DOMAIN,log.mmstat.com,DIRECT
-DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
-DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,fonts.googleapis.com,DIRECT
 DOMAIN,fonts.gstatic.com,DIRECT
@@ -13,11 +9,3 @@ DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,safebrowsing.googleapis.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
-# > Tencent
-DOMAIN,sdk.e.qq.com,DIRECT
-DOMAIN,livew.l.qq.com,DIRECT
-DOMAIN,vd.l.qq.com,DIRECT
-DOMAIN,ipv4.gdt.qq.com,DIRECT
-# > Umeng
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
