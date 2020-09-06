@@ -24,10 +24,3 @@ DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 # > Google
 DOMAIN-SUFFIX,metric.gstatic.com,REJECT
-DOMAIN,app-measurement.com,REJECT
-# > MI
-DOMAIN-SUFFIX,tracking.miui.com,REJECT
-DOMAIN,data.mistat.xiaomi.com,REJECT
-DOMAIN,tracking.intl.miui.com,REJECT
-# > Umeng
-DOMAIN-KEYWORD,logs.umeng,REJECT
