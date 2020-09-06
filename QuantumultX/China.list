@@ -260,6 +260,7 @@ DOMAIN-SUFFIX,qcloud.com,DIRECT
 DOMAIN-SUFFIX,smtcdns.net,DIRECT
 DOMAIN-SUFFIX,cdntips.net,DIRECT
 DOMAIN-SUFFIX,ovscdns.net,DIRECT
+DOMAIN-SUFFIX,imtmp.net,DIRECT
 DOMAIN,file-igamecj.akamaized.net,DIRECT
 # > Youku
 DOMAIN-SUFFIX,youkutv.cc,DIRECT
