@@ -69,12 +69,11 @@ DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN,testflight.apple.com,DIRECT
 DOMAIN,apps.apple.com,DIRECT
-DOMAIN,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN,api-glb-sea.smoot.apple.com,DIRECT
 DOMAIN,lookup-api.apple.com,DIRECT
 DOMAIN-SUFFIX,smoot.apple.com,DIRECT
 DOMAIN,beta.music.apple.com,DIRECT
-DOMAIN-KEYWORD,buy.itunes.apple.com,DIRECT
 DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
 DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
 DOMAIN-KEYWORD,icloud,DIRECT
@@ -231,6 +230,7 @@ USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
 DOMAIN-KEYWORD,tenpay,DIRECT
+DOMAIN-KEYWORD,tencent,DIRECT
 DOMAIN-SUFFIX,qq.com,DIRECT
 DOMAIN-SUFFIX,qq.zone,DIRECT
 DOMAIN-SUFFIX,qmail.com,DIRECT
