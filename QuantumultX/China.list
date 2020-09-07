@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN,testflight.apple.com,DIRECT
 DOMAIN,apps.apple.com,DIRECT
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN,itunes.apple.com,DIRECT
 DOMAIN,api-glb-sea.smoot.apple.com,DIRECT
 DOMAIN,lookup-api.apple.com,DIRECT
 DOMAIN-SUFFIX,smoot.apple.com,DIRECT
