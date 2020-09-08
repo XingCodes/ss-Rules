@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,qhres.com,DIRECT
 DOMAIN-SUFFIX,qhimg.com,DIRECT
 # > Alibaba
 DOMAIN-KEYWORD,alipay,DIRECT
+DOMAIN-KEYWORD,aliyun,DIRECT
 DOMAIN-SUFFIX,alibaba.com,DIRECT
 DOMAIN-SUFFIX,alibabacloud.com,DIRECT
 DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
