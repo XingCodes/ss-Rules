@@ -153,6 +153,14 @@ DOMAIN,imgpop.googlecode.com,REJECT
 DOMAIN,salefile.googlecode.com,REJECT
 DOMAIN,trakksocial.googlecode.com,REJECT
 DOMAIN,badad.googleplex.com,REJECT
+# SOHU
+DOMAIN-SUFFIX,ad.sohu.com,REJECT
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,hui.sohu.com,REJECT
+DOMAIN,pv.sohu.com,REJECT
 # Tencent
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
