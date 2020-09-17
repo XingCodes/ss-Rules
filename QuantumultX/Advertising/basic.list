@@ -33,7 +33,6 @@ DOMAIN-SUFFIX,doubleclick.tv002.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
 DOMAIN-SUFFIX,shuzilm.cn,REJECT
 DOMAIN-SUFFIX,aoovqo8t.stats.lncld.net,REJECT
-DOMAIN-SUFFIX,voiceads.cn,REJECT
 DOMAIN-SUFFIX,tagtic.cn,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT
 DOMAIN-SUFFIX,juicyads.com,REJECT
