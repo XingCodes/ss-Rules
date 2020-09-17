@@ -153,15 +153,6 @@ DOMAIN,imgpop.googlecode.com,REJECT
 DOMAIN,salefile.googlecode.com,REJECT
 DOMAIN,trakksocial.googlecode.com,REJECT
 DOMAIN,badad.googleplex.com,REJECT
-# Tencent
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 # Twitter
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
