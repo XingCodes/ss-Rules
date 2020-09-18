@@ -24,5 +24,3 @@ DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 # > Google
 DOMAIN-SUFFIX,metric.gstatic.com,REJECT
-# > Umeng
-DOMAIN-KEYWORD,logs.umeng,REJECT
