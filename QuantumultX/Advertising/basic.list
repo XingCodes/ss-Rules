@@ -50,43 +50,6 @@ DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,flurry.cachefly.net,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
-DOMAIN,ad.12306.cn,REJECT
-DOMAIN,ad.360in.com,REJECT
-DOMAIN,ad.caiyunapp.com,REJECT
-DOMAIN,ad.huajiao.com,REJECT
-DOMAIN,ad.hzyoka.com,REJECT
-DOMAIN,ad.jiemian.com,REJECT
-DOMAIN,ad.qingting.fm,REJECT
-DOMAIN,ad.toutiao.com,REJECT
-DOMAIN,ad.wappalyzer.com,REJECT
-DOMAIN,ad-cn.jovcloud.com,REJECT
-DOMAIN,ads.adadapted.com,REJECT
-DOMAIN,ads.chinadaily.com.cn,REJECT
-DOMAIN,ads.daydaycook.com.cn,REJECT
-DOMAIN,ads.weilitoutiao.net,REJECT
-DOMAIN,adsapi.manhuaren.com,REJECT
-DOMAIN,adsdk.dmzj.com,REJECT
-DOMAIN,adserver.pandora.com,REJECT
-DOMAIN,adshow.58.com,REJECT
-DOMAIN,adui.tg.meitu.com,REJECT
-DOMAIN,adv.bandi.so,REJECT
-DOMAIN,adv.ettoday.net,REJECT
-DOMAIN,api.adnet.mob.com,REJECT
-DOMAIN,app-ad.variflight.com,REJECT
-DOMAIN,appnext.hs.llnwd.net,REJECT
-DOMAIN,appnext-a.akamaihd.net,REJECT
-DOMAIN,business-cdn.shouji.sogou.com,REJECT
-DOMAIN,g.ousns.net,REJECT
-DOMAIN,ggs.myzaker.com,REJECT
-DOMAIN,ggx.cmvideo.cn,REJECT
-DOMAIN,itad.linetv.tw,REJECT
-DOMAIN,ja.chushou.tv,REJECT
-DOMAIN,mads.suning.com,REJECT
-DOMAIN,mopnativeadv.037201.com,REJECT
-DOMAIN,nativeadv.dftoutiao.com,REJECT
-DOMAIN,toots-a.akamaihd.net,REJECT
-DOMAIN,msg.c002.ottcn.com,REJECT
-DOMAIN,msga.ptqy.gitv.tv,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
@@ -152,6 +115,10 @@ DOMAIN,imgpop.googlecode.com,REJECT
 DOMAIN,salefile.googlecode.com,REJECT
 DOMAIN,trakksocial.googlecode.com,REJECT
 DOMAIN,badad.googleplex.com,REJECT
+# Tencent
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pgdt.gtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
 # Twitter
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
