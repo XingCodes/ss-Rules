@@ -220,8 +220,6 @@ DOMAIN-SUFFIX,sogoucdn.com,DIRECT
 DOMAIN-SUFFIX,steamcontent.com,DIRECT
 DOMAIN-SUFFIX,steampowered.com,DIRECT
 DOMAIN-SUFFIX,steamstatic.com,DIRECT
-# > Speed Test
-DOMAIN-KEYWORD,speedtest,DIRECT
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,DIRECT
 USER-AGENT,WeChat*,DIRECT

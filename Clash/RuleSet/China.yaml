@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,qhimg.com
   # > Alibaba
   - DOMAIN-KEYWORD,alipay
+  - DOMAIN-KEYWORD,aliyun
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabausercontent.com
@@ -40,57 +41,8 @@ payload:
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tmall.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,xiami.net
-  - IP-CIDR,8.208.0.0/16,no-resolve
-  - IP-CIDR,8.209.0.0/19,no-resolve
-  - IP-CIDR,8.209.32.0/22,no-resolve
-  - IP-CIDR,8.209.48.0/20,no-resolve
-  - IP-CIDR,8.209.64.0/18,no-resolve
-  - IP-CIDR,8.209.128.0/17,no-resolve
-  - IP-CIDR,8.210.0.0/16,no-resolve
-  - IP-CIDR,8.211.0.0/17,no-resolve
-  - IP-CIDR,45.158.183.0/24,no-resolve
-  - IP-CIDR,47.52.0.0/16,no-resolve
-  - IP-CIDR,47.56.0.0/15,no-resolve
-  - IP-CIDR,47.74.0.0/15,no-resolve
-  - IP-CIDR,47.76.0.0/14,no-resolve
-  - IP-CIDR,47.80.0.0/13,no-resolve
-  - IP-CIDR,47.88.0.0/14,no-resolve
-  - IP-CIDR,47.235.0.0/16,no-resolve
-  - IP-CIDR,47.236.0.0/14,no-resolve
-  - IP-CIDR,47.240.0.0/14,no-resolve
-  - IP-CIDR,47.244.0.0/15,no-resolve
-  - IP-CIDR,47.246.0.0/16,no-resolve
-  - IP-CIDR,47.250.0.0/15,no-resolve
-  - IP-CIDR,47.252.0.0/15,no-resolve
-  - IP-CIDR,47.254.0.0/16,no-resolve
-  - IP-CIDR,62.128.96.0/22,no-resolve
-  - IP-CIDR,89.219.0.0/22,no-resolve
-  - IP-CIDR,103.142.8.0/23,no-resolve
-  - IP-CIDR,103.142.100.0/23,no-resolve
-  - IP-CIDR,103.145.72.0/24,no-resolve
-  - IP-CIDR,110.75.0.0/16,no-resolve
-  - IP-CIDR,110.76.0.0/18,no-resolve
-  - IP-CIDR,116.251.64.0/18,no-resolve
-  - IP-CIDR,122.254.76.0/23,no-resolve
-  - IP-CIDR,139.95.0.0/20,no-resolve
-  - IP-CIDR,139.95.16.0/22,no-resolve
-  - IP-CIDR,147.139.0.0/16,no-resolve
-  - IP-CIDR,149.129.0.0/20,no-resolve
-  - IP-CIDR,149.129.16.0/23,no-resolve
-  - IP-CIDR,149.129.32.0/19,no-resolve
-  - IP-CIDR,149.129.64.0/18,no-resolve
-  - IP-CIDR,149.129.128.0/17,no-resolve
-  - IP-CIDR,156.224.138.0/24,no-resolve
-  - IP-CIDR,156.226.24.0/21,no-resolve
-  - IP-CIDR,161.117.0.0/16,no-resolve
-  - IP-CIDR,198.11.128.0/18,no-resolve
-  - IP-CIDR,198.44.244.0/22,no-resolve
-  - IP-CIDR,203.107.0.0/17,no-resolve
-  - IP-CIDR,205.204.96.0/19,no-resolve
   # > Apple
   # USER-AGENT,com.apple.appstored*
   # USER-AGENT,AppStore*
@@ -115,22 +67,17 @@ payload:
   - DOMAIN-SUFFIX,icloud.com.cn
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN,books.itunes.apple.com
   - DOMAIN,testflight.apple.com
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
-  - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,lookup-api.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,beta.music.apple.com
-  - DOMAIN-KEYWORD,buy.itunes.apple.com
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,icloud.com.akadns.net
-  - DOMAIN-KEYWORD,icloud
-  - DOMAIN-KEYWORD,itunes
   - IP-CIDR,17.0.0.0/8,no-resolve
   # > Baidu
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,baidubcr.com
+  - DOMAIN-KEYWORD,baidu
   - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
@@ -174,14 +121,16 @@ payload:
   - DOMAIN-SUFFIX,livechina.com
   # > ChinaTelecom
   - DOMAIN-SUFFIX,21cn.com
+  # > Ctrip
+  - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,c-ctrip.com
+  - DOMAIN-SUFFIX,tripcdn.com
+  - DOMAIN-SUFFIX,trip.com
   # > DiDi
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,didiglobal.com
   # > Douyu
   - DOMAIN-KEYWORD,douyu
-  - DOMAIN-SUFFIX,douyu.com
-  - DOMAIN-SUFFIX,douyu.tv
-  - DOMAIN-SUFFIX,douyuscdn.com
   # > Eleme
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,elemecdn.com
@@ -196,14 +145,12 @@ payload:
   - DOMAIN-SUFFIX,liangle.com
   # > Huya
   - DOMAIN-KEYWORD,huya
-  - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,msstatic.com
   # > iQiyi
   - DOMAIN-KEYWORD,qiyi
-  - DOMAIN-SUFFIX,iqiyi.com
-  - DOMAIN-SUFFIX,iqiyipic.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,71.am
+  - DOMAIN-SUFFIX,71edge.com
   # > JD
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,jdpay.com
@@ -223,6 +170,7 @@ payload:
   - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,xiaomi.net
+  - DOMAIN-SUFFIX,dmhmusic.com
   # > Microsoft
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,msecnd.net
@@ -238,6 +186,7 @@ payload:
   - DOMAIN-SUFFIX,126.com
   - DOMAIN-SUFFIX,126.net
   - DOMAIN-SUFFIX,127.net
+  - DOMAIN-SUFFIX,166.net
   - DOMAIN-SUFFIX,163yun.com
   - DOMAIN-SUFFIX,lofter.com
   - DOMAIN-SUFFIX,netease.com
@@ -272,13 +221,12 @@ payload:
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamstatic.com
-  # > Speed Test
-  - DOMAIN-KEYWORD,speedtest
   # > Tencent
   # USER-AGENT,MicroMessenger%20Client
   # USER-AGENT,WeChat*
   # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
   - DOMAIN-KEYWORD,tenpay
+  - DOMAIN-KEYWORD,tencent
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qq.zone
   - DOMAIN-SUFFIX,qmail.com
@@ -289,13 +237,7 @@ payload:
   - DOMAIN-SUFFIX,tgovcloud.com
   - DOMAIN-SUFFIX,weiyun.com
   - DOMAIN-SUFFIX,twsapp.com
-  - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,tencent.net
-  - DOMAIN-SUFFIX,tencent-cloud.net
-  - DOMAIN-SUFFIX,tencent-cloud.com
-  - DOMAIN-SUFFIX,tencentmusic.com
   - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,tencentpay.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,wechatpay.com
   - DOMAIN-SUFFIX,servicewechat.com
@@ -308,45 +250,11 @@ payload:
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,ovscdns.net
+  - DOMAIN-SUFFIX,imtmp.net
   - DOMAIN,file-igamecj.akamaized.net
-  - IP-CIDR,45.40.192.0/18,no-resolve
-  - IP-CIDR,45.113.68.0/22,no-resolve
-  - IP-CIDR,49.51.0.0/16,no-resolve
-  - IP-CIDR,101.32.0.0/18,no-resolve
-  - IP-CIDR,101.32.64.0/19,no-resolve
-  - IP-CIDR,101.32.96.0/20,no-resolve
-  - IP-CIDR,103.7.28.0/22,no-resolve
-  - IP-CIDR,103.52.216.0/22,no-resolve
-  - IP-CIDR,103.238.16.0/23,no-resolve
-  - IP-CIDR,109.244.0.0/16,no-resolve
-  - IP-CIDR,119.28.0.0/16,no-resolve
-  - IP-CIDR,119.29.0.0/16,no-resolve
-  - IP-CIDR,120.88.56.0/23,no-resolve
-  - IP-CIDR,124.156.0.0/16,no-resolve
-  - IP-CIDR,129.226.0.0/16,no-resolve
-  - IP-CIDR,150.109.0.0/16,no-resolve
-  - IP-CIDR,162.14.0.0/16,no-resolve
-  - IP-CIDR,162.62.0.0/16,no-resolve
-  - IP-CIDR,170.106.0.0/16,no-resolve
-  - IP-CIDR,182.254.0.0/16,no-resolve
-  - IP-CIDR,203.205.128.0/19,no-resolve
-  - IP-CIDR,203.205.188.0/24,no-resolve
-  - IP-CIDR,203.205.191.0/24,no-resolve
-  - IP-CIDR,203.205.193.0/24,no-resolve
-  - IP-CIDR,203.205.194.0/23,no-resolve
-  - IP-CIDR,203.205.216.0/21,no-resolve
-  - IP-CIDR,203.205.224.0/24,no-resolve
-  - IP-CIDR,203.205.232.0/21,no-resolve
-  - IP-CIDR,203.205.240.0/24,no-resolve
-  - IP-CIDR,203.205.242.0/24,no-resolve
-  - IP-CIDR,203.205.244.0/23,no-resolve
-  - IP-CIDR,203.205.248.0/21,no-resolve
-  - IP-CIDR,210.180.74.0/23,no-resolve
-  - IP-CIDR,211.152.128.0/18,no-resolve
   # > Youku
-  - DOMAIN-SUFFIX,youkutv.cc
+  - DOMAIN-KEYWORD,youku
   - DOMAIN-SUFFIX,ykimg.com
-  - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,soku.com
   - DOMAIN-SUFFIX,cibntv.net
   # > Zhihu
@@ -437,7 +345,6 @@ payload:
   - DOMAIN-SUFFIX,chunyu.mobi
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cmbimg.com
-  - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,dfcfw.com
   - DOMAIN-SUFFIX,docschina.org
   - DOMAIN-SUFFIX,douban.com
@@ -471,13 +378,16 @@ payload:
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,keepcdn.com
   - DOMAIN-SUFFIX,kkmh.com
+  - DOMAIN-SUFFIX,kugou.com
   - DOMAIN-SUFFIX,lanzous.com
+  - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,loli.net
   - DOMAIN-SUFFIX,luojilab.com
   - DOMAIN-SUFFIX,maoyan.com
   - DOMAIN-SUFFIX,maoyun.tv
+  - DOMAIN-SUFFIX,miguvideo.com
   - DOMAIN-SUFFIX,mls-cdn.com
   - DOMAIN-SUFFIX,mobike.com
   - DOMAIN-SUFFIX,moke.com
@@ -487,6 +397,7 @@ payload:
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,pptv.com
   - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qyer.com
   - DOMAIN-SUFFIX,qyerstatic.com

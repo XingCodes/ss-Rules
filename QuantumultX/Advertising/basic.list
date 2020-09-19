@@ -52,7 +52,6 @@ DOMAIN,flurry.cachefly.net,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
-DOMAIN,tunion-api.m.taobao.com,REJECT
 # Baidu
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
@@ -129,23 +128,6 @@ DOMAIN,search.twitter.com,REJECT
 DOMAIN,syndication.twitter.com,REJECT
 DOMAIN,syndication-o.twitter.com,REJECT
 DOMAIN,urls.api.twitter.com,REJECT
-# Yahoo
-DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
-DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
-DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
-DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
-DOMAIN,admarketing.yahoo.net,REJECT
-DOMAIN,ads.auctions.yahoo.com,REJECT
-DOMAIN,ads.finance.yahoo.com,REJECT
-DOMAIN,ads.yahoo.com,REJECT
-DOMAIN,ads.yahoo.de,REJECT
 # Youtube
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
-DOMAIN,azabu-u.ac.jp,REJECT
-DOMAIN,couchcoaster.jp,REJECT
-DOMAIN,delivery.dmkt-sp.jp,REJECT
-DOMAIN,ehg-youtube.hitbox.com,REJECT
-DOMAIN,m-78.jp,REJECT
-DOMAIN,nichibenren.or.jp,REJECT
-DOMAIN,nicorette.co.kr,REJECT
