@@ -188,6 +188,8 @@ payload:
   - DOMAIN-SUFFIX,127.net
   - DOMAIN-SUFFIX,166.net
   - DOMAIN-SUFFIX,163yun.com
+  - DOMAIN-SUFFIX,321fenx.com
+  - DOMAIN-SUFFIX,laiqukankan.com
   - DOMAIN-SUFFIX,lofter.com
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,netease.im
@@ -247,6 +249,7 @@ payload:
   - DOMAIN-SUFFIX,myapp.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-SUFFIX,qcloud.com
+  - DOMAIN-SUFFIX,smtcdns.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,ovscdns.net
