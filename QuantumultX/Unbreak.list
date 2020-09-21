@@ -9,3 +9,6 @@ DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,safebrowsing.googleapis.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
+# > Tencent
+DOMAIN,livew.l.qq.com,DIRECT
+DOMAIN,vd.l.qq.com,DIRECT

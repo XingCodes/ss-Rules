@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,inmobicdn.net,REJECT
 DOMAIN-SUFFIX,adchina.com,REJECT
 DOMAIN-SUFFIX,adcloud.net,REJECT
 DOMAIN-SUFFIX,tapjoy.com,REJECT
+DOMAIN-SUFFIX,voiceads.cn,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
@@ -50,6 +51,7 @@ DOMAIN,flurry.cachefly.net,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 # Alibaba
 DOMAIN-SUFFIX,tanx.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
 # Baidu
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
@@ -113,9 +115,19 @@ DOMAIN,salefile.googlecode.com,REJECT
 DOMAIN,trakksocial.googlecode.com,REJECT
 DOMAIN,badad.googleplex.com,REJECT
 # Tencent
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,pgdt.gtimg.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 # Twitter
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
