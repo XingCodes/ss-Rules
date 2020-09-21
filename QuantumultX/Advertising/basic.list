@@ -144,6 +144,11 @@ DOMAIN,search.twitter.com,REJECT
 DOMAIN,syndication.twitter.com,REJECT
 DOMAIN,syndication-o.twitter.com,REJECT
 DOMAIN,urls.api.twitter.com,REJECT
+# Youku
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN,ad.mobile.youku.com,REJECT
+DOMAIN,iyes.youku.com,REJECT
+DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 # Youtube
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
