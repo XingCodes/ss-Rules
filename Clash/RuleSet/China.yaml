@@ -1,22 +1,21 @@
 payload:
   # https://fx1999.github.io/ss-Rules/QuantumultX/China.list
   # General
-  - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,edu.cn
-  - DOMAIN-SUFFIX,gov.cn
-  - DOMAIN-SUFFIX,sspai.com
-  - DOMAIN-SUFFIX,qidian.com
-  - DOMAIN-SUFFIX,yuewen.com
-  - DOMAIN-SUFFIX,kunlun-cdn.com
-  - DOMAIN-SUFFIX,jianshu.com
-  - DOMAIN-SUFFIX,jianshu.io
-  - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,95588.com
+  - DOMAIN-SUFFIX,bankofchina.com
   - DOMAIN-SUFFIX,chinatibet.net
   - DOMAIN-SUFFIX,ctibet.com
-  - DOMAIN-SUFFIX,vip.com
+  - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,hbooker.com
-  - DOMAIN-SUFFIX,bankofchina.com
-  - DOMAIN-KEYWORD,icbc
+  - DOMAIN-SUFFIX,jianshu.com
+  - DOMAIN-SUFFIX,jianshu.io
+  - DOMAIN-SUFFIX,kunlun-cdn.com
+  - DOMAIN-SUFFIX,qidian.com
+  - DOMAIN-SUFFIX,sspai.com
+  - DOMAIN-SUFFIX,vip.com
+  - DOMAIN-SUFFIX,yuewen.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,download.jetbrains.com
   # > 360
@@ -25,22 +24,23 @@ payload:
   # > Alibaba
   - DOMAIN-KEYWORD,alipay
   - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabausercontent.com
+  - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,alipay.com
   - DOMAIN-SUFFIX,alipayobjects.com
-  - DOMAIN-SUFFIX,alicdn.com
-  - DOMAIN-SUFFIX,aliapp.org
+  - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,cainiao.com
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,mxhichina.com
-  - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,xiami.com
   - DOMAIN-SUFFIX,xiami.net
   # > Apple
@@ -75,9 +75,11 @@ payload:
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-KEYWORD,apple.com.akadns.net
   - DOMAIN-KEYWORD,icloud.com.akadns.net
-  - IP-CIDR,17.0.0.0/8,no-resolve
   # > Baidu
-  - DOMAIN-KEYWORD,baidu
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,baidubcr.com
+  - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,baidupcs.com
   - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
@@ -129,8 +131,11 @@ payload:
   # > DiDi
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,didiglobal.com
+  - DOMAIN-SUFFIX,udache.com
   # > Douyu
-  - DOMAIN-KEYWORD,douyu
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,douyu.tv
+  - DOMAIN-SUFFIX,douyutv.com
   # > Eleme
   - DOMAIN-SUFFIX,ele.me
   - DOMAIN-SUFFIX,elemecdn.com
@@ -144,20 +149,28 @@ payload:
   - DOMAIN-SUFFIX,hoopchina.com
   - DOMAIN-SUFFIX,liangle.com
   # > Huya
-  - DOMAIN-KEYWORD,huya
+  - DOMAIN-SUFFIX,huya.com
+  - DOMAIN-SUFFIX,huyaos.com
   - DOMAIN-SUFFIX,msstatic.com
   # > iQiyi
-  - DOMAIN-KEYWORD,qiyi
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71edge.com
   # > JD
   - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,jd.hk
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,360buyimg.com
   # > Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
+  # > Meitu
+  - DOMAIN-SUFFIX,meitu.com
+  - DOMAIN-SUFFIX,meitudata.com
+  - DOMAIN-SUFFIX,meitustat.com
+  - DOMAIN-SUFFIX,meipai.com
   # > Meituan
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
@@ -172,12 +185,14 @@ payload:
   - DOMAIN-SUFFIX,xiaomi.net
   - DOMAIN-SUFFIX,dmhmusic.com
   # > Microsoft
+  - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windowsupdate.com
   # > NetEase
   # USER-AGENT,NeteaseMusic*
@@ -256,7 +271,7 @@ payload:
   - DOMAIN-SUFFIX,imtmp.net
   - DOMAIN,file-igamecj.akamaized.net
   # > Youku
-  - DOMAIN-KEYWORD,youku
+  - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,soku.com
   - DOMAIN-SUFFIX,cibntv.net
@@ -272,6 +287,18 @@ payload:
   - DOMAIN-SUFFIX,ourdvs.com
   - DOMAIN-SUFFIX,staticdn.net
   - DOMAIN-SUFFIX,wangsu.com
+  # > IP Query
+  - DOMAIN-SUFFIX,ipip.net
+  - DOMAIN-SUFFIX,ip.la
+  - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,ip-cdn.com
+  - DOMAIN-SUFFIX,ipv6-test.com
+  - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,whatismyip.com
+  - DOMAIN,ip.istatmenus.app
+  # > Speed Test
+  - DOMAIN-SUFFIX,netspeedtestmaster.com
+  - DOMAIN,speedtest.macpaw.com
   # > Private Tracker
   - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,animebytes.tv
@@ -319,6 +346,7 @@ payload:
   - DOMAIN-SUFFIX,okokbo.com
   - DOMAIN-SUFFIX,sd-dykj.com
   - DOMAIN-SUFFIX,yhdm.tv
+  - DOMAIN-SUFFIX,youkutv.cc
   # > Other
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,10010.com
