@@ -67,7 +67,6 @@ DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN,books.itunes.apple.com,DIRECT
-DOMAIN,testflight.apple.com,DIRECT
 DOMAIN,apps.apple.com,DIRECT
 DOMAIN,itunes.apple.com,DIRECT
 DOMAIN,lookup-api.apple.com,DIRECT
