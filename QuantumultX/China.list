@@ -66,10 +66,8 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud.com.cn,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN,books.itunes.apple.com,DIRECT
 DOMAIN,apps.apple.com,DIRECT
 DOMAIN,itunes.apple.com,DIRECT
-DOMAIN,lookup-api.apple.com,DIRECT
 DOMAIN-SUFFIX,smoot.apple.com,DIRECT
 DOMAIN-KEYWORD,apple.com.akadns.net,DIRECT
 DOMAIN-KEYWORD,icloud.com.akadns.net,DIRECT
