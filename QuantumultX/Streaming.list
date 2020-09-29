@@ -1,252 +1,265 @@
+# Streaming Media
 # (Podcast)
 # > Himalaya
-USER-AGENT,Himalaya*,Streaming
-DOMAIN-SUFFIX,himalaya.com,Streaming
+USER-AGENT,Himalaya*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,himalaya.com,PROXY,force-remote-dns
 # (Music)
 # > Deezer
-USER-AGENT,Deezer*,Streaming
-DOMAIN-SUFFIX,deezer.com,Streaming
-DOMAIN-SUFFIX,dzcdn.net,Streaming
+USER-AGENT,Deezer*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,deezer.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dzcdn.net,PROXY,force-remote-dns
 # > JOOX
-USER-AGENT,JOOX*,Streaming
-USER-AGENT,WeMusic*,Streaming
-DOMAIN-SUFFIX,joox.com,Streaming
-DOMAIN-KEYWORD,jooxweb-api,Streaming
+USER-AGENT,JOOX*,PROXY,force-remote-dns
+USER-AGENT,WeMusic*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,joox.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,jooxweb-api,PROXY,force-remote-dns
 # > KKBOX
-DOMAIN-SUFFIX,kkbox.com,Streaming
-DOMAIN-SUFFIX,kkbox.com.tw,Streaming
-DOMAIN-SUFFIX,kfs.io,Streaming
+DOMAIN-SUFFIX,kkbox.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kkbox.com.tw,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kfs.io,PROXY,force-remote-dns
 # > Pandora
-USER-AGENT,Pandora*,Streaming
-DOMAIN-SUFFIX,pandora.com,Streaming
+USER-AGENT,Pandora*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pandora.com,PROXY,force-remote-dns
 # > SoundCloud
-USER-AGENT,SoundCloud*,Streaming
-DOMAIN-SUFFIX,p-cdn.us,Streaming
-DOMAIN-SUFFIX,sndcdn.com,Streaming
-DOMAIN-SUFFIX,soundcloud.com,Streaming
+USER-AGENT,SoundCloud*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,p-cdn.us,PROXY,force-remote-dns
+DOMAIN-SUFFIX,sndcdn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,soundcloud.com,PROXY,force-remote-dns
 # > Spotify
-USER-AGENT,Spotify*,Streaming
-DOMAIN-SUFFIX,pscdn.co,Streaming
-DOMAIN-SUFFIX,scdn.co,Streaming
-DOMAIN-SUFFIX,spotify.com,Streaming
-DOMAIN-SUFFIX,spoti.fi,Streaming
-DOMAIN-KEYWORD,spotify.com,Streaming
-DOMAIN-KEYWORD,-spotify-com,Streaming
+USER-AGENT,Spotify*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pscdn.co,PROXY,force-remote-dns
+DOMAIN-SUFFIX,scdn.co,PROXY,force-remote-dns
+DOMAIN-SUFFIX,spotify.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,spoti.fi,PROXY,force-remote-dns
+DOMAIN-KEYWORD,spotify.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,-spotify-com,PROXY,force-remote-dns
 # > TIDAL
-USER-AGENT,TIDAL*,Streaming
-DOMAIN-SUFFIX,tidal.com,Streaming
+USER-AGENT,TIDAL*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tidal.com,PROXY,force-remote-dns
 # > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*,Streaming
-USER-AGENT,YouTubeMusic*,Streaming
+USER-AGENT,com.google.ios.youtubemusic*,PROXY,force-remote-dns
+USER-AGENT,YouTubeMusic*,PROXY,force-remote-dns
 # (Video)
 # > AbemaTV
-USER-AGENT,AbemaTV*,Streaming
-DOMAIN-SUFFIX,abema.io,Streaming
-DOMAIN-SUFFIX,abema.tv,Streaming
-DOMAIN-SUFFIX,ameba.jp,Streaming
-DOMAIN-SUFFIX,hayabusa.io,Streaming
-DOMAIN-KEYWORD,abematv.akamaized.net,Streaming
+USER-AGENT,AbemaTV*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,abema.io,PROXY,force-remote-dns
+DOMAIN-SUFFIX,abema.tv,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ameba.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hayabusa.io,PROXY,force-remote-dns
+DOMAIN-KEYWORD,abematv.akamaized.net,PROXY,force-remote-dns
 # > All 4
-USER-AGENT,All4*,Streaming
-DOMAIN-SUFFIX,c4assets.com,Streaming
-DOMAIN-SUFFIX,channel4.com,Streaming
+USER-AGENT,All4*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,c4assets.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,channel4.com,PROXY,force-remote-dns
 # > Amazon Prime Video
-USER-AGENT,InstantVideo.US*,Streaming
-USER-AGENT,Prime%20Video*,Streaming
-DOMAIN-SUFFIX,aiv-cdn.net,Streaming
-DOMAIN-SUFFIX,aiv-delivery.net,Streaming
-DOMAIN-SUFFIX,amazonvideo.com,Streaming
-DOMAIN-SUFFIX,primevideo.com,Streaming
-DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
-DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
-DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
-DOMAIN-KEYWORD,avoddashs,Streaming
+USER-AGENT,InstantVideo.US*,PROXY,force-remote-dns
+USER-AGENT,Prime%20Video*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,aiv-cdn.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,aiv-delivery.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,amazonvideo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,primevideo.com,PROXY,force-remote-dns
+DOMAIN,avodmp4s3ww-a.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,d25xi40x97liuc.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,PROXY,force-remote-dns
+DOMAIN-KEYWORD,avoddashs,PROXY,force-remote-dns
 # > Apple TV
-DOMAIN-SUFFIX,tv.apple.com,Streaming
-DOMAIN,hls.itunes.apple.com,Streaming
-DOMAIN,hls-amt.itunes.apple.com,Streaming
-DOMAIN,play-edge.itunes.apple.com,Streaming
+DOMAIN-SUFFIX,tv.apple.com,PROXY,force-remote-dns
+DOMAIN,hls.itunes.apple.com,PROXY,force-remote-dns
+DOMAIN,hls-amt.itunes.apple.com,PROXY,force-remote-dns
+DOMAIN,play-edge.itunes.apple.com,PROXY,force-remote-dns
 # > Bahamut
-USER-AGENT,Anime*,Streaming
-DOMAIN-SUFFIX,bahamut.com.tw,Streaming
-DOMAIN-SUFFIX,gamer.com.tw,Streaming
-DOMAIN,gamer-cds.cdn.hinet.net,Streaming
-DOMAIN,gamer2-cds.cdn.hinet.net,Streaming
+USER-AGENT,Anime*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,bahamut.com.tw,PROXY,force-remote-dns
+DOMAIN-SUFFIX,gamer.com.tw,PROXY,force-remote-dns
+DOMAIN,gamer-cds.cdn.hinet.net,PROXY,force-remote-dns
+DOMAIN,gamer2-cds.cdn.hinet.net,PROXY,force-remote-dns
 # > BBC iPlayer
-USER-AGENT,BBCiPlayer*,Streaming
-DOMAIN-SUFFIX,bbc.co.uk,Streaming
-DOMAIN-SUFFIX,bbci.co.uk,Streaming
-DOMAIN-KEYWORD,bbcfmt,Streaming
-DOMAIN-KEYWORD,uk-live,Streaming
+USER-AGENT,BBCiPlayer*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,bbc.co.uk,PROXY,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,PROXY,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt,PROXY,force-remote-dns
+DOMAIN-KEYWORD,uk-live,PROXY,force-remote-dns
 # > DAZN
-USER-AGENT,DAZN*,Streaming
-DOMAIN-SUFFIX,dazn.com,Streaming
-DOMAIN-SUFFIX,dazn-api.com,Streaming
-DOMAIN,d151l6v8er5bdm.cloudfront.net,Streaming
-DOMAIN-KEYWORD,voddazn,Streaming
+USER-AGENT,DAZN*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dazn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dazn-api.com,PROXY,force-remote-dns
+DOMAIN,d151l6v8er5bdm.cloudfront.net,PROXY,force-remote-dns
+DOMAIN-KEYWORD,voddazn,PROXY,force-remote-dns
 # > Disney+
-USER-AGENT,Disney+*,Streaming
-DOMAIN-SUFFIX,disney-plus.net,Streaming
-DOMAIN-SUFFIX,disneyplus.com,Streaming
-DOMAIN-SUFFIX,dssott.com,Streaming
-DOMAIN,cdn.registerdisney.go.com,Streaming
-DOMAIN,global.edge.bamgrid.com,Streaming
+USER-AGENT,Disney+*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,disney-plus.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,disneyplus.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dssott.com,PROXY,force-remote-dns
+DOMAIN,cdn.registerdisney.go.com,PROXY,force-remote-dns
+DOMAIN,global.edge.bamgrid.com,PROXY,force-remote-dns
 # > DMM
-DOMAIN-SUFFIX,dmm.co.jp,Streaming
-DOMAIN-SUFFIX,dmm.com,Streaming
-DOMAIN-SUFFIX,dmm-extension.com,Streaming
+DOMAIN-SUFFIX,dmm.co.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dmm.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dmm-extension.com,PROXY,force-remote-dns
 # > encoreTVB
-USER-AGENT,encoreTVB*,Streaming
-DOMAIN-SUFFIX,encoretvb.com,Streaming
-DOMAIN,edge.api.brightcove.com,Streaming
-DOMAIN,bcbolt446c5271-a.akamaihd.net,Streaming
+USER-AGENT,encoreTVB*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,encoretvb.com,PROXY,force-remote-dns
+DOMAIN,edge.api.brightcove.com,PROXY,force-remote-dns
+DOMAIN,bcbolt446c5271-a.akamaihd.net,PROXY,force-remote-dns
 # > FOX NOW
-USER-AGENT,FOX%20NOW*,Streaming
-DOMAIN-SUFFIX,fox.com,Streaming
-DOMAIN-SUFFIX,foxdcg.com,Streaming
-DOMAIN-SUFFIX,theplatform.com,Streaming
-DOMAIN-SUFFIX,uplynk.com,Streaming
+USER-AGENT,FOX%20NOW*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,fox.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,foxdcg.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,theplatform.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,uplynk.com,PROXY,force-remote-dns
 # > FOX+
-DOMAIN-SUFFIX,foxplus.com,Streaming
-# DOMAIN-SUFFIX,theplatform.com,Streaming
-DOMAIN,cdn-fox-networks-group-green.akamaized.net,Streaming
-DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,Streaming
-DOMAIN,foxsports01-i.akamaihd.net,Streaming
-DOMAIN,foxsports02-i.akamaihd.net,Streaming
-DOMAIN,foxsports03-i.akamaihd.net,Streaming
-DOMAIN,staticasiafox.akamaized.net,Streaming
+DOMAIN-SUFFIX,foxplus.com,PROXY,force-remote-dns
+# DOMAIN-SUFFIX,theplatform.com,PROXY,force-remote-dns
+DOMAIN,cdn-fox-networks-group-green.akamaized.net,PROXY,force-remote-dns
+DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,foxsports01-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,foxsports02-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,foxsports03-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,staticasiafox.akamaized.net,PROXY,force-remote-dns
 # > HBO NOW & Max
-USER-AGENT,HBO%20NOW*,Streaming
-DOMAIN-SUFFIX,hbo.com,Streaming
-DOMAIN-SUFFIX,hbogo.com,Streaming
-DOMAIN-SUFFIX,hbonow.com,Streaming
-USER-AGENT,HBOMAX*,Streaming
-DOMAIN-SUFFIX,hbomax.com,Streaming
+USER-AGENT,HBO%20NOW*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbogo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbonow.com,PROXY,force-remote-dns
+USER-AGENT,HBOMAX*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbomax.com,PROXY,force-remote-dns
 # > HBO GO HKG
-USER-AGENT,HBO%20GO%20PROD%20HKG*,Streaming
-DOMAIN-SUFFIX,hbogoasia.com,Streaming
-DOMAIN-SUFFIX,hbogoasia.hk,Streaming
-DOMAIN,bcbolthboa-a.akamaihd.net,Streaming
-DOMAIN,players.brightcove.net,Streaming
-DOMAIN,s3-ap-southeast-1.amazonaws.com,Streaming
-DOMAIN,dai3fd1oh325y.cloudfront.net,Streaming
-DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Streaming
-DOMAIN,hboasia1-i.akamaihd.net,Streaming
-DOMAIN,hboasia2-i.akamaihd.net,Streaming
-DOMAIN,hboasia3-i.akamaihd.net,Streaming
-DOMAIN,hboasia4-i.akamaihd.net,Streaming
-DOMAIN,hboasia5-i.akamaihd.net,Streaming
-DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Streaming
+USER-AGENT,HBO%20GO%20PROD%20HKG*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbogoasia.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hbogoasia.hk,PROXY,force-remote-dns
+DOMAIN,bcbolthboa-a.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,players.brightcove.net,PROXY,force-remote-dns
+DOMAIN,s3-ap-southeast-1.amazonaws.com,PROXY,force-remote-dns
+DOMAIN,dai3fd1oh325y.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,PROXY,force-remote-dns
+DOMAIN,hboasia1-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,hboasia2-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,hboasia3-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,hboasia4-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,hboasia5-i.akamaihd.net,PROXY,force-remote-dns
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,PROXY,force-remote-dns
 # > 华文电视
-USER-AGENT,HWTVMobile*,Streaming
-DOMAIN-SUFFIX,5itv.tv,Streaming
-DOMAIN-SUFFIX,ocnttv.com,Streaming
+USER-AGENT,HWTVMobile*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,5itv.tv,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ocnttv.com,PROXY,force-remote-dns
 # > Hulu
-DOMAIN-SUFFIX,hulu.com,Streaming
-DOMAIN-SUFFIX,huluim.com,Streaming
-DOMAIN-SUFFIX,hulustream.com,Streaming
+DOMAIN-SUFFIX,hulu.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,huluim.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hulustream.com,PROXY,force-remote-dns
 # > Hulu / フールー
-DOMAIN-SUFFIX,happyon.jp,Streaming
-DOMAIN-SUFFIX,hjholdings.jp,Streaming
-DOMAIN-SUFFIX,hulu.jp,Streaming
+DOMAIN-SUFFIX,happyon.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hjholdings.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,hulu.jp,PROXY,force-remote-dns
 # > ITV
-USER-AGENT,ITV_Player*,Streaming
-DOMAIN-SUFFIX,itv.com,Streaming
-DOMAIN-SUFFIX,itvstatic.com,Streaming
-DOMAIN,itvpnpmobile-a.akamaihd.net,Streaming
+USER-AGENT,ITV_Player*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,itv.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,itvstatic.com,PROXY,force-remote-dns
+DOMAIN,itvpnpmobile-a.akamaihd.net,PROXY,force-remote-dns
 # > KKTV
-USER-AGENT,KKTV*,Streaming
-USER-AGENT,com.kktv.ios.kktv*,Streaming
-DOMAIN-SUFFIX,kktv.com.tw,Streaming
-DOMAIN-SUFFIX,kktv.me,Streaming
-DOMAIN,kktv-theater.kk.stream,Streaming
+USER-AGENT,KKTV*,PROXY,force-remote-dns
+USER-AGENT,com.kktv.ios.kktv*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kktv.com.tw,PROXY,force-remote-dns
+DOMAIN-SUFFIX,kktv.me,PROXY,force-remote-dns
+DOMAIN,kktv-theater.kk.stream,PROXY,force-remote-dns
 # > LINE TV
-USER-AGENT,LINE%20TV*,Streaming
-DOMAIN-SUFFIX,linetv.tw,Streaming
-DOMAIN,d3c7rimkq79yfu.cloudfront.net,Streaming
+USER-AGENT,LINE%20TV*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,linetv.tw,PROXY,force-remote-dns
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,PROXY,force-remote-dns
 # > LiTV
-DOMAIN-SUFFIX,litv.tv,Streaming
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,Streaming
+DOMAIN-SUFFIX,litv.tv,PROXY,force-remote-dns
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,PROXY,force-remote-dns
 # > My5
-USER-AGENT,My5*,Streaming
-DOMAIN-SUFFIX,channel5.com,Streaming
-DOMAIN-SUFFIX,my5.tv,Streaming
-DOMAIN,d349g9zuie06uo.cloudfront.net,Streaming
+USER-AGENT,My5*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,channel5.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,my5.tv,PROXY,force-remote-dns
+DOMAIN,d349g9zuie06uo.cloudfront.net,PROXY,force-remote-dns
 # > myTV SUPER
-USER-AGENT,mytv*,Streaming
-DOMAIN-SUFFIX,mytvsuper.com,Streaming
-DOMAIN-SUFFIX,tvb.com,Streaming
+USER-AGENT,mytv*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,mytvsuper.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tvb.com,PROXY,force-remote-dns
 # > Netflix
-USER-AGENT,Argo*,Streaming
-DOMAIN-SUFFIX,netflix.com,Streaming
-DOMAIN-SUFFIX,netflix.net,Streaming
-DOMAIN-SUFFIX,nflxext.com,Streaming
-DOMAIN-SUFFIX,nflximg.com,Streaming
-DOMAIN-SUFFIX,nflximg.net,Streaming
-DOMAIN-SUFFIX,nflxso.net,Streaming
-DOMAIN-SUFFIX,nflxvideo.net,Streaming
-DOMAIN-SUFFIX,netflixdnstest0.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest1.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest2.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest3.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest4.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest5.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest6.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest7.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest8.com,Streaming
-DOMAIN-SUFFIX,netflixdnstest9.com,Streaming
-IP-CIDR,23.246.0.0/18,Streaming
-IP-CIDR,37.77.184.0/21,Streaming
-IP-CIDR,45.57.0.0/17,Streaming
-IP-CIDR,64.120.128.0/17,Streaming
-IP-CIDR,66.197.128.0/17,Streaming
-IP-CIDR,108.175.32.0/20,Streaming
-IP-CIDR,192.173.64.0/18,Streaming
-IP-CIDR,198.38.96.0/19,Streaming
-IP-CIDR,198.45.48.0/20,Streaming
-IP-CIDR,34.210.42.111/32,Streaming
-IP-CIDR,52.89.124.203/32,Streaming
-IP-CIDR,54.148.37.5/32,Streaming
+USER-AGENT,Argo*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflix.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflix.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nflxext.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nflximg.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nflximg.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nflxso.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nflxvideo.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest0.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest1.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest2.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest3.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest4.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest5.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest6.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest7.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest8.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,netflixdnstest9.com,PROXY,force-remote-dns
+IP-CIDR,23.246.0.0/18,PROXY
+IP-CIDR,37.77.184.0/21,PROXY
+IP-CIDR,45.57.0.0/17,PROXY
+IP-CIDR,64.120.128.0/17,PROXY
+IP-CIDR,66.197.128.0/17,PROXY
+IP-CIDR,108.175.32.0/20,PROXY
+IP-CIDR,192.173.64.0/18,PROXY
+IP-CIDR,198.38.96.0/19,PROXY
+IP-CIDR,198.45.48.0/20,PROXY
+IP-CIDR,34.210.42.111/32,PROXY
+IP-CIDR,52.89.124.203/32,PROXY
+IP-CIDR,54.148.37.5/32,PROXY
 # > niconico
-USER-AGENT,Niconico*,Streaming
-DOMAIN-SUFFIX,dmc.nico,Streaming
-DOMAIN-SUFFIX,nicovideo.jp,Streaming
-DOMAIN-SUFFIX,nimg.jp,Streaming
-DOMAIN-SUFFIX,socdm.com,Streaming
+USER-AGENT,Niconico*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,dmc.nico,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nicovideo.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nimg.jp,PROXY,force-remote-dns
+DOMAIN-SUFFIX,socdm.com,PROXY,force-remote-dns
 # > Now E
-DOMAIN-SUFFIX,nowe.com,Streaming
-DOMAIN-SUFFIX,nowestatic.com,Streaming
+DOMAIN-SUFFIX,nowe.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,nowestatic.com,PROXY,force-remote-dns
 # > PBS
-USER-AGENT,PBS*,Streaming
-DOMAIN-SUFFIX,pbs.org,Streaming
+USER-AGENT,PBS*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pbs.org,PROXY,force-remote-dns
 # > Pornhub
-DOMAIN-SUFFIX,phncdn.com,Streaming
-DOMAIN-SUFFIX,phprcdn.com,Streaming
-DOMAIN-SUFFIX,pornhub.com,Streaming
-DOMAIN-SUFFIX,pornhubpremium.com,Streaming
+DOMAIN-SUFFIX,phncdn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,phprcdn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pornhub.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,pornhubpremium.com,PROXY,force-remote-dns
 # > 台湾好
-USER-AGENT,TaiwanGood*,Streaming
-DOMAIN-SUFFIX,skyking.com.tw,Streaming
-DOMAIN,hamifans.emome.net,Streaming
+USER-AGENT,TaiwanGood*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,skyking.com.tw,PROXY,force-remote-dns
+DOMAIN,hamifans.emome.net,PROXY,force-remote-dns
+# > TikTok
+USER-AGENT,TikTok*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,byteoversea.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ibytedtos.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ipstatp.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,muscdn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,musical.ly,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tiktok.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tik-tokapi.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,tiktokv.com,PROXY,force-remote-dns
+DOMAIN-KEYWORD,-tiktokcdn-com,PROXY,force-remote-dns
 # > Twitch
-DOMAIN-SUFFIX,jtvnw.net,Streaming
-DOMAIN-SUFFIX,ttvnw.net,Streaming
-DOMAIN-SUFFIX,twitch.tv,Streaming
-DOMAIN-SUFFIX,twitchcdn.net,Streaming
+DOMAIN-SUFFIX,jtvnw.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,ttvnw.net,PROXY,force-remote-dns
+DOMAIN-SUFFIX,twitch.tv,PROXY,force-remote-dns
+DOMAIN-SUFFIX,twitchcdn.net,PROXY,force-remote-dns
 # > ViuTV
-USER-AGENT,Viu*,Streaming
-DOMAIN-SUFFIX,viu.com,Streaming
-DOMAIN-SUFFIX,viu.tv,Streaming
-DOMAIN,api.viu.now.com,Streaming
-DOMAIN,d1k2us671qcoau.cloudfront.net,Streaming
-DOMAIN,d2anahhhmp1ffz.cloudfront.net,Streaming
-DOMAIN,dfp6rglgjqszk.cloudfront.net,Streaming
+USER-AGENT,Viu*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,viu.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,viu.tv,PROXY,force-remote-dns
+DOMAIN,api.viu.now.com,PROXY,force-remote-dns
+DOMAIN,d1k2us671qcoau.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,PROXY,force-remote-dns
+DOMAIN,dfp6rglgjqszk.cloudfront.net,PROXY,force-remote-dns
 # > YouTube
-USER-AGENT,com.google.ios.youtube*,Streaming
-USER-AGENT,YouTube*,Streaming
-DOMAIN-SUFFIX,googlevideo.com,Streaming
-DOMAIN-SUFFIX,youtube.com,Streaming
-DOMAIN,youtubei.googleapis.com,Streaming
+USER-AGENT,com.google.ios.youtube*,PROXY,force-remote-dns
+USER-AGENT,YouTube*,PROXY,force-remote-dns
+DOMAIN-SUFFIX,googlevideo.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,PROXY,force-remote-dns
+DOMAIN,youtubei.googleapis.com,PROXY,force-remote-dns
