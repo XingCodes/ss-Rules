@@ -96,6 +96,7 @@ DOMAIN-SUFFIX,udache.com,DIRECT
 # > Douyu
 DOMAIN-SUFFIX,douyu.com,DIRECT
 DOMAIN-SUFFIX,douyu.tv,DIRECT
+DOMAIN-SUFFIX,douyuscdn.com,DIRECT
 DOMAIN-SUFFIX,douyutv.com,DIRECT
 # > Eleme
 DOMAIN-SUFFIX,ele.me,DIRECT

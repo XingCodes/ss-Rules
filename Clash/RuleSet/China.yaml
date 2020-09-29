@@ -96,6 +96,7 @@ payload:
   # > Douyu
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
+  - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
   # > Eleme
   - DOMAIN-SUFFIX,ele.me
@@ -315,7 +316,6 @@ payload:
   - DOMAIN-SUFFIX,yhdm.tv
   - DOMAIN-SUFFIX,youkutv.cc
   # > Other
-  - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
