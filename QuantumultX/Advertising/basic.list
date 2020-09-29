@@ -1,15 +1,13 @@
 # https://fx1999.github.io/ss-Rules/QuantumultX/Advertising/basic.list
 # Advertising
 # > General
-DOMAIN-KEYWORD,adjust,REJECT
 DOMAIN-KEYWORD,adservi,REJECT
 DOMAIN-KEYWORD,adserver,REJECT
-DOMAIN-KEYWORD,advert,REJECT
-DOMAIN-KEYWORD,adsystem,REJECT
-DOMAIN-KEYWORD,guanggao,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 
 DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
 DOMAIN-SUFFIX,nexage.com,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
 DOMAIN-SUFFIX,rubiconproject.com,REJECT
