@@ -180,6 +180,3 @@ DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 # > Youtube
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
-# > Zhihu
-DOMAIN,appcloud2.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
