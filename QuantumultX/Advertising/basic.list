@@ -183,4 +183,3 @@ DOMAIN,ads.youtube.com,REJECT
 # > Zhihu
 DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
-IP-CIDR,118.89.204.198/32,REJECT
