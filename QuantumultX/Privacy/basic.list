@@ -1,4 +1,4 @@
-# https://fx1999.github.io/ss-Rules/QuantumultX/Privacy/basic.list
+# https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Privacy/basic.list
 # Privacy
 DOMAIN-SUFFIX,actionteaser.ru,REJECT
 DOMAIN-SUFFIX,addnow.com,REJECT
