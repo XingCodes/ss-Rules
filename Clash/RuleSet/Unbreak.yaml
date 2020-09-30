@@ -12,7 +12,6 @@ payload:
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
-  - IP-CIDR,17.0.0.0/8,no-resolve
   # > Google
   - DOMAIN,dl.google.com
   - DOMAIN,fonts.googleapis.com
