@@ -5,6 +5,8 @@ DOMAIN-KEYWORD,adservi,REJECT
 DOMAIN-KEYWORD,adserver,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 
+DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
+DOMAIN-SUFFIX,ad.daum.net,REJECT
 DOMAIN-SUFFIX,ad.video.51togic.com,REJECT
 DOMAIN-SUFFIX,adchina.com,REJECT
 DOMAIN-SUFFIX,adcloud.net,REJECT
@@ -14,6 +16,7 @@ DOMAIN-SUFFIX,adjust.io,REJECT
 DOMAIN-SUFFIX,admaster.com.cn,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 DOMAIN-SUFFIX,advertising.com,REJECT
+DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN-SUFFIX,criteo.com,REJECT
@@ -53,9 +56,12 @@ DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,flurry.cachefly.net,REJECT
-# Alibaba
+# > Alibaba
 DOMAIN,tunion-api.m.taobao.com,REJECT
-# Baidu
+# > AMap
+DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
+# > Baidu
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN,afd.baidu.com,REJECT
@@ -64,7 +70,7 @@ DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
-# Google
+# > Google
 DOMAIN-SUFFIX,advgoogle.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,doubleclickbygoogle.com,REJECT
@@ -77,13 +83,57 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleanalytcs.com,REJECT
 DOMAIN-SUFFIX,fcmatch.google.com,REJECT
-# iQiyi
+# > happycast
+DOMAIN,ad.hpplay.cn,REJECT
+DOMAIN,adc.hpplay.cn,REJECT
+DOMAIN,adcdn.hpplay.cn,REJECT
+DOMAIN,adeng.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
+DOMAIN,rpt.hpplay.cn,REJECT
+# > HunanTV
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,log.hunantv.com,REJECT
+DOMAIN-SUFFIX,v2.hunantv.com,REJECT
+# > iQiyi
 DOMAIN,t7z.cupid.iqiyi.com,REJECT
 IP-CIDR,101.227.97.240/32,REJECT
 IP-CIDR,101.227.200.11/32,REJECT
 IP-CIDR,101.227.200.28/32,REJECT
 IP-CIDR,124.192.153.42/32,REJECT
-# Tencent
+# > NetEase
+DOMAIN-SUFFIX,dsp.youdao.com,REJECT
+DOMAIN-SUFFIX,union.youdao.com,REJECT
+DOMAIN,ad.bn.netease.com,REJECT
+DOMAIN,ad.yixin.im,REJECT
+DOMAIN,admusicpic.music.126.net,REJECT
+DOMAIN,gorgon.youdao.com,REJECT
+DOMAIN,iad.g.163.com,REJECT
+DOMAIN,iadmat.nosdn.127.net,REJECT
+DOMAIN,iadmusicmat.music.126.net,REJECT
+DOMAIN,iadmusicmatvideo.music.126.net,REJECT
+DOMAIN,impservice.dictapp.youdao.com,REJECT
+DOMAIN,impservice.youdao.com,REJECT
+DOMAIN,n.3g.163.com,REJECT
+DOMAIN,nex.163.com,REJECT
+DOMAIN,yt-adp.nosdn.127.net,REJECT
+DOMAIN,yt-adp.ws.126.net,REJECT
+# > Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
+DOMAIN,adimg.uve.weibo.com,REJECT
+DOMAIN,adimg.vue.weibo.com,REJECT
+DOMAIN,u1.img.mobile.sina.cn,REJECT
+DOMAIN,sax.sina.com.cn,REJECT
+DOMAIN,saxs.sina.com.cn,REJECT
+DOMAIN,saxn.sina.com.cn,REJECT
+# > SOHU
+DOMAIN-SUFFIX,ad.sohu.com,REJECT
+DOMAIN-SUFFIX,ads.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN,imp.optaim.com,REJECT
+DOMAIN,v2.reachmax.cn,REJECT
+DOMAIN,hui.sohu.com,REJECT
+# > Tencent
 DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
@@ -97,7 +147,7 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-# Tencent Music
+# > Tencent Music
 DOMAIN,ad.tencentmusic.com,REJECT
 DOMAIN,adserviceretry.kugou.com,REJECT
 DOMAIN,ads.service.kugou.com,REJECT
@@ -108,11 +158,11 @@ DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
-# Twitter
+# > Twitter
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
 DOMAIN-SUFFIX,ads.twitter.com,REJECT
-# Yahoo
+# > Yahoo
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
 DOMAIN-SUFFIX,advertising.yahoo.com,REJECT
@@ -122,11 +172,15 @@ DOMAIN,ads.auctions.yahoo.com,REJECT
 DOMAIN,ads.finance.yahoo.com,REJECT
 DOMAIN,ads.yahoo.com,REJECT
 DOMAIN,ads.yahoo.de,REJECT
-# Youku
+# > Youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
 DOMAIN,pl.cp31.ott.cibntv.net,REJECT
-# Youtube
+# > Youtube
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
+# > Zhihu
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
