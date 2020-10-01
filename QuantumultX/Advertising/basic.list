@@ -1,9 +1,7 @@
 # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Advertising/basic.list
 # Advertising
 # > General
-DOMAIN-KEYWORD,adservi,REJECT
-DOMAIN-KEYWORD,adserver,REJECT
-DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-KEYWORD,adservice,REJECT
 
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
