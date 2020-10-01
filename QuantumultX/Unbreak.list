@@ -1,5 +1,9 @@
 # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Unbreak.list
 # > General
+USER-AGENT,archero*,DIRECT
+USER-AGENT,coffeecorp*,DIRECT
+USER-AGENT,Coffee%20Corp*,DIRECT
+USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 # > Apple
