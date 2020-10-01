@@ -6,7 +6,6 @@ payload:
   # > Apple
   - DOMAIN-SUFFIX,appleiphonecell.com
   - DOMAIN-SUFFIX,apple-mapkit.com
-  - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN,apps.apple.com
