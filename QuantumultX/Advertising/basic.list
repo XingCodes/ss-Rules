@@ -301,9 +301,7 @@ DOMAIN,nsclick.baidu.com,REJECT
 # > Google
 DOMAIN-SUFFIX,advgoogle.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
-DOMAIN-SUFFIX,doubleclick.ctfile.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,doubleclick.tv002.com,REJECT
 DOMAIN-SUFFIX,doubleclickbygoogle.com,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
