@@ -305,12 +305,10 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,doubleclickbygoogle.com,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
-DOMAIN-SUFFIX,googlecommerce.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN-SUFFIX,google-analytics.com,REJECT
-DOMAIN-SUFFIX,googleanalytcs.com,REJECT
 DOMAIN-SUFFIX,fcmatch.google.com,REJECT
 # > happycast
 DOMAIN,ad.hpplay.cn,REJECT
@@ -387,10 +385,32 @@ DOMAIN,kgmobilestatbak.kugou.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 DOMAIN,mobilead.kuwo.cn,REJECT
 DOMAIN,rich.kuwo.cn,REJECT
+# > The Paper
+DOMAIN,admonitor.thepaper.cn,REJECT
+DOMAIN,adpai.thepaper.cn,REJECT
+DOMAIN,imgadpai.thepaper.cn,REJECT
+# > Thunder
+DOMAIN,adsp.xunlei.com,REJECT
+DOMAIN,etl.xlmc.sandai.net,REJECT
+# > TongHuaShun
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
 # > Twitter
 DOMAIN-SUFFIX,ads-twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
 DOMAIN-SUFFIX,ads.twitter.com,REJECT
+# > Xiaohongshu
+DOMAIN,ads-img-qc.xhscdn.com,REJECT
+DOMAIN,ads-video-qc.xhscdn.com,REJECT
+DOMAIN,t-ads.xiaohongshu.com,REJECT
+# > Ximalaya
+DOMAIN,ad.ximalaya.com,REJECT
+DOMAIN,adbs.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adsebs.ximalaya.com,REJECT
 # > Yahoo
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
 DOMAIN-SUFFIX,adspecs.yahoo.com,REJECT
