@@ -1,15 +1,8 @@
 # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/ChinaComplete.list
 # > Alibaba
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
-DOMAIN-SUFFIX,aliyun.com,DIRECT
-DOMAIN-SUFFIX,aliyuncs.com,DIRECT
 # > Bilibili
-DOMAIN-SUFFIX,acg.tv,DIRECT
-DOMAIN-SUFFIX,b23.tv,DIRECT
-DOMAIN-SUFFIX,biligame.com,DIRECT
-DOMAIN-SUFFIX,biligame.net,DIRECT
 DOMAIN-SUFFIX,bilivideo.com,DIRECT
-DOMAIN-SUFFIX,im9.com,DIRECT
 # > Bytedance
 DOMAIN-SUFFIX,amemv.com,DIRECT
 DOMAIN-SUFFIX,bytecdn.com,DIRECT
@@ -20,11 +13,7 @@ DOMAIN-SUFFIX,douyu.tv,DIRECT
 DOMAIN-SUFFIX,douyuscdn.com,DIRECT
 DOMAIN-SUFFIX,douyutv.com,DIRECT
 # > Huya
-DOMAIN-SUFFIX,huyaos.com,DIRECT
 DOMAIN-SUFFIX,msstatic.com,DIRECT
-# > iQiyi
-DOMAIN-SUFFIX,71edge.com,DIRECT
-DOMAIN-SUFFIX,qy.net,DIRECT
 # > Tencent
 DOMAIN-SUFFIX,qcloud.com,DIRECT
 DOMAIN-SUFFIX,smtcdns.com,DIRECT
@@ -34,8 +23,5 @@ DOMAIN-SUFFIX,wechatpay.com,DIRECT
 # > other
 DOMAIN-SUFFIX,2q10.com,DIRECT
 DOMAIN-SUFFIX,360buy.com,DIRECT
-DOMAIN-SUFFIX,cibntv.net,DIRECT
-DOMAIN-SUFFIX,dianping.com,DIRECT
 DOMAIN-SUFFIX,hbooker.com,DIRECT
-DOMAIN-SUFFIX,hunantv.com,DIRECT
 DOMAIN-SUFFIX,miaopai.com,DIRECT

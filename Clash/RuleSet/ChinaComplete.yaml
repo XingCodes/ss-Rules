@@ -2,15 +2,8 @@ payload:
   # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/ChinaComplete.list
   # > Alibaba
   - DOMAIN-SUFFIX,alipayobjects.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,aliyuncs.com
   # > Bilibili
-  - DOMAIN-SUFFIX,acg.tv
-  - DOMAIN-SUFFIX,b23.tv
-  - DOMAIN-SUFFIX,biligame.com
-  - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,bilivideo.com
-  - DOMAIN-SUFFIX,im9.com
   # > Bytedance
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,bytecdn.com
@@ -21,11 +14,7 @@ payload:
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
   # > Huya
-  - DOMAIN-SUFFIX,huyaos.com
   - DOMAIN-SUFFIX,msstatic.com
-  # > iQiyi
-  - DOMAIN-SUFFIX,71edge.com
-  - DOMAIN-SUFFIX,qy.net
   # > Tencent
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,smtcdns.com
@@ -35,8 +24,5 @@ payload:
   # > other
   - DOMAIN-SUFFIX,2q10.com
   - DOMAIN-SUFFIX,360buy.com
-  - DOMAIN-SUFFIX,cibntv.net
-  - DOMAIN-SUFFIX,dianping.com
   - DOMAIN-SUFFIX,hbooker.com
-  - DOMAIN-SUFFIX,hunantv.com
   - DOMAIN-SUFFIX,miaopai.com
