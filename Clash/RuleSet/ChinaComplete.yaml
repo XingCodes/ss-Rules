@@ -1,11 +1,9 @@
 payload:
   # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/ChinaComplete.list
   # > Alibaba
-  - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncs.com
-  - DOMAIN-SUFFIX,tbcache.com
   # > Bilibili
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,b23.tv
@@ -22,11 +20,6 @@ payload:
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
-  # > Hupu
-  - DOMAIN-SUFFIX,hupu.com
-  - DOMAIN-SUFFIX,hupucdn.com
-  - DOMAIN-SUFFIX,hoopchina.com
-  - DOMAIN-SUFFIX,liangle.com
   # > Huya
   - DOMAIN-SUFFIX,huyaos.com
   - DOMAIN-SUFFIX,msstatic.com
@@ -34,32 +27,16 @@ payload:
   - DOMAIN-SUFFIX,71edge.com
   - DOMAIN-SUFFIX,qy.net
   # > Tencent
-  - DOMAIN-SUFFIX,qq.zone
+  - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,smtcdns.com
   - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tencentpay.com
-  - DOMAIN-SUFFIX,tgovcloud.com
-  - DOMAIN-SUFFIX,twsapp.com
   - DOMAIN-SUFFIX,wechatpay.com
-  - DOMAIN-SUFFIX,weixinbridge.com
-  - DOMAIN-SUFFIX,weiyun.com
   # > other
   - DOMAIN-SUFFIX,2q10.com
   - DOMAIN-SUFFIX,360buy.com
-  - DOMAIN-SUFFIX,95588.com
-  - DOMAIN-SUFFIX,appcloudcdn.com
-  - DOMAIN-SUFFIX,bankofchina.com
+  - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,dianping.com
-  - DOMAIN-SUFFIX,ele.me
-  - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,hbooker.com
   - DOMAIN-SUFFIX,hunantv.com
-  - DOMAIN-SUFFIX,kugou.com
-  - DOMAIN-SUFFIX,kunlun-cdn.com
   - DOMAIN-SUFFIX,miaopai.com
-  - DOMAIN-SUFFIX,smtcdn.com
-  - DOMAIN-SUFFIX,xunlei.com
-  - DOMAIN-SUFFIX,youdao.com
-  - DOMAIN-SUFFIX,yuewen.com
-  - DOMAIN-SUFFIX,zhaopin.com
