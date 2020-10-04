@@ -6,15 +6,6 @@ USER-AGENT,Coffee%20Corp*,DIRECT
 USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
-# > Apple
-DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
-DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-DOMAIN-SUFFIX,crashlytics.com,DIRECT
-DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN,apps.apple.com,DIRECT
-DOMAIN,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,smoot.apple.com,DIRECT
-IP-CIDR,17.0.0.0/8,DIRECT
 # > Google
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,fonts.googleapis.com,DIRECT
@@ -26,8 +17,6 @@ DOMAIN,analytics.strava.com,DIRECT
 # > Tencent
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
-IP-CIDR,119.28.0.0/16,DIRECT
-IP-CIDR,182.254.0.0/16,DIRECT
 # > Umeng
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
