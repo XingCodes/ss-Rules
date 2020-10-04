@@ -1,16 +1,12 @@
 payload:
   # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Unbreak.list
   # > General
+  # USER-AGENT,archero*
+  # USER-AGENT,coffeecorp*
+  # USER-AGENT,Coffee%20Corp*
+  # USER-AGENT,restaurant-mobile*
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
-  # > Apple
-  - DOMAIN-SUFFIX,appleiphonecell.com
-  - DOMAIN-SUFFIX,apple-mapkit.com
-  - DOMAIN-SUFFIX,crashlytics.com
-  - DOMAIN-SUFFIX,itunes.com
-  - DOMAIN,apps.apple.com
-  - DOMAIN,itunes.apple.com
-  - DOMAIN-SUFFIX,smoot.apple.com
   # > Google
   - DOMAIN,dl.google.com
   - DOMAIN,fonts.googleapis.com
@@ -22,5 +18,6 @@ payload:
   # > Tencent
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
-  - IP-CIDR,119.28.0.0/16,no-resolve
-  - IP-CIDR,182.254.0.0/16,no-resolve
+  # > Umeng
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
