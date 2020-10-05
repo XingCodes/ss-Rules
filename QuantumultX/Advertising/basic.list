@@ -266,6 +266,7 @@ DOMAIN,adui.tg.meitu.com,REJECT
 DOMAIN,adv.bandi.so,REJECT
 DOMAIN,adv.ettoday.net,REJECT
 DOMAIN,api.adnet.mob.com,REJECT
+DOMAIN,api-ad.kajicam.com,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,appnext-a.akamaihd.net,REJECT
 DOMAIN,appnext.hs.llnwd.net,REJECT
@@ -274,6 +275,7 @@ DOMAIN,g.ousns.net,REJECT
 DOMAIN,ggs.myzaker.com,REJECT
 DOMAIN,ggx.cmvideo.cn,REJECT
 DOMAIN,itad.linetv.tw,REJECT
+DOMAIN,ma-adx.ctrip.com,REJECT
 DOMAIN,mads.suning.com,REJECT
 DOMAIN,mobileads.msn.com,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
@@ -349,6 +351,17 @@ DOMAIN,minfo.wps.cn,REJECT
 DOMAIN,mobad.ijinshan.com,REJECT
 DOMAIN,ups.ksmobile.net,REJECT
 DOMAIN,ws.ksmobile.net,REJECT
+# > MI
+DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
+DOMAIN,adv.sec.intl.miui.com,REJECT
+DOMAIN,adv.sec.miui.com,REJECT
+# > MojiWeather
+DOMAIN,ad.api.moji.com,REJECT
+DOMAIN,adlaunch.moji.com,REJECT
+DOMAIN,ads.mojicdn.com,REJECT
+DOMAIN,v1.log.moji.com,REJECT
 # > NetEase
 DOMAIN-SUFFIX,dsp.youdao.com,REJECT
 DOMAIN-SUFFIX,union.youdao.com,REJECT
@@ -366,17 +379,6 @@ DOMAIN,n.3g.163.com,REJECT
 DOMAIN,nex.163.com,REJECT
 DOMAIN,yt-adp.nosdn.127.net,REJECT
 DOMAIN,yt-adp.ws.126.net,REJECT
-# > MI
-DOMAIN-SUFFIX,ad.intl.xiaomi.com,REJECT
-DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
-DOMAIN-SUFFIX,admob.xiaomi.com,REJECT
-DOMAIN,adv.sec.intl.miui.com,REJECT
-DOMAIN,adv.sec.miui.com,REJECT
-# > MojiWeather
-DOMAIN,ad.api.moji.com,REJECT
-DOMAIN,adlaunch.moji.com,REJECT
-DOMAIN,ads.mojicdn.com,REJECT
-DOMAIN,v1.log.moji.com,REJECT
 # > Sina
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN,adimg.uve.weibo.com,REJECT
@@ -462,7 +464,6 @@ DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 # > Zhihu
-DOMAIN,appcloud2.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
