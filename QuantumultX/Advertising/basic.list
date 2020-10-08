@@ -78,11 +78,6 @@ DOMAIN,duclick.baidu.com,REJECT
 DOMAIN,mobads.baidu.com,REJECT
 DOMAIN,mobads-logs.baidu.com,REJECT
 DOMAIN,nsclick.baidu.com,REJECT
-# > ChinaTelecom
-DOMAIN,ad.21cn.com,REJECT
-DOMAIN,ad.k.21cn.com,REJECT
-DOMAIN,admarket.21cn.com,REJECT
-DOMAIN,adshows.21cn.com,REJECT
 # > Google
 DOMAIN-SUFFIX,ads.google.com,REJECT
 DOMAIN-SUFFIX,doubleclick.com,REJECT
