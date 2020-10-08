@@ -1,5 +1,5 @@
 payload:
-  # https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Unbreak.list
+  # https://raw.githubusercontent.com/fx1999/ss-Rules/master/Clash/RuleSet/Unbreak.yaml
   # > General
   # USER-AGENT,archero*
   # USER-AGENT,coffeecorp*
@@ -8,6 +8,8 @@ payload:
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
   # > Google
+  - DOMAIN,dl.google.com
+  - DOMAIN,fonts.googleapis.com
   - DOMAIN,safebrowsing.googleapis.com
   # > Strava
   - DOMAIN,analytics.strava.com
