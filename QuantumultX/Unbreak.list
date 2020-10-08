@@ -7,10 +7,6 @@ USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
 # > Google
-DOMAIN,dl.google.com,DIRECT
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
-DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,safebrowsing.googleapis.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
