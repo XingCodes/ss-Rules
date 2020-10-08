@@ -8,10 +8,6 @@ payload:
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
   # > Google
-  - DOMAIN,dl.google.com
-  - DOMAIN,fonts.googleapis.com
-  - DOMAIN,fonts.gstatic.com
-  - DOMAIN,mtalk.google.com
   - DOMAIN,safebrowsing.googleapis.com
   # > Strava
   - DOMAIN,analytics.strava.com
