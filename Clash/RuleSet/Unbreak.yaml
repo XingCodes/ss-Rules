@@ -1,5 +1,4 @@
 payload:
-  # https://raw.githubusercontent.com/fx1999/ss-Rules/master/Clash/RuleSet/Unbreak.yaml
   # > General
   # USER-AGENT,archero*
   # USER-AGENT,coffeecorp*
@@ -7,10 +6,18 @@ payload:
   # USER-AGENT,restaurant-mobile*
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
+  # > Alibaba
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,sycm.mmstat.com
   # > Google
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,clientservices.googleapis.com
   - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN,translate.googleapis.com
+  - DOMAIN,update.googleapis.com
   # > Strava
   - DOMAIN,analytics.strava.com
   # > Tencent

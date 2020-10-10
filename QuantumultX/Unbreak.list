@@ -1,4 +1,3 @@
-# https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Unbreak.list
 # > General
 USER-AGENT,archero*,DIRECT
 USER-AGENT,coffeecorp*,DIRECT
@@ -6,10 +5,18 @@ USER-AGENT,Coffee%20Corp*,DIRECT
 USER-AGENT,restaurant-mobile*,DIRECT
 DOMAIN,app.adjust.com,DIRECT
 DOMAIN,bdtj.tagtic.cn,DIRECT
+# > Alibaba
+DOMAIN,log.mmstat.com,DIRECT
+DOMAIN,sycm.mmstat.com,DIRECT
 # > Google
+DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+DOMAIN,clientservices.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
+DOMAIN,dl.l.google.com,DIRECT
 DOMAIN,fonts.googleapis.com,DIRECT
 DOMAIN,safebrowsing.googleapis.com,DIRECT
+DOMAIN,translate.googleapis.com,DIRECT
+DOMAIN,update.googleapis.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Tencent

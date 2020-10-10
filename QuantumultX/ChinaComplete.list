@@ -1,4 +1,3 @@
-# https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/ChinaComplete.list
 # > Alibaba
 DOMAIN-SUFFIX,alipayobjects.com,DIRECT
 # > Bilibili
