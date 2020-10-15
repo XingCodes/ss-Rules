@@ -1,4 +1,4 @@
-# https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/Privacy/basic.list
+# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Privacy/basic.list
 # Privacy
 DOMAIN,track.tiara.daum.net,REJECT
 DOMAIN,track.tiara.kakao.com,REJECT

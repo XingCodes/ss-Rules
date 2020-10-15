@@ -1,4 +1,4 @@
-# https://raw.githubusercontent.com/fx1999/ss-Rules/master/QuantumultX/China.list
+# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/China.list
 # > 360
 DOMAIN-SUFFIX,qhres.com,DIRECT
 DOMAIN-SUFFIX,qhimg.com,DIRECT
