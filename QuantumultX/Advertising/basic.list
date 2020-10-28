@@ -202,4 +202,7 @@ DOMAIN,pl.cp31.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN,ads.youtube.com,REJECT
 # > Zhihu
+USER-AGENT,AVOS*,REJECT
+DOMAIN,appcloud2.zhihu.com,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
