@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,facebook.cn,PROXY
 DOMAIN-SUFFIX,gmail.com,PROXY
 DOMAIN-SUFFIX,instagram.cn,PROXY
 # Apple Music
-DOMAIN-SUFFIX,s3-external-1.amazonaws.com,PROXY
 DOMAIN-SUFFIX,blobstore.apple.com,PROXY
+DOMAIN-SUFFIX,s3-external-1.amazonaws.com,PROXY
 DOMAIN,genius-download-2.itunes.apple.com,PROXY
 DOMAIN,ld-8.itunes.apple.com,PROXY
