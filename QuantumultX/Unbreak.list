@@ -13,14 +13,16 @@ DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
 DOMAIN,clientservices.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
 DOMAIN,safebrowsing.googleapis.com,DIRECT
 DOMAIN,translate.googleapis.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
+# >> Google Fonts API
+DOMAIN,fonts.googleapis.com,DIRECT
+DOMAIN,fonts.gstatic.com,DIRECT
 # > Strava
 DOMAIN,analytics.strava.com,DIRECT
 # > Tencent
+DOMAIN,fairplay.l.qq.com,DIRECT
 DOMAIN,livew.l.qq.com,DIRECT
 DOMAIN,vd.l.qq.com,DIRECT
 # > Umeng
