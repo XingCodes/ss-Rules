@@ -20,6 +20,4 @@ DOMAIN-SUFFIX,smtcdns.net,DIRECT
 DOMAIN-SUFFIX,tencentpay.com,DIRECT
 DOMAIN-SUFFIX,wechatpay.com,DIRECT
 # > other
-DOMAIN-SUFFIX,2q10.com,DIRECT
-DOMAIN-SUFFIX,hbooker.com,DIRECT
 DOMAIN-SUFFIX,miaopai.com,DIRECT
