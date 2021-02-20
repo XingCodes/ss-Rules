@@ -3,18 +3,13 @@ DOMAIN-SUFFIX,alipayobjects.com,DIRECT
 # > Bilibili
 DOMAIN-SUFFIX,bilivideo.com,DIRECT
 # > Bytedance
-DOMAIN-SUFFIX,amemv.com,DIRECT
 DOMAIN-SUFFIX,bytecdn.com,DIRECT
 DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN-SUFFIX,ixigua.com,DIRECT
 # > Douyu
-DOMAIN-SUFFIX,douyu.tv,DIRECT
 DOMAIN-SUFFIX,douyuscdn.com,DIRECT
-DOMAIN-SUFFIX,douyutv.com,DIRECT
 # > Huya
 DOMAIN-SUFFIX,msstatic.com,DIRECT
 # > Tencent
-DOMAIN-SUFFIX,qcloud.com,DIRECT
 DOMAIN-SUFFIX,smtcdns.com,DIRECT
 DOMAIN-SUFFIX,smtcdns.net,DIRECT
 DOMAIN-SUFFIX,tencentpay.com,DIRECT
