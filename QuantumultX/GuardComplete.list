@@ -8,6 +8,12 @@ DOMAIN,ads.wakamoment.tk,REJECT
 # > Douban
 DOMAIN-SUFFIX,erebor.douban.com,REJECT
 
+# (J)
+# > Jpush
+DOMAIN-SUFFIX,jiguang.cn,REJECT
+DOMAIN-SUFFIX,jpush.cn,REJECT
+DOMAIN-SUFFIX,jpush.io,REJECT
+
 # (R)
 # > 热云
 DOMAIN-SUFFIX,trackingio.com,REJECT
