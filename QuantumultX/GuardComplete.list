@@ -3,6 +3,15 @@
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
+DOMAIN,aoovqo8t.stats.lncld.net,REJECT
+
+# (B)
+# > ByteDance
+DOMAIN-SUFFIX,dm.toutiao.com,REJECT
+DOMAIN-SUFFIX,sf1-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com,REJECT
 
 # (D)
 # > Douban
@@ -25,6 +34,8 @@ DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN-SUFFIX,dp.im.weibo.cn,REJECT
 DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
+# > Sohu
+DOMAIN-SUFFIX,pv.sohu.com,REJECT
 
 # (U)
 # > Umeng
