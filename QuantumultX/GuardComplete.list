@@ -1,0 +1,41 @@
+# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardComplete.list
+# Guard补充
+DOMAIN,ad-channel.wikawika.xyz,REJECT
+DOMAIN,ad-display.wikawika.xyz,REJECT
+DOMAIN,ads.wakamoment.tk,REJECT
+
+# (D)
+# > Douban
+DOMAIN-SUFFIX,erebor.douban.com,REJECT
+
+# (R)
+# > 热云
+DOMAIN-SUFFIX,trackingio.com,REJECT
+
+# (S)
+# > Sina
+DOMAIN-SUFFIX,ad.us.sinaimg.cn,REJECT
+DOMAIN-SUFFIX,biz.weibo.com,REJECT
+DOMAIN-SUFFIX,dp.im.weibo.cn,REJECT
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
+
+# (U)
+# > Umeng
+DOMAIN-SUFFIX,umeng.co,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,umsns.com,REJECT
+DOMAIN-SUFFIX,umtrack.com,REJECT
+DOMAIN-SUFFIX,umtrack0.com,REJECT
+DOMAIN-SUFFIX,umtrack1.com,REJECT
+DOMAIN-SUFFIX,umtrack2.com,REJECT
+
+# (X)
+# > 讯飞
+DOMAIN-SUFFIX,voiceads.cn,REJECT
+DOMAIN-SUFFIX,voiceads.com,REJECT
+
+# (Z)
+# > Zhihu
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT

@@ -21,6 +21,10 @@ DOMAIN,log-hl-ipv6.snssdk.com,REJECT
 DOMAIN,log-lq.snssdk.com,REJECT
 DOMAIN,log-va.tiktokv.com,REJECT
 DOMAIN,xlog.snssdk.com,REJECT
+# > Google
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+DOMAIN,safebrowsing.googleapis.com,REJECT
 # > MI
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
 DOMAIN,data.mistat.xiaomi.com,REJECT
@@ -30,3 +34,13 @@ DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,btrace.video.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT
+DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+# > Umeng
+DOMAIN-SUFFIX,umeng.co,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN-SUFFIX,umsns.com,REJECT
+DOMAIN-SUFFIX,umtrack.com,REJECT
+DOMAIN-SUFFIX,umtrack0.com,REJECT
+DOMAIN-SUFFIX,umtrack1.com,REJECT
+DOMAIN-SUFFIX,umtrack2.com,REJECT
