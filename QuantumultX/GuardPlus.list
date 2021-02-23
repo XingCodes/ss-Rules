@@ -43,6 +43,7 @@ DOMAIN,at2.doubanio.com,REJECT
 
 # (G)
 # > Google
+DOMAIN,app-measurement.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
 
@@ -51,6 +52,13 @@ DOMAIN,firebaselogging.googleapis.com,REJECT
 DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
+
+# (N)
+# > Netease
+DOMAIN,dsp-click.youdao.com,REJECT
+DOMAIN,dsp-impr.youdao.com,REJECT
+DOMAIN,dsp-impr2.youdao.com,REJECT
+DOMAIN,dsp.youdao.com,REJECT
 
 # (R)
 # > 热云
