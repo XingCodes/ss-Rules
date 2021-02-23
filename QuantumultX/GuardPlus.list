@@ -24,8 +24,10 @@ DOMAIN,ip.taobao.com,REJECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,dm.bytedance.com,REJECT
+DOMAIN,extlog.snssdk.com,REJECT
 DOMAIN,ic.snssdk.com,REJECT
 DOMAIN,log.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN,mon.snssdk.com,REJECT
 DOMAIN,sf1-be-pack.pglstatp-toutiao.com,REJECT
 DOMAIN,sf3-be-pack.pglstatp-toutiao.com,REJECT
