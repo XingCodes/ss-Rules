@@ -10,6 +10,8 @@ DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,amdc.m.taobao.com,REJECT
+DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
 
