@@ -91,6 +91,8 @@ DOMAIN,pv.sohu.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
+DOMAIN-SUFFIX,game.html5.qq.com,REJECT
+DOMAIN-SUFFIX,jpush.html5.qq.com,REJECT
 DOMAIN,aeventlog.beacon.qq.com,REJECT
 DOMAIN,astrategy.beacon.qq.com,REJECT
 DOMAIN,eventlog.beacon.qq.com,REJECT
@@ -98,7 +100,30 @@ DOMAIN,otheve.beacon.qq.com,REJECT
 DOMAIN,strategy.beacon.qq.com,REJECT
 DOMAIN,jrlt.beacon.qq.com,REJECT
 DOMAIN,cmshow.gtimg.cn,REJECT
+DOMAIN,discuz.gtimg.cn,REJECT
+DOMAIN,huatuo.weiyun.com,REJECT
 DOMAIN,soup.v.qq.com,REJECT
+DOMAIN,tianshu-x.gtimg.cn,REJECT
+DOMAIN,agstat.html5.qq.com,REJECT
+DOMAIN,appchannel.html5.qq.com,REJECT
+DOMAIN,jsapi.html5.qq.com,REJECT
+DOMAIN,life.html5.qq.com,REJECT
+DOMAIN,qbreport.html5.qq.com,REJECT
+DOMAIN,recmd.html5.qq.com,REJECT
+DOMAIN,vp.html5.qq.com,REJECT
+DOMAIN,adsense.html5.qq.com,REJECT
+DOMAIN,mqqad.html5.qq.com,REJECT
+DOMAIN,novelsns.html5.qq.com,REJECT
+DOMAIN,pvstat.html5.qq.com,REJECT
+DOMAIN,tpush.html5.qq.com,REJECT
+DOMAIN,newlog.reader.qq.com,REJECT
+DOMAIN,applog.reader.qq.com,REJECT
+DOMAIN,mqqadr.reader.qq.com,REJECT
+DOMAIN,log6.reader.qq.com,REJECT
+DOMAIN,wxsnsad.tc.qq.com,REJECT
+DOMAIN,wxsnsdy.tc.qq.com,REJECT
+DOMAIN,wxsnsdy.video.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
 
 # (U)
 # > Umeng
