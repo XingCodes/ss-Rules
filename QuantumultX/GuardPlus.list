@@ -17,6 +17,7 @@ DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
+DOMAIN,ip.taobao.com,REJECT
 
 # (B)
 # > ByteDance
@@ -76,6 +77,7 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 # > Sina
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
+DOMAIN,dns.weibo.cn,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
