@@ -17,6 +17,7 @@ DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
 
 # (B)
 # > ByteDance
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN,dm.toutiao.com,REJECT
 DOMAIN,dm.bytedance.com,REJECT
 DOMAIN,ic.snssdk.com,REJECT
@@ -27,7 +28,6 @@ DOMAIN,sf3-be-pack.pglstatp-toutiao.com,REJECT
 DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 DOMAIN,sf6-be-pack.pglstatp-toutiao.com,REJECT
 DOMAIN,toutiao-frontier.snssdk.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 
 # (C)
 # > ChinaMobile
@@ -58,13 +58,25 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 
 # (S)
 # > Sina
+DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,biz.weibo.com,REJECT
 # > Sohu
 DOMAIN,pv.sohu.com,REJECT
+
+# (T)
+# > Tencent
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN-SUFFIX,mdt.qq.com,REJECT
+DOMAIN,aeventlog.beacon.qq.com,REJECT
+DOMAIN,astrategy.beacon.qq.com,REJECT
+DOMAIN,eventlog.beacon.qq.com,REJECT
+DOMAIN,otheve.beacon.qq.com,REJECT
+DOMAIN,strategy.beacon.qq.com,REJECT
+DOMAIN,jrlt.beacon.qq.com,REJECT
+DOMAIN,cmshow.gtimg.cn,REJECT
 
 # (U)
 # > Umeng
