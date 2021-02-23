@@ -41,6 +41,11 @@ DOMAIN,ad.doubanio.com,REJECT
 DOMAIN,at1.doubanio.com,REJECT
 DOMAIN,at2.doubanio.com,REJECT
 
+# (G)
+# > Google
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN,firebaselogging.googleapis.com,REJECT
+
 # (J)
 # > Jpush
 DOMAIN-SUFFIX,jiguang.cn,REJECT
