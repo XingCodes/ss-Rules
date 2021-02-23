@@ -58,7 +58,6 @@ DOMAIN-SUFFIX,jpush.io,REJECT
 DOMAIN,dsp-click.youdao.com,REJECT
 DOMAIN,dsp-impr.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
-DOMAIN,dsp.youdao.com,REJECT
 
 # (R)
 # > 热云
