@@ -1,10 +1,12 @@
 # https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardPlus.list
 # 广告去除和隐私保护 增强版
+DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,aoovqo8t.stats.lncld.net,REJECT
+DOMAIN,fp-it.fengkongcloud.com,REJECT
 
 # (A)
 # > Alibaba
@@ -47,6 +49,12 @@ DOMAIN,at2.doubanio.com,REJECT
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,firebaselogging-pa.googleapis.com,REJECT
 DOMAIN,firebaselogging.googleapis.com,REJECT
+
+# (H)
+# > Hupu
+DOMAIN,cc.dace.hupu.com,REJECT
+DOMAIN,ccdace.hupu.com,REJECT
+DOMAIN,shence.hupu.com,REJECT
 
 # (J)
 # > Jpush
