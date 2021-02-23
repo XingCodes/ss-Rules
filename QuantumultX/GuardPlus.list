@@ -10,14 +10,23 @@ DOMAIN,fp-it.fengkongcloud.com,REJECT
 
 # (A)
 # > Alibaba
+DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adash.man.aliyuncs.com,REJECT
+DOMAIN,adash-c.ut.taobao.com,REJECT
 DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,adashx4yt.m.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,amdc.m.taobao.com,REJECT
+DOMAIN,baichuan-sdk.alicdn.com,REJECT
+DOMAIN,baichuan-sdk.taobao.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
 DOMAIN,ip.taobao.com,REJECT
+DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
+DOMAIN,nbsdk-baichuan.taobao.com,REJECT
 
 # (B)
 # > ByteDance
@@ -93,6 +102,7 @@ DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN-SUFFIX,game.html5.qq.com,REJECT
 DOMAIN-SUFFIX,jpush.html5.qq.com,REJECT
+DOMAIN-SUFFIX,huatuo.qq.com,REJECT
 DOMAIN,aeventlog.beacon.qq.com,REJECT
 DOMAIN,astrategy.beacon.qq.com,REJECT
 DOMAIN,eventlog.beacon.qq.com,REJECT
@@ -123,9 +133,14 @@ DOMAIN,log6.reader.qq.com,REJECT
 DOMAIN,wxsnsad.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
 DOMAIN,as.weixin.qq.com,REJECT
 DOMAIN,szlong.weixin.qq.com,REJECT
+DOMAIN,pingfore.qq.com,REJECT
+DOMAIN,pingjs.qq.com,REJECT
+DOMAIN,pingma.qq.com,REJECT
+DOMAIN,pingtas.qq.com,REJECT
+DOMAIN,pingtcss.qq.com,REJECT
+DOMAIN,tajs.qq.com,REJECT
 
 # (U)
 # > Umeng
