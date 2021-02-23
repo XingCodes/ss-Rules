@@ -124,6 +124,8 @@ DOMAIN,wxsnsad.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
 DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+DOMAIN,as.weixin.qq.com,REJECT
+DOMAIN,szlong.weixin.qq.com,REJECT
 
 # (U)
 # > Umeng
