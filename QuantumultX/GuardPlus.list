@@ -1,5 +1,5 @@
-# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardComplete.list
-# Guard补充
+# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardPlus.list
+# 广告去除和隐私保护 增强版
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
@@ -77,6 +77,7 @@ DOMAIN,otheve.beacon.qq.com,REJECT
 DOMAIN,strategy.beacon.qq.com,REJECT
 DOMAIN,jrlt.beacon.qq.com,REJECT
 DOMAIN,cmshow.gtimg.cn,REJECT
+DOMAIN,soup.v.qq.com,REJECT
 
 # (U)
 # > Umeng
