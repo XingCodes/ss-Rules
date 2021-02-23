@@ -74,6 +74,10 @@ DOMAIN-SUFFIX,jiguang.cn,REJECT
 DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 
+# (M)
+# > Meituan
+DOMAIN-SUFFIX,report.meituan.com,REJECT
+
 # (N)
 # > Netease
 DOMAIN,dsp-click.youdao.com,REJECT
