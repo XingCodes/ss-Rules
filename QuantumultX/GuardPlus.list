@@ -1,5 +1,6 @@
 # https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardPlus.list
 # 广告去除和隐私保护 增强版
+DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
@@ -75,6 +76,7 @@ DOMAIN,pv.sohu.com,REJECT
 
 # (T)
 # > Tencent
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
 DOMAIN,aeventlog.beacon.qq.com,REJECT
