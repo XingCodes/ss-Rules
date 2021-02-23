@@ -5,17 +5,39 @@ DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 
+# (A)
+# > Alibaba
+DOMAIN,adash.m.taobao.com,REJECT
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashx.m.taobao.com,REJECT
+DOMAIN,h-adashx.ut.taobao.com,REJECT
+DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
+
 # (B)
 # > ByteDance
-DOMAIN-SUFFIX,dm.toutiao.com,REJECT
-DOMAIN-SUFFIX,sf1-be-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,sf3-be-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN,dm.bytedance.com,REJECT
+DOMAIN,ic.snssdk.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,mon.snssdk.com,REJECT
+DOMAIN,sf1-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN,sf3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN,sf6-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN,toutiao-frontier.snssdk.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+
+# (C)
+# > ChinaMobile
+DOMAIN,log1.cmpassport.com,REJECT
+DOMAIN,log.cmpassport.com,REJECT
 
 # (D)
 # > Douban
-DOMAIN-SUFFIX,erebor.douban.com,REJECT
+DOMAIN,erebor.douban.com,REJECT
+DOMAIN,ad.doubanio.com,REJECT
+DOMAIN,at1.doubanio.com,REJECT
+DOMAIN,at2.doubanio.com,REJECT
 
 # (J)
 # > Jpush
@@ -29,13 +51,13 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 
 # (S)
 # > Sina
-DOMAIN-SUFFIX,ad.us.sinaimg.cn,REJECT
+DOMAIN,ad.us.sinaimg.cn,REJECT
+DOMAIN,dp.im.weibo.cn,REJECT
+DOMAIN,sdkapp.uve.weibo.com,REJECT
+DOMAIN,wbapp.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
-DOMAIN-SUFFIX,dp.im.weibo.cn,REJECT
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
 # > Sohu
-DOMAIN-SUFFIX,pv.sohu.com,REJECT
+DOMAIN,pv.sohu.com,REJECT
 
 # (U)
 # > Umeng
@@ -55,4 +77,4 @@ DOMAIN-SUFFIX,voiceads.com,REJECT
 
 # (Z)
 # > Zhihu
-DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,REJECT
+DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
