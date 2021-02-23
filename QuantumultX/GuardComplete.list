@@ -84,4 +84,4 @@ DOMAIN-SUFFIX,voiceads.com,REJECT
 
 # (Z)
 # > Zhihu
-DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
+# DOMAIN,zhihu-web-analytics.zhihu.com,REJECT
