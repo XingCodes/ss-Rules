@@ -63,6 +63,7 @@ DOMAIN,at2.doubanio.com,REJECT
 # > Google
 DOMAIN-SUFFIX,clientservices.googleapis.com,REJECT
 DOMAIN-SUFFIX,clouderrorreporting.googleapis.com,REJECT
+DOMAIN-SUFFIX,doubleclick.com,REJECT
 DOMAIN-SUFFIX,fcmatch.google.com,REJECT
 DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
