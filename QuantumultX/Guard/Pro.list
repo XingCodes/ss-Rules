@@ -4,6 +4,10 @@ DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,gridsum.com,REJECT
 DOMAIN-SUFFIX,gridsumdissector.cn,REJECT
 DOMAIN-SUFFIX,gridsumdissector.com,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,irs01.net,REJECT
+DOMAIN-SUFFIX,irs03.com,REJECT
+DOMAIN-SUFFIX,irs09.com,REJECT
 DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
@@ -13,6 +17,9 @@ DOMAIN,fp-it.fengkongcloud.com,REJECT
 
 # (A)
 # > Alibaba
+DOMAIN-SUFFIX,aliapp.org,REJECT
+DOMAIN-SUFFIX,strip.alicdn.com,REJECT
+DOMAIN-SUFFIX,unidesk.alicdn.com,REJECT
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
 DOMAIN,adash.man.aliyuncs.com,REJECT
@@ -24,12 +31,18 @@ DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.taobao.com,REJECT
+DOMAIN,dorangesource.alicdn.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
 DOMAIN,ip.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
+DOMAIN,pss.alicdn.com,REJECT
+DOMAIN,sjarvis.taobao.com,REJECT
+DOMAIN,tce.alicdn.com,REJECT
+DOMAIN,wgo.mmstat.com,REJECT
+DOMAIN,zconfig.alibabausercontent.com,REJECT
 
 # (B)
 # > ByteDance
@@ -88,14 +101,22 @@ DOMAIN-SUFFIX,jpush.cn,REJECT
 DOMAIN-SUFFIX,jpush.io,REJECT
 
 # (M)
+# > MaiMai
+DOMAIN,track.mm.taou.com,REJECT
 # > Meituan
 DOMAIN-SUFFIX,report.meituan.com,REJECT
 
 # (N)
 # > Netease
+DOMAIN,ac.dun.163yun.com,REJECT
+DOMAIN,clientlog.music.163.com,REJECT
+DOMAIN,clientlog3.music.163.com,REJECT
+DOMAIN,crash.163.com,REJECT
 DOMAIN,dsp-click.youdao.com,REJECT
 DOMAIN,dsp-impr.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
+DOMAIN,mam.netease.com,REJECT
+DOMAIN,mam6.netease.com,REJECT
 
 # (R)
 # > 热云
@@ -105,7 +126,6 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 # > Sina
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
-DOMAIN,dns.weibo.cn,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
@@ -118,6 +138,7 @@ DOMAIN-SUFFIX,bsrv.qq.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,game.html5.qq.com,REJECT
 DOMAIN-SUFFIX,huatuo.qq.com,REJECT
+DOMAIN-SUFFIX,huatuo.weiyun.com,REJECT
 DOMAIN-SUFFIX,jpush.html5.qq.com,REJECT
 DOMAIN-SUFFIX,market.m.qq.com,REJECT
 DOMAIN-SUFFIX,mdt.qq.com,REJECT
@@ -136,7 +157,7 @@ DOMAIN,bksoup.v.qq.com,REJECT
 DOMAIN,cmshow.gtimg.cn,REJECT
 DOMAIN,discuz.gtimg.cn,REJECT
 DOMAIN,eventlog.beacon.qq.com,REJECT
-DOMAIN,huatuo.weiyun.com,REJECT
+DOMAIN,fusion.qq.com,REJECT
 DOMAIN,jrlt.beacon.qq.com,REJECT
 DOMAIN,jsapi.html5.qq.com,REJECT
 DOMAIN,life.html5.qq.com,REJECT
@@ -166,6 +187,12 @@ DOMAIN,wxsnsdy.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.video.qq.com,REJECT
 
 # (U)
+# > UC
+DOMAIN-SUFFIX,m.uczzd.cn,REJECT
+DOMAIN-SUFFIX,uczzd.com,REJECT
+DOMAIN-SUFFIX,uczzd.net,REJECT
+DOMAIN,iflow.uczzd.cn,REJECT
+DOMAIN,iflow.uczzd.com.cn,REJECT
 # > Umeng
 DOMAIN-SUFFIX,umeng.co,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
