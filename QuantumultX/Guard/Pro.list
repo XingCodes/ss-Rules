@@ -1,4 +1,4 @@
-# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardPlus.list
+# https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Guard/Pro.list
 # 广告去除和隐私保护 增强版
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,gridsum.com,REJECT
@@ -61,9 +61,18 @@ DOMAIN,at2.doubanio.com,REJECT
 
 # (G)
 # > Google
+DOMAIN-SUFFIX,clientservices.googleapis.com,REJECT
+DOMAIN-SUFFIX,clouderrorreporting.googleapis.com,REJECT
+DOMAIN-SUFFIX,fcmatch.google.com,REJECT
+DOMAIN-SUFFIX,fcmatch.youtube.com,REJECT
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,firebaselogging.googleapis.com,REJECT
+DOMAIN-SUFFIX,footprints-pa.googleapis.com,REJECT
+DOMAIN-SUFFIX,googletrackmanager.com,REJECT
+DOMAIN-SUFFIX,googlevideoads.com,REJECT
+DOMAIN-SUFFIX,imasdk.googleapis.com,REJECT
+DOMAIN-SUFFIX,video-stats.video.google.com,REJECT
 DOMAIN,app-measurement.com,REJECT
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT
-DOMAIN,firebaselogging.googleapis.com,REJECT
 
 # (H)
 # > Hupu
