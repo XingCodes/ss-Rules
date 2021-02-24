@@ -31,14 +31,17 @@ DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.taobao.com,REJECT
+DOMAIN,cnzz.mmstat.com,REJECT
 DOMAIN,dorangesource.alicdn.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
+DOMAIN,gm.mmstat.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
 DOMAIN,ip.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
 DOMAIN,pss.alicdn.com,REJECT
+DOMAIN,res.mmstat.com,REJECT
 DOMAIN,sjarvis.taobao.com,REJECT
 DOMAIN,tce.alicdn.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
