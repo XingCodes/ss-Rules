@@ -159,6 +159,7 @@ DOMAIN,strategy.beacon.qq.com,REJECT
 DOMAIN,szlong.weixin.qq.com,REJECT
 DOMAIN,tianshu-x.gtimg.cn,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
+DOMAIN,unitelogreport.reader.qq.com,REJECT
 DOMAIN,vp.html5.qq.com,REJECT
 DOMAIN,wxsnsad.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
