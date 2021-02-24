@@ -115,6 +115,7 @@ DOMAIN,ac.dun.163yun.com,REJECT
 DOMAIN,clientlog.music.163.com,REJECT
 DOMAIN,clientlog3.music.163.com,REJECT
 DOMAIN,crash.163.com,REJECT
+DOMAIN,crashlytics.163.com,REJECT
 DOMAIN,dsp-click.youdao.com,REJECT
 DOMAIN,dsp-impr.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
