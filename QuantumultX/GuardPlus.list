@@ -1,6 +1,9 @@
 # https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GuardPlus.list
 # 广告去除和隐私保护 增强版
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,gridsum.com,REJECT
+DOMAIN-SUFFIX,gridsumdissector.cn,REJECT
+DOMAIN-SUFFIX,gridsumdissector.com,REJECT
 DOMAIN-SUFFIX,sentry.io,REJECT
 DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
