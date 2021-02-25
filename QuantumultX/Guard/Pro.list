@@ -59,7 +59,7 @@ DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,zconfig.alibabausercontent.com,REJECT
 
 # (B)
-# > Baidu
+# --- (Baidu) ---
 DOMAIN,ae.bdstatic.com,REJECT
 DOMAIN,baikebcs.bdimg.com,REJECT
 DOMAIN,ecma.bdimg.com,REJECT
@@ -74,6 +74,26 @@ DOMAIN,su.bdimg.com,REJECT
 DOMAIN,su.bdstatic.com,REJECT
 DOMAIN,ulog.imap.baidu.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
+# > iQiyi
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
+DOMAIN,act.vip.iqiyi.com,REJECT
+DOMAIN,cards-css.iqiyi.com,REJECT
+DOMAIN,cm.passport.iqiyi.com,REJECT
+DOMAIN,dx-cards-css.iqiyi.com,REJECT
+DOMAIN,emoticon-sns.iqiyi.com,REJECT
+DOMAIN,emoticon.sns.iqiyi.com,REJECT
+DOMAIN,feedback.qy.net,REJECT
+DOMAIN,cs-feige.iqiyi.com,REJECT
+DOMAIN,hotchat-im.iqiyi.com,REJECT
+DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,msg.qy.net,REJECT
+DOMAIN,msgv6.qy.net,REJECT
+DOMAIN,paopao.iqiyi.com,REJECT
+DOMAIN,paopao-monitor.iqiyi.com,REJECT
+DOMAIN,policy.video.iqiyi.com,REJECT
+DOMAIN,tracker.sns.iqiyi.com,REJECT
+# ------
 # > Bilibili
 DOMAIN,cm.bilibili.com,REJECT
 DOMAIN,dataflow.biliapi.com,REJECT
