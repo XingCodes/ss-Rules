@@ -2,6 +2,7 @@
 # 广告去除和隐私保护 增强版
 DOMAIN-SUFFIX,cloudflareinsights.com,REJECT
 DOMAIN-SUFFIX,ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,gridsum.com,REJECT
 DOMAIN-SUFFIX,gridsumdissector.cn,REJECT
 DOMAIN-SUFFIX,gridsumdissector.com,REJECT
@@ -18,8 +19,16 @@ DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dns.ximalaya.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
 
+# (0~9)
+# > 58
+DOMAIN,brandshow.58.com,REJECT
+DOMAIN,jing.58.com,REJECT
+DOMAIN,jumpluna.58.com,REJECT
+DOMAIN,news.58.com,REJECT
+DOMAIN,zzpush.58.com,REJECT
+
 # (A)
-# > Alibaba
+# --- (Alibaba) ---
 DOMAIN-SUFFIX,aliapp.org,REJECT
 DOMAIN-SUFFIX,all.cnzz.com.danuoyi.tbcache.com,REJECT
 DOMAIN-SUFFIX,strip.alicdn.com,REJECT
@@ -57,7 +66,9 @@ DOMAIN,tce.alicdn.com,REJECT
 DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,zconfig.alibabausercontent.com,REJECT
-
+# > AMap
+DOMAIN,logs.amap.com,REJECT
+# ------
 # (B)
 # --- (Baidu) ---
 DOMAIN-SUFFIX,cpro.tieba.baidu.com,REJECT
