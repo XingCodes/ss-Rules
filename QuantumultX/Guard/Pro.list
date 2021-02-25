@@ -17,10 +17,6 @@ DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dns.ximalaya.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
-DOMAIN,imdns.hpplay.cn,REJECT
-DOMAIN,list.z.qingting.fm,REJECT
-DOMAIN,sdkauth.hpplay.cn,REJECT
-DOMAIN,vipauth.hpplay.cn,REJECT
 
 # (A)
 # > Alibaba
@@ -163,6 +159,18 @@ DOMAIN-SUFFIX,video-stats.video.google.com,REJECT
 DOMAIN,app-measurement.com,REJECT
 
 # (H)
+# > happycast
+DOMAIN,conf.hpplay.cn,REJECT
+DOMAIN,fix.hpplay.cn,REJECT
+DOMAIN,gslb.hpplay.cn,REJECT
+DOMAIN,hotupgrade.hpplay.cn,REJECT
+DOMAIN,image.hpplay.cn,REJECT
+DOMAIN,imdns.hpplay.cn,REJECT
+DOMAIN,pin.hpplay.cn,REJECT
+DOMAIN,sdkauth.hpplay.cn,REJECT
+DOMAIN,sl.hpplay.cn,REJECT
+DOMAIN,tvapp.hpplay.cn,REJECT
+DOMAIN,vipauth.hpplay.cn,REJECT
 # > Hupu
 DOMAIN,cc.dace.hupu.com,REJECT
 DOMAIN,ccdace.hupu.com,REJECT
@@ -196,6 +204,15 @@ DOMAIN,dsp-impr.youdao.com,REJECT
 DOMAIN,dsp-impr2.youdao.com,REJECT
 DOMAIN,mam.netease.com,REJECT
 DOMAIN,mam6.netease.com,REJECT
+
+# (Q)
+# > Qingting FM
+DOMAIN,admgr.qingting.fm,REJECT
+DOMAIN,dload.qd.qingting.fm,REJECT
+DOMAIN,list.z.qingting.fm,REJECT
+DOMAIN,logger.qingting.fm,REJECT
+DOMAIN,s.qd.qingting.fm,REJECT
+DOMAIN,s.qd.qingtingfm.com,REJECT
 
 # (R)
 # > 热云
