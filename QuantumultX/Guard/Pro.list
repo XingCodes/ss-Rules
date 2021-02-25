@@ -49,6 +49,12 @@ DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,zconfig.alibabausercontent.com,REJECT
 
 # (B)
+# > Baidu
+DOMAIN,ae.bdstatic.com,REJECT
+DOMAIN,mipcache.bdstatic.com,REJECT
+DOMAIN,sofire.bdstatic.com,REJECT
+DOMAIN,su.bdstatic.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT
 # > ByteDance
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 DOMAIN,dm.toutiao.com,REJECT
@@ -136,6 +142,7 @@ DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
 # > Sohu
+DOMAIN,a1.itc.cn,REJECT
 DOMAIN,pv.sohu.com,REJECT
 
 # (T)
