@@ -6,6 +6,7 @@ HOST-SUFFIX,flurry.com,REJECT
 HOST-SUFFIX,gridsum.com,REJECT
 HOST-SUFFIX,gridsumdissector.cn,REJECT
 HOST-SUFFIX,gridsumdissector.com,REJECT
+HOST-SUFFIX,ip.tianqiapi.com,REJECT
 HOST-SUFFIX,irs01.com,REJECT
 HOST-SUFFIX,irs01.net,REJECT
 HOST-SUFFIX,irs03.com,REJECT
@@ -35,6 +36,7 @@ HOST,zzpush.58.com,REJECT
 # --- (Alibaba) ---
 HOST-SUFFIX,aliapp.org,REJECT
 HOST-SUFFIX,all.cnzz.com.danuoyi.tbcache.com,REJECT
+HOST-SUFFIX,count.taobao.com,REJECT
 HOST-SUFFIX,log.aliyuncs.com,REJECT
 HOST-SUFFIX,mmstat.com,REJECT
 HOST-SUFFIX,strip.alicdn.com,REJECT
@@ -51,6 +53,7 @@ HOST,baichuan-sdk.alicdn.com,REJECT
 HOST,baichuan-sdk.taobao.com,REJECT
 HOST,dorangesource.alicdn.com,REJECT
 HOST,eco.taobao.com,REJECT
+HOST,guide-acs.m.taobao.com,REJECT
 HOST,ip.taobao.com,REJECT
 HOST,nbsdk-baichuan.alicdn.com,REJECT
 HOST,nbsdk-baichuan.taobao.com,REJECT
@@ -61,6 +64,7 @@ HOST,tce.alicdn.com,REJECT
 HOST,zconfig.alibabausercontent.com,REJECT
 # > AMap
 HOST,dualstack-logs.amap.com,REJECT
+HOST,gaode-acs.m.taobao.com,REJECT
 HOST,logs.amap.com,REJECT
 # > ShenMa
 HOST,dns.m.sm.cn,REJECT
@@ -76,6 +80,7 @@ HOST-SUFFIX,uczzd.net,REJECT
 HOST,iflow.uczzd.cn,REJECT
 HOST,iflow.uczzd.com.cn,REJECT
 # ------
+
 # (B)
 # --- (Baidu) ---
 HOST-SUFFIX,cpro.tieba.baidu.com,REJECT
