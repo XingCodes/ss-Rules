@@ -13,6 +13,7 @@ DOMAIN,ad-channel.wikawika.xyz,REJECT
 DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,aoovqo8t.stats.lncld.net,REJECT
+DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
 
 # (A)
@@ -130,6 +131,7 @@ DOMAIN-SUFFIX,trackingio.com,REJECT
 # > Sina
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 DOMAIN,ad.us.sinaimg.cn,REJECT
+DOMAIN,dns.weibo.cn,REJECT
 DOMAIN,dp.im.weibo.cn,REJECT
 DOMAIN,sdkapp.uve.weibo.com,REJECT
 DOMAIN,wbapp.uve.weibo.com,REJECT
@@ -140,6 +142,8 @@ DOMAIN,pv.sohu.com,REJECT
 # > Tencent
 DOMAIN-SUFFIX,bsrv.qq.com,REJECT
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,fodder.qq.com,REJECT
+DOMAIN-SUFFIX,fodder.tc.qq.com,REJECT
 DOMAIN-SUFFIX,game.html5.qq.com,REJECT
 DOMAIN-SUFFIX,huatuo.qq.com,REJECT
 DOMAIN-SUFFIX,huatuo.weiyun.com,REJECT
@@ -150,6 +154,8 @@ DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN-SUFFIX,tajs.qq.com,REJECT
 DOMAIN-SUFFIX,tcss.qq.com,REJECT
 DOMAIN-SUFFIX,uu.qq.com,REJECT
+DOMAIN-SUFFIX,variety.tc.qq.com,REJECT
+DOMAIN-SUFFIX,video.dispatch.tc.qq.com,REJECT
 DOMAIN,adsense.html5.qq.com,REJECT
 DOMAIN,aeventlog.beacon.qq.com,REJECT
 DOMAIN,agstat.html5.qq.com,REJECT
@@ -185,6 +191,7 @@ DOMAIN,szlong.weixin.qq.com,REJECT
 DOMAIN,tianshu-x.gtimg.cn,REJECT
 DOMAIN,tpush.html5.qq.com,REJECT
 DOMAIN,unitelogreport.reader.qq.com,REJECT
+DOMAIN,vlive.qqvideo.tc.qq.com,REJECT
 DOMAIN,vp.html5.qq.com,REJECT
 DOMAIN,wxsnsad.tc.qq.com,REJECT
 DOMAIN,wxsnsdy.tc.qq.com,REJECT
