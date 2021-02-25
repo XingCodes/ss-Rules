@@ -61,9 +61,18 @@ DOMAIN,zconfig.alibabausercontent.com,REJECT
 # (B)
 # > Baidu
 DOMAIN,ae.bdstatic.com,REJECT
+DOMAIN,baikebcs.bdimg.com,REJECT
+DOMAIN,ecma.bdimg.com,REJECT
+DOMAIN,ecmb.bdimg.com,REJECT
+DOMAIN,ecmc.bdimg.com,REJECT
+DOMAIN,itsdata.map.baidu.com,REJECT
 DOMAIN,mipcache.bdstatic.com,REJECT
+DOMAIN,ms.bdimg.com,REJECT
+DOMAIN,pups.bdimg.com,REJECT
 DOMAIN,sofire.bdstatic.com,REJECT
+DOMAIN,su.bdimg.com,REJECT
 DOMAIN,su.bdstatic.com,REJECT
+DOMAIN,ulog.imap.baidu.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
 # > Bilibili
 DOMAIN,cm.bilibili.com,REJECT
