@@ -14,7 +14,10 @@ DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN,dig.bdurl.net,REJECT
+DOMAIN,dns.m.sm.cn,REJECT
+DOMAIN,dns.ximalaya.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
+DOMAIN,log.m.sm.cn,REJECT
 
 # (A)
 # > Alibaba
