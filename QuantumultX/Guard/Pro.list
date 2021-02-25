@@ -76,6 +76,7 @@ DOMAIN,ulog.imap.baidu.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
 # > iQiyi
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX,store.iqiyi.com,REJECT
 DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
 DOMAIN,act.vip.iqiyi.com,REJECT
 DOMAIN,cards-css.iqiyi.com,REJECT
@@ -87,8 +88,11 @@ DOMAIN,feedback.qy.net,REJECT
 DOMAIN,cs-feige.iqiyi.com,REJECT
 DOMAIN,hotchat-im.iqiyi.com,REJECT
 DOMAIN,ifacelog.iqiyi.com,REJECT
+DOMAIN,mbdlog.iqiyi.com,REJECT
+DOMAIN,msg.iqiyi.com,REJECT
 DOMAIN,msg.qy.net,REJECT
 DOMAIN,msgv6.qy.net,REJECT
+DOMAIN,nl-rcd.iqiyi.com,REJECT
 DOMAIN,paopao.iqiyi.com,REJECT
 DOMAIN,paopao-monitor.iqiyi.com,REJECT
 DOMAIN,policy.video.iqiyi.com,REJECT
