@@ -17,6 +17,10 @@ DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,dns.ximalaya.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
+DOMAIN,imdns.hpplay.cn,REJECT
+DOMAIN,list.z.qingting.fm,REJECT
+DOMAIN,sdkauth.hpplay.cn,REJECT
+DOMAIN,vipauth.hpplay.cn,REJECT
 
 # (A)
 # > Alibaba
@@ -71,8 +75,10 @@ DOMAIN,ecmc.bdimg.com,REJECT
 DOMAIN,dxp.baidu.com,REJECT
 DOMAIN,feed-image.baidu.com,REJECT
 DOMAIN,itsdata.map.baidu.com,REJECT
+DOMAIN,log.nuomi.com,REJECT
 DOMAIN,mipcache.bdstatic.com,REJECT
 DOMAIN,ms.bdimg.com,REJECT
+DOMAIN,nj.t.bcsp2p.baidu.com,REJECT
 DOMAIN,pimlog.baidu.com,REJECT
 DOMAIN,pups.bdimg.com,REJECT
 DOMAIN,sofire.baidu.com,REJECT
@@ -83,6 +89,7 @@ DOMAIN,tcbox.baidu.com,REJECT
 DOMAIN,tuisong.baidu.cn,REJECT
 DOMAIN,tuisong.baidu.com,REJECT
 DOMAIN,ulog.imap.baidu.com,REJECT
+DOMAIN,wkctj.baidu.com,REJECT
 DOMAIN,zz.bdstatic.com,REJECT
 # > iQiyi
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
