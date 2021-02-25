@@ -146,16 +146,29 @@ HOST,extlog.snssdk.com,REJECT
 HOST,ic.snssdk.com,REJECT
 HOST,log.snssdk.com,REJECT
 HOST,log-hl.snssdk.com,REJECT
+HOST,log15.byteoversea.com,REJECT
+HOST,log16.byteoversea.com,REJECT
 HOST,log3-misc-hl.amemv.com,REJECT
 HOST,log3-misc-lq.amemv.com,REJECT
 HOST,mcs.snssdk.com,REJECT
+HOST,mon.byteoversea.com,REJECT
 HOST,mon.snssdk.com,REJECT
+HOST,mon.tiktokv.com,REJECT
 HOST,mon-hl.snssdk.com,REJECT
+HOST,mon-va.byteoversea.com,REJECT
+HOST,mon-va.tiktokv.com,REJECT
+HOST,rtlog.byteoversea.com,REJECT
+HOST,rtlog.tiktokv.com,REJECT
 HOST,sf1-be-pack.pglstatp-toutiao.com,REJECT
 HOST,sf3-be-pack.pglstatp-toutiao.com,REJECT
 HOST,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 HOST,sf6-be-pack.pglstatp-toutiao.com,REJECT
 HOST,toutiao-frontier.snssdk.com,REJECT
+HOST,v16-ad.byteoversea.com,REJECT
+HOST,xlog-va.byteoversea.com,REJECT
+HOST,xlog-va.tiktokv.com,REJECT
+HOST,xlog.byteoversea.com,REJECT
+HOST,xlog.tiktokv.com,REJECT
 
 # (C)
 # > ChinaMobile
