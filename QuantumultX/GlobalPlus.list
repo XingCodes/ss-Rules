@@ -1,16 +1,16 @@
 # https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/GlobalPlus.list
 # 全球加速 增强版
-DOMAIN-KEYWORD,hentai,PROXY
+HOST-KEYWORD,hentai,PROXY
 
-DOMAIN-SUFFIX,facebook.cn,PROXY
-DOMAIN-SUFFIX,gmail.com,PROXY
-DOMAIN-SUFFIX,instagram.cn,PROXY
+HOST-SUFFIX,facebook.cn,PROXY
+HOST-SUFFIX,gmail.com,PROXY
+HOST-SUFFIX,instagram.cn,PROXY
 # Apple Music
-DOMAIN-SUFFIX,blobstore.apple.com,PROXY
-DOMAIN-SUFFIX,s3-external-1.amazonaws.com,PROXY
-DOMAIN,genius-download-2.itunes.apple.com,PROXY
-DOMAIN,ld-8.itunes.apple.com,PROXY
+HOST-SUFFIX,blobstore.apple.com,PROXY
+HOST-SUFFIX,s3-external-1.amazonaws.com,PROXY
+HOST,genius-download-2.itunes.apple.com,PROXY
+HOST,ld-8.itunes.apple.com,PROXY
 # PicaComic
-DOMAIN-SUFFIX,tipatipa.xyz,PROXY
-DOMAIN-SUFFIX,wakamoment.tk,PROXY
-DOMAIN-SUFFIX,wikawika.xyz,PROXY
+HOST-SUFFIX,tipatipa.xyz,PROXY
+HOST-SUFFIX,wakamoment.tk,PROXY
+HOST-SUFFIX,wikawika.xyz,PROXY
