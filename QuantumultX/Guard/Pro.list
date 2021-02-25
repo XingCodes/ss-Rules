@@ -14,14 +14,13 @@ DOMAIN,ad-display.wikawika.xyz,REJECT
 DOMAIN,ads.wakamoment.tk,REJECT
 DOMAIN,aoovqo8t.stats.lncld.net,REJECT
 DOMAIN,dig.bdurl.net,REJECT
-DOMAIN,dns.m.sm.cn,REJECT
 DOMAIN,dns.ximalaya.com,REJECT
 DOMAIN,fp-it.fengkongcloud.com,REJECT
-DOMAIN,log.m.sm.cn,REJECT
 
 # (A)
 # > Alibaba
 DOMAIN-SUFFIX,aliapp.org,REJECT
+DOMAIN-SUFFIX,all.cnzz.com.danuoyi.tbcache.com,REJECT
 DOMAIN-SUFFIX,strip.alicdn.com,REJECT
 DOMAIN-SUFFIX,unidesk.alicdn.com,REJECT
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
@@ -36,18 +35,25 @@ DOMAIN,amdc.m.taobao.com,REJECT
 DOMAIN,baichuan-sdk.alicdn.com,REJECT
 DOMAIN,baichuan-sdk.taobao.com,REJECT
 DOMAIN,cnzz.mmstat.com,REJECT
+DOMAIN,dns.m.sm.cn,REJECT
 DOMAIN,dorangesource.alicdn.com,REJECT
 DOMAIN,eco.taobao.com,REJECT
 DOMAIN,gm.mmstat.com,REJECT
 DOMAIN,h-adashx.ut.taobao.com,REJECT
 DOMAIN,h-adashx4yt.ut.taobao.com,REJECT
+DOMAIN,huichuan.sm.cn,REJECT
+DOMAIN,image.zzd.sm.cn,REJECT
 DOMAIN,ip.taobao.com,REJECT
+DOMAIN,log.m.sm.cn,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,nbsdk-baichuan.taobao.com,REJECT
+DOMAIN,proxy-mob-cld.alicdn.com,REJECT
 DOMAIN,pss.alicdn.com,REJECT
 DOMAIN,res.mmstat.com,REJECT
 DOMAIN,sjarvis.taobao.com,REJECT
+DOMAIN,sugs.m.sm.cn,REJECT
 DOMAIN,tce.alicdn.com,REJECT
+DOMAIN,video-ad.sm.cn,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,zconfig.alibabausercontent.com,REJECT
 
