@@ -242,6 +242,8 @@ HOST-SUFFIX,e.kuaishou.com,REJECT
 # > MaiMai
 HOST,track.mm.taou.com,REJECT
 # > Meituan
+HOST-SUFFIX,dreport.meituan.net,REJECT
+HOST-SUFFIX,hreport.meituan.com,REJECT
 HOST-SUFFIX,report.meituan.com,REJECT
 
 # (N)
