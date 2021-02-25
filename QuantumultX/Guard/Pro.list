@@ -53,7 +53,6 @@ HOST,baichuan-sdk.alicdn.com,REJECT
 HOST,baichuan-sdk.taobao.com,REJECT
 HOST,dorangesource.alicdn.com,REJECT
 HOST,eco.taobao.com,REJECT
-HOST,guide-acs.m.taobao.com,REJECT
 HOST,ip.taobao.com,REJECT
 HOST,nbsdk-baichuan.alicdn.com,REJECT
 HOST,nbsdk-baichuan.taobao.com,REJECT
