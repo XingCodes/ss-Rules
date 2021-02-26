@@ -160,6 +160,7 @@ HOST,mon.byteoversea.com,REJECT
 HOST,mon.snssdk.com,REJECT
 HOST,mon.tiktokv.com,REJECT
 HOST,mon.toutiaocloud.com,REJECT
+HOST,mon.toutiaocloud.net,REJECT
 HOST,mon-hl.snssdk.com,REJECT
 HOST,mon-va.byteoversea.com,REJECT
 HOST,mon-va.tiktokv.com,REJECT
