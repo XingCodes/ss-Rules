@@ -371,4 +371,5 @@ HOST-SUFFIX,voiceads.com,REJECT
 
 # (Z)
 # > Zhihu
+HOST-KEYWORD,118.89.204.198,REJECT
 HOST,zhihu-web-analytics.zhihu.com,REJECT
