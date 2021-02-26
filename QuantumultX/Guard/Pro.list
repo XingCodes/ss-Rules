@@ -244,6 +244,8 @@ HOST,track.mm.taou.com,REJECT
 HOST-SUFFIX,dreport.meituan.net,REJECT
 HOST-SUFFIX,hreport.meituan.com,REJECT
 HOST-SUFFIX,report.meituan.com,REJECT
+HOST,analytics.meituan.net,REJECT
+HOST,httpdns.meituan.con,REJECT
 
 # (N)
 # > Netease
