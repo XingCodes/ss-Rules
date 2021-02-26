@@ -18,6 +18,7 @@ HOST,ads.nytimes.com,REJECT
 HOST,ads.pinterest.com,REJECT
 HOST,ads.snapchat.com,REJECT
 HOST,ads.wakamoment.tk,REJECT
+HOST,analysis.tratao.com,REJECT
 HOST,aoovqo8t.stats.lncld.net,REJECT
 HOST,dig.bdurl.net,REJECT
 HOST,dns.ximalaya.com,REJECT
@@ -143,6 +144,7 @@ HOST,dataflow.biliapi.com,REJECT
 HOST,miniapp.bilibili.com,REJECT
 # > ByteDance
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+HOST,dig.zjurl.cn,REJECT
 HOST,dm.toutiao.com,REJECT
 HOST,dm.bytedance.com,REJECT
 HOST,extlog.snssdk.com,REJECT
@@ -157,6 +159,7 @@ HOST,mcs.snssdk.com,REJECT
 HOST,mon.byteoversea.com,REJECT
 HOST,mon.snssdk.com,REJECT
 HOST,mon.tiktokv.com,REJECT
+HOST,mon.toutiaocloud.com,REJECT
 HOST,mon-hl.snssdk.com,REJECT
 HOST,mon-va.byteoversea.com,REJECT
 HOST,mon-va.tiktokv.com,REJECT
