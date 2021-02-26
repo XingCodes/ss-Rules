@@ -44,7 +44,6 @@ HOST-SUFFIX,strip.alicdn.com,REJECT
 HOST-SUFFIX,unidesk.alicdn.com,REJECT
 HOST-SUFFIX,ut.taobao.com,REJECT
 HOST,acs4baichuan.m.taobao.com,REJECT
-HOST,acs.m.taobao.com,REJECT
 HOST,adash.m.taobao.com,REJECT
 HOST,adash.man.aliyuncs.com,REJECT
 HOST,adashx.m.taobao.com,REJECT
@@ -65,7 +64,6 @@ HOST,tce.alicdn.com,REJECT
 HOST,zconfig.alibabausercontent.com,REJECT
 # > AMap
 HOST,dualstack-logs.amap.com,REJECT
-HOST,gaode-acs.m.taobao.com,REJECT
 HOST,logs.amap.com,REJECT
 # > Eleme
 HOST,app-monitor.ele.me,REJECT
