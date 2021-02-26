@@ -56,7 +56,6 @@ HOST,eco.taobao.com,REJECT
 HOST,ip.taobao.com,REJECT
 HOST,nbsdk-baichuan.alicdn.com,REJECT
 HOST,nbsdk-baichuan.taobao.com,REJECT
-HOST,openacs.m.taobao.com,REJECT
 HOST,proxy-mob-cld.alicdn.com,REJECT
 HOST,pss.alicdn.com,REJECT
 HOST,sjarvis.taobao.com,REJECT
