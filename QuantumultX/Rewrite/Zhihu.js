@@ -5,17 +5,6 @@ let magicJS = MagicJS(scriptName, "INFO");
   let body = null;
   if (magicJS.isResponse){
     switch (true){
-      // 去除MCN信息
-      case /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
-        try{
-          let obj = JSON.parse(magicJS.response.body);
-          delete obj['mcn_user_info'];
-          body=JSON.stringify(obj);
-        }
-        catch(err){
-          magicJS.logError(`知乎去除MCN信息出现异常：${err}`);
-        }
-        break;
       // 推荐列表去除广告和视频
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try{
