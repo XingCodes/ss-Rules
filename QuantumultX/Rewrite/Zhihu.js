@@ -22,8 +22,7 @@ let magicJS = MagicJS(scriptName, "INFO");
           let obj = JSON.parse(magicJS.response.body);
           let data = obj['data'].filter((element) =>{
             let flag = !(
-              element['extra']['type'] === 'zvideo' 
-              || element.hasOwnProperty('ad') 
+              element.hasOwnProperty('ad') || (element.hasOwnProperty('extra') && element['extra']['type'] === 'zvideo') 
             );
             return flag;
           });
