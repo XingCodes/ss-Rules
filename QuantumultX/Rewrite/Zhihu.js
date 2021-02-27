@@ -5,6 +5,17 @@ let magicJS = MagicJS(scriptName, "INFO");
   let body = null;
   if (magicJS.isResponse){
     switch (true){
+      // 去除MCN信息
+      case /^https?:\/\/api\.zhihu\.com\/people\/((?!self).)*$/.test(magicJS.request.url):
+        try{
+          let obj = JSON.parse(magicJS.response.body);
+          delete obj['mcn_user_info'];
+          body=JSON.stringify(obj);
+        }
+        catch(err){
+          magicJS.logError(`知乎去除MCN信息出现异常：${err}`);
+        }
+        break;
       // 推荐去广告
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try{
@@ -23,23 +34,73 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
         }
         break;
-      // 去除预置关键字广告
-      case /^https?:\/\/api\.zhihu\.com\/search\/preset_words\?/.test(magicJS.request.url):
+      // 关注列表去广告
+      case /^https?:\/\/api\.zhihu\.com\/moments(\/|\?)?(recommend|action=|feed_type=)(?!\/people)/.test(magicJS.request.url):
         try{
-          if (!!magicJS.response.body){
-            magicJS.logDebug(`预置关键字返回：${magicJS.response.body}`);
-            let obj = JSON.parse(magicJS.response.body);
-            if (obj.hasOwnProperty('preset_words') && obj['preset_words']['words']){
-              let words = obj['preset_words']['words'].filter((element)=>{
-                return element['type'] !== 'ad';
-              })
-              obj['preset_words']['words'] = words;
-              body = JSON.stringify(obj);
+          let obj = JSON.parse(magicJS.response.body);
+          let data = [];
+          // 修正由于JS number类型精度问题，导致JSON.parse精度丢失，引起想法不存在的问题
+          const targetIdFix = (element)=>{
+            if (element['target_type'] == 'pin'){
+              target_id = element['target']['url'].match(/https?:\/\/www\.zhihu\.com\/pin\/(\d*)/)[1];
+              element['target']['id'] = target_id;
+              // 转发的想法处理
+              if (!!element['target']['origin_pin'] && element['target']['origin_pin'].hasOwnProperty('url')){
+                origin_target_id = element['target']['origin_pin']['url'].match(/https?:\/\/www\.zhihu\.com\/pin\/(\d*)/)[1];
+                element['target']['origin_pin']['id'] = origin_target_id;
+              }
+            }
+            // 动态折叠处理
+            else if (element['type'] == 'moments_group'){
+              let momentsGroupList = [];
+              for (let j=0;j<element['list'].length;j++){
+                momentsGroupList.push(targetIdFix(element['list'][j]));
+              }
+              element['list'] = momentsGroupList;
+            }
+            return element;
+          }
+          for (let i=0;i<obj['data'].length;i++){
+            let element = targetIdFix(obj['data'][i]);
+            if (!element['ad']){
+              data.push(element);
             }
           }
+          obj['data'] = data;
+          body=JSON.stringify(obj);
         }
         catch(err){
-          magicJS.logError(`知乎去除预置关键字广告出现异常：${err}`);
+          magicJS.logError(`知乎关注列表去广告出现异常：${err}`);
+        }
+        break;
+      // 去除推荐列表的视频
+      case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
+        try{
+          let obj = JSON.parse(magicJS.response.body);
+          let data = obj['data'].filter((element) =>{
+            let flag = !(
+              element['extra']['type'] === 'zvideo'
+            );
+            return flag;
+          });
+          obj['data'] = data;
+          body=JSON.stringify(obj);
+        }
+        catch(err){
+          magicJS.logError(`知乎推荐列表视频去除出现异常：${err}`);
+        }
+        break;
+      // 拦截官方账号推广消息
+      case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
+        try{
+          const sysmsg_blacklist = ['知乎小伙伴', '知乎视频', '知乎团队', '知乎礼券', '知乎读书会团队'];
+          let obj = JSON.parse(magicJS.response.body);
+          let data = obj['data'].filter((element) =>{return sysmsg_blacklist.indexOf(element['content']['title']) < 0})
+          obj['data'] = data;
+          body=JSON.stringify(obj);
+        }
+        catch (err){
+          magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
         }
         break;
     }
