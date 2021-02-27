@@ -16,13 +16,13 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎去除MCN信息出现异常：${err}`);
         }
         break;
-      // 推荐去广告
+      // 推荐列表去除广告和视频
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let data = obj['data'].filter((element) =>{
             let flag = !(
-              element['card_type'] === 'slot_event_card' 
+              element['extra']['type'] === 'zvideo' 
               || element.hasOwnProperty('ad') 
             );
             return flag;
@@ -71,23 +71,6 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         catch(err){
           magicJS.logError(`知乎关注列表去广告出现异常：${err}`);
-        }
-        break;
-      // 去除推荐列表的视频
-      case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
-        try{
-          let obj = JSON.parse(magicJS.response.body);
-          let data = obj['data'].filter((element) =>{
-            let flag = !(
-              element['extra']['type'] === 'zvideo'
-            );
-            return flag;
-          });
-          obj['data'] = data;
-          body=JSON.stringify(obj);
-        }
-        catch(err){
-          magicJS.logError(`知乎推荐列表视频去除出现异常：${err}`);
         }
         break;
       // 拦截官方账号推广消息
