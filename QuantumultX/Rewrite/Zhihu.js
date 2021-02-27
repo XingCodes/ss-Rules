@@ -17,23 +17,43 @@ let magicJS = MagicJS(scriptName, "INFO");
         }
         break;
       // 推荐去广告
+      // case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
+      //   try{
+      //     let obj = JSON.parse(magicJS.response.body);
+      //     let data = obj['data'].filter((element) =>{
+      //       let flag = !(
+      //         element['card_type'] === 'slot_event_card' 
+      //         || element.hasOwnProperty('ad') 
+      //         // || element['extra']['type'] === 'drama' 
+      //         // || element['extra']['type'] == 'zvideo'
+      //       );
+      //       try{
+      //         if (flag === true && 
+      //           element['common_card']['feed_content'].hasOwnProperty('source_line') && 
+      //           element['common_card']['feed_content']['source_line'].hasOwnProperty('elements')){
+      //             flag = false;
+      //         }
+      //       }
+      //       catch(err){}
+      //       return flag;
+      //     });
+      //     obj['data'] = data;
+      //     body=JSON.stringify(obj);
+      //   }
+      //   catch(err){
+      //     magicJS.logError(`知乎推荐列表去广告出现异常：${err}`);
+      //   }
+      //   break;
       case /^https:\/\/api\.zhihu\.com\/topstory\/recommend\?/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let data = obj['data'].filter((element) =>{
-            let flag = !(
+            let flag = (
               element['card_type'] === 'slot_event_card' 
-              || element.hasOwnProperty('ad') 
+              || element['id'].hasOwnProperty('AD') 
               // || element['extra']['type'] === 'drama' 
               // || element['extra']['type'] == 'zvideo'
             );
-            try{
-              if (flag === true && 
-                element['common_card']['feed_content'].hasOwnProperty('source_line') && 
-                element['common_card']['feed_content']['source_line'].hasOwnProperty('elements')){
-                  flag = false;
-              }
-            }
             catch(err){}
             return flag;
           });
