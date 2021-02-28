@@ -111,29 +111,6 @@ HOST,tuisong.baidu.com,REJECT
 HOST,ulog.imap.baidu.com,REJECT
 HOST,wkctj.baidu.com,REJECT
 HOST,zz.bdstatic.com,REJECT
-# > iQiyi
-HOST-SUFFIX,cupid.iqiyi.com,REJECT
-HOST-SUFFIX,store.iqiyi.com,REJECT
-HOST-SUFFIX,yuedu.iqiyi.com,REJECT
-HOST,act.vip.iqiyi.com,REJECT
-HOST,cards-css.iqiyi.com,REJECT
-HOST,cm.passport.iqiyi.com,REJECT
-HOST,dx-cards-css.iqiyi.com,REJECT
-HOST,emoticon-sns.iqiyi.com,REJECT
-HOST,emoticon.sns.iqiyi.com,REJECT
-HOST,feedback.qy.net,REJECT
-HOST,cs-feige.iqiyi.com,REJECT
-HOST,hotchat-im.iqiyi.com,REJECT
-HOST,ifacelog.iqiyi.com,REJECT
-HOST,mbdlog.iqiyi.com,REJECT
-HOST,msg.iqiyi.com,REJECT
-HOST,msg.qy.net,REJECT
-HOST,msgv6.qy.net,REJECT
-HOST,nl-rcd.iqiyi.com,REJECT
-HOST,paopao.iqiyi.com,REJECT
-HOST,paopao-monitor.iqiyi.com,REJECT
-HOST,policy.video.iqiyi.com,REJECT
-HOST,tracker.sns.iqiyi.com,REJECT
 # ------
 # > Bilibili
 HOST,cm.bilibili.com,REJECT
