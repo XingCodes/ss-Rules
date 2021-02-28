@@ -178,7 +178,6 @@ HOST-SUFFIX,privatestats.whatsapp.net,REJECT
 # (G)
 # > Google
 HOST-SUFFIX,ad-creatives-public.commondatastorage.googleapis.com,REJECT
-HOST-SUFFIX,clientservices.googleapis.com,REJECT
 HOST-SUFFIX,clouderrorreporting.googleapis.com,REJECT
 HOST-SUFFIX,crashlyticsreports-pa.googleapis.com,REJECT
 HOST-SUFFIX,doubleclick.com,REJECT
