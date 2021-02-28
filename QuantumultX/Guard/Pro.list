@@ -263,6 +263,8 @@ HOST-SUFFIX,biz.weibo.com,REJECT
 HOST,ad.us.sinaimg.cn,REJECT
 HOST,dns.weibo.cn,REJECT
 HOST,dp.im.weibo.cn,REJECT
+HOST,sdkapp.uve.weibo.com,REJECT
+HOST,wbapp.uve.weibo.com,REJECT
 # > Sohu
 HOST,a1.itc.cn,REJECT
 HOST,pv.sohu.com,REJECT
