@@ -11,8 +11,12 @@ let magicJS = MagicJS(scriptName, "INFO");
           let obj = JSON.parse(magicJS.response.body);
           let data = obj['data'].filter((element) =>{
             let flag = !(
-              element.hasOwnProperty('mblogtypename') && element['mblogtypename'] === '广告'
+              (element.hasOwnProperty('mblogtypename') && element['mblogtypename'] === '广告')
+              || (element.hasOwnProperty('content_auth_info_dark') && element['content_auth_info_dark']['content_auth_title'] === '广告')
             );
+            if (!flag) {
+              magicJS.logInfo('找到一个广告！')
+            }
             return flag;
           });
           obj['data'] = data;
