@@ -111,6 +111,8 @@ HOST,tuisong.baidu.com,REJECT
 HOST,ulog.imap.baidu.com,REJECT
 HOST,wkctj.baidu.com,REJECT
 HOST,zz.bdstatic.com,REJECT
+# > iQiyi
+HOST,act.vip.iqiyi.com,REJECT
 # ------
 # > Bilibili
 HOST,cm.bilibili.com,REJECT
