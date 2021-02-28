@@ -6,7 +6,7 @@ let magicJS = MagicJS(scriptName, "INFO");
   if (magicJS.isResponse){
     switch (true){
       // 推荐列表去除广告和视频
-      case /^https:\/\/api\.weibo\.cn\/2\/status\/friends\/timeline\?gsid=/.test(magicJS.request.url):
+      case /^https:\/\/api\.weibo\.cn\/2\/statuses\/friends\/timeline\?gsid=/.test(magicJS.request.url):
         try{
           let obj = JSON.parse(magicJS.response.body);
           let data = obj['data'].filter((element) =>{
