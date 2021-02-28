@@ -61,6 +61,18 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎关注列表去广告出现异常：${err}`);
         }
         break;
+      // 回答列表去广告
+      case /^https?:\/\/api\.zhihu\.com\/v4\/questions/.test(magicJS.request.url):
+        try{
+          let obj = JSON.parse(magicJS.response.body);
+          delete obj['ad_info'];
+          delete obj['roundtable_info'];
+          body=JSON.stringify(obj);
+        }
+        catch(err){
+          magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
+        }
+        break;
       // 拦截官方账号推广消息
       case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
         try{
