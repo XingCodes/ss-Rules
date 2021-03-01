@@ -74,19 +74,6 @@ let magicJS = MagicJS(scriptName, "INFO");
           magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
         }
         break;
-      // 拦截官方账号推广消息
-      case /^https?:\/\/api\.zhihu\.com\/notifications\/v3\/timeline\/entry\/system_message/.test(magicJS.request.url):
-        try{
-          const sysmsg_blacklist = ['知乎小伙伴', '知乎视频', '知乎团队', '知乎礼券', '知乎读书会团队'];
-          let obj = JSON.parse(magicJS.response.body);
-          let data = obj['data'].filter((element) =>{return sysmsg_blacklist.indexOf(element['content']['title']) < 0})
-          obj['data'] = data;
-          body=JSON.stringify(obj);
-        }
-        catch (err){
-          magicJS.logError(`知乎拦截官方账号推广消息出现异常：${err}`);
-        }
-        break;
     }
   }
   else{
