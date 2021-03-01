@@ -1,3 +1,4 @@
+// https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/Zhihu.js
 const scriptName = '知乎助手';
 let magicJS = MagicJS(scriptName, "INFO");
 
