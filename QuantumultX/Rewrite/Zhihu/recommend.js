@@ -1,6 +1,6 @@
 try{
 	let body = $response.body;
-	this.log('zhihu开始',"INFO");
+	$log('zhihu开始',"INFO");
 	body=JSON.parse(body);
 	// body['data'].forEach((element, index)=> {
 	//     if(element['card_type'] === 'slot_event_card' || element.hasOwnProperty('ad') || (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo')){      
@@ -17,5 +17,5 @@ try{
 	$done({body});
 }
 catch(err){
-	this.log(`知乎推荐列表去广告出现异常：${err}`,"INFO");
+	$log(`知乎推荐列表去广告出现异常：${err}`,"INFO");
 }
