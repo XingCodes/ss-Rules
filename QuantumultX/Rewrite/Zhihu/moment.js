@@ -10,5 +10,5 @@ try{
 	$done({body});
 }
 catch(err){
-	this.log(`知乎关注列表去广告出现异常：${err}`,"INFO");
+	console.log(`知乎关注列表去广告出现异常：${err}`,"INFO");
 }
