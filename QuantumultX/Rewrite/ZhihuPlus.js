@@ -84,10 +84,10 @@ let magicJS = MagicJS(scriptName, "INFO");
           
           let data = obj['data'].filter((element) =>{
             // 修正由于JS number类型精度问题，导致JSON.parse精度丢失，引起视频无法自动播放的问题
-            if (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo'){
-              let video_id = element['common_card']['feed_content']['video']['customized_page_url'].match(/https?:\/\/www\.zhihu\.com\/zvideo\/serial\/\d+\?videoID=(\d*)/)[1];
-              element['common_card']['feed_content']['video']['id'] = video_id;
-            }
+            // if (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo'){
+            //   let video_id = element['common_card']['feed_content']['video']['customized_page_url'].match(/https?:\/\/www\.zhihu\.com\/zvideo\/serial\/\d+\?videoID=(\d*)/)[1];
+            //   element['common_card']['feed_content']['video']['id'] = video_id;
+            // }
 
             let flag = !(
               element['card_type'] === 'slot_event_card' 
