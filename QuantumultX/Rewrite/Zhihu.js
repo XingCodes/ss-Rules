@@ -74,7 +74,7 @@ let magicJS = MagicJS(scriptName, "INFO");
         try{
           let obj = JSON.parse(magicJS.response.body);
           delete obj['ad_info'];
-          delete obj['roundtable_info'];
+          // delete obj['roundtable_info'];
           body=JSON.stringify(obj);
         }
         catch(err){
