@@ -57,9 +57,6 @@ let magicJS = MagicJS(scriptName, "INFO");
             };
             magicJS.logDebug(`当前用户id：${obj['id']}，是否为VIP：${obj['vip_info']['is_vip']}`);
           }
-          else{
-            magicJS.logWarning(`没有获取到当前登录用户信息，已设置为默认用户配置。如果未登录知乎请忽略此日志。`);
-          }
         }
         catch(err){
           magicJS.logError(`知乎获取当前用户信息出现异常：${err}`);
