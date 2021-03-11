@@ -3,12 +3,7 @@ try{
 	let body = $response.body;
 	let obj = JSON.parse(body);
 	let data = obj['data'].filter((element) =>{
-		let flag = !(
-			element['card_type'] === 'slot_event_card' 
-			|| element.hasOwnProperty('ad') 
-			|| (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo') 
-		);
-		return flag;
+		return !(element['card_type'] === 'slot_event_card' || element.hasOwnProperty('ad') || (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo'));
 	});
 	obj['data'] = data;
 	body = JSON.stringify(obj);

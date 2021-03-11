@@ -22,7 +22,7 @@ try{
 			}
 			element['list'] = momentsGroupList;
 		}
-	return element;
+		return element;
 	}
 	for (let i=0;i<obj['data'].length;i++){
 		let element = targetIdFix(obj['data'][i]);
