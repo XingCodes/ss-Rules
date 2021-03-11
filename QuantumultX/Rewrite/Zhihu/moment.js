@@ -1,4 +1,5 @@
 // https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/Zhihu/moment.js
+// 知乎想法去广告
 try{
 	let body = $response.body;
 	let obj = JSON.parse(body);
