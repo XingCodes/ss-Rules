@@ -1,12 +1,17 @@
+// https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/Zhihu/recommend.js
 try{
 	let body = $response.body;
-	body=JSON.parse(body);
-	body['data'].forEach((element, index)=> {
-	    if(element['card_type'] === 'slot_event_card' || element.hasOwnProperty('ad') || (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo')){      
-	       body['data'].splice(index,1)  
-	    }
+	let obj = JSON.parse(body);
+	let data = obj['data'].filter((element) =>{
+		let flag = !(
+			element['card_type'] === 'slot_event_card' 
+			|| element.hasOwnProperty('ad') 
+			|| (element.hasOwnProperty('extra') && element['extra'].hasOwnProperty('type') && element['extra']['type'] === 'zvideo') 
+		);
+		return flag;
 	});
-	body=JSON.stringify(body);
+	obj['data'] = data;
+	body = JSON.stringify(obj);
 	$done({body});
 }
 catch(err){
