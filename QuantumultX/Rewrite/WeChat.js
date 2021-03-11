@@ -1,13 +1,5 @@
 // https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/WeChat.js
-/*
-QX:
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/WeChat.js
-
-Surge4：
-http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Rewrite/WeChat.js
-
-Surge & QX MITM = mp.weixin.qq.com,
-*/
+// 微信公众号文章去广告
 
 var obj = JSON.parse($response.body);
 obj.advertisement_num = 0;
