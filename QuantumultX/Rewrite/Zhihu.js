@@ -74,12 +74,28 @@ let magicJS = MagicJS(scriptName, "INFO");
         try{
           let obj = JSON.parse(magicJS.response.body);
           delete obj['ad_info'];
-          // delete obj['roundtable_info'];
+          delete obj['roundtable_info'];
           body=JSON.stringify(obj);
         }
         catch(err){
           magicJS.logError(`知乎回答列表去广告出现异常：${err}`);
         }
+        break;
+      // 知乎评论去广告
+      case /^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/root_comment/.test(magicJS.request.url):
+        try{
+          if (!!magicJS.response.body){
+            let obj = JSON.parse(magicJS.response.body);
+            obj['ad_info'] = {};
+            body = JSON.stringify(obj);
+          }
+        }
+        catch(err){
+          magicJS.logError(`去除知乎评论广告出现异常：${err}`);
+        }
+        break;
+      default: 
+        magicJS.logWarning('触发意外的请求处理，请确认脚本或复写配置正常。');
         break;
     }
   }
