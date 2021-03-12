@@ -2,9 +2,6 @@
 // 知乎热搜去广告
 let body = $response.body;
 let obj = JSON.parse(body);
-// obj['commercial_data'] = [];
-if (obj.hasOwnProperty('commercial_data')) {
-	console.log($request.url);
-}
+obj['commercial_data'] = [];
 body = JSON.stringify(obj);
 $done({body});
