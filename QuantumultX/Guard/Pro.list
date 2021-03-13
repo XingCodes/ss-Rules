@@ -33,55 +33,6 @@ HOST,jumpluna.58.com,REJECT
 HOST,news.58.com,REJECT
 HOST,zzpush.58.com,REJECT
 
-# (A)
-# --- (Alibaba) ---
-HOST-SUFFIX,aliapp.org,REJECT
-HOST-SUFFIX,all.cnzz.com.danuoyi.tbcache.com,REJECT
-HOST-SUFFIX,count.taobao.com,REJECT
-HOST-SUFFIX,log.aliyuncs.com,REJECT
-HOST-SUFFIX,mmstat.com,REJECT
-HOST-SUFFIX,strip.alicdn.com,REJECT
-HOST-SUFFIX,unidesk.alicdn.com,REJECT
-HOST-SUFFIX,ut.taobao.com,REJECT
-HOST,acs4baichuan.m.taobao.com,REJECT
-HOST,adash.m.taobao.com,REJECT
-HOST,adash.man.aliyuncs.com,REJECT
-HOST,adashx.m.taobao.com,REJECT
-HOST,adashx4yt.m.taobao.com,REJECT
-HOST,amdc.m.taobao.com,REJECT
-HOST,baichuan-sdk.alicdn.com,REJECT
-HOST,baichuan-sdk.taobao.com,REJECT
-HOST,dorangesource.alicdn.com,REJECT
-HOST,eco.taobao.com,REJECT
-HOST,ip.taobao.com,REJECT
-HOST,nbsdk-baichuan.alicdn.com,REJECT
-HOST,nbsdk-baichuan.taobao.com,REJECT
-HOST,proxy-mob-cld.alicdn.com,REJECT
-HOST,pss.alicdn.com,REJECT
-HOST,sjarvis.taobao.com,REJECT
-HOST,tce.alicdn.com,REJECT
-HOST,zconfig.alibabausercontent.com,REJECT
-# > AMap
-HOST,dualstack-logs.amap.com,REJECT
-HOST,logs.amap.com,REJECT
-# > Eleme
-HOST,app-monitor.ele.me,REJECT
-HOST,newton-api.ele.me,REJECT
-# > ShenMa
-HOST,dns.m.sm.cn,REJECT
-HOST,huichuan.sm.cn,REJECT
-HOST,image.zzd.sm.cn,REJECT
-HOST,log.m.sm.cn,REJECT
-HOST,sugs.m.sm.cn,REJECT
-HOST,video-ad.sm.cn,REJECT
-# > UC
-HOST-SUFFIX,m.uczzd.cn,REJECT
-HOST-SUFFIX,uczzd.com,REJECT
-HOST-SUFFIX,uczzd.net,REJECT
-HOST,iflow.uczzd.cn,REJECT
-HOST,iflow.uczzd.com.cn,REJECT
-# ------
-
 # (B)
 # --- (Baidu) ---
 HOST-SUFFIX,cpro.tieba.baidu.com,REJECT
