@@ -268,62 +268,6 @@ HOST,wbapp.uve.weibo.com,REJECT
 HOST,a1.itc.cn,REJECT
 HOST,pv.sohu.com,REJECT
 
-# (T)
-# > Tencent
-HOST-SUFFIX,analy.qq.com,REJECT
-HOST-SUFFIX,beacon.qq.com,REJECT
-HOST-SUFFIX,bsrv.qq.com,REJECT
-HOST-SUFFIX,bugly.qq.com,REJECT
-HOST-SUFFIX,fodder.qq.com,REJECT
-HOST-SUFFIX,fodder.tc.qq.com,REJECT
-HOST-SUFFIX,game.html5.qq.com,REJECT
-HOST-SUFFIX,huatuo.qq.com,REJECT
-HOST-SUFFIX,huatuo.weiyun.com,REJECT
-HOST-SUFFIX,jpush.html5.qq.com,REJECT
-HOST-SUFFIX,market.m.qq.com,REJECT
-HOST-SUFFIX,mdt.qq.com,REJECT
-HOST-SUFFIX,pingfore.qq.com,REJECT
-HOST-SUFFIX,pingjs.qq.com,REJECT
-HOST-SUFFIX,pingma.qq.com,REJECT
-HOST-SUFFIX,pingtas.qq.com,REJECT
-HOST-SUFFIX,pingtcss.qq.com,REJECT
-HOST-SUFFIX,report.qq.com,REJECT
-HOST-SUFFIX,rqd.qq.com,REJECT
-HOST-SUFFIX,tajs.qq.com,REJECT
-HOST-SUFFIX,tcss.qq.com,REJECT
-HOST-SUFFIX,uu.qq.com,REJECT
-HOST-SUFFIX,variety.tc.qq.com,REJECT
-HOST-SUFFIX,video.dispatch.tc.qq.com,REJECT
-HOST,adsense.html5.qq.com,REJECT
-HOST,agstat.html5.qq.com,REJECT
-HOST,appchannel.html5.qq.com,REJECT
-HOST,applog.reader.qq.com,REJECT
-HOST,as.weixin.qq.com,REJECT
-HOST,bksoup.v.qq.com,REJECT
-HOST,cmshow.gtimg.cn,REJECT
-HOST,discuz.gtimg.cn,REJECT
-HOST,fusion.qq.com,REJECT
-HOST,jsapi.html5.qq.com,REJECT
-HOST,life.html5.qq.com,REJECT
-HOST,log6.reader.qq.com,REJECT
-HOST,mqqad.html5.qq.com,REJECT
-HOST,mqqadr.reader.qq.com,REJECT
-HOST,newlog.reader.qq.com,REJECT
-HOST,novelsns.html5.qq.com,REJECT
-HOST,pvstat.html5.qq.com,REJECT
-HOST,qbreport.html5.qq.com,REJECT
-HOST,recmd.html5.qq.com,REJECT
-HOST,soup.v.qq.com,REJECT
-HOST,szlong.weixin.qq.com,REJECT
-HOST,tianshu-x.gtimg.cn,REJECT
-HOST,tpush.html5.qq.com,REJECT
-HOST,unitelogreport.reader.qq.com,REJECT
-HOST,vlive.qqvideo.tc.qq.com,REJECT
-HOST,vp.html5.qq.com,REJECT
-HOST,wxsnsad.tc.qq.com,REJECT
-HOST,wxsnsdy.tc.qq.com,REJECT
-HOST,wxsnsdy.video.qq.com,REJECT
-
 # (U)
 # > Umeng
 HOST-SUFFIX,cnzz.cn,REJECT
