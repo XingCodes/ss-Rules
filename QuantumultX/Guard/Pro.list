@@ -219,6 +219,12 @@ HOST,wbapp.uve.weibo.com,REJECT
 HOST,a1.itc.cn,REJECT
 HOST,pv.sohu.com,REJECT
 
+# (T)
+# > Tencent
+HOST-SUFFIX,beacon.qq.com,REJECT
+HOST-SUFFIX,mdt.qq.com,REJECT
+HOST,soup.v.qq.com,REJECT
+
 # (U)
 # > Umeng
 HOST-SUFFIX,cnzz.cn,REJECT
