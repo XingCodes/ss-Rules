@@ -1,19 +1,19 @@
 # (DNS Cache Pollution)
 # Global Complete
-HOST-KEYWORD,hentai
+DOMAIN-KEYWORD,hentai
 
-HOST-SUFFIX,facebook.cn
-HOST-SUFFIX,gmail.com
-HOST-SUFFIX,instagram.cn
+DOMAIN-SUFFIX,facebook.cn
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,instagram.cn
 # > Apple Music
-HOST-SUFFIX,blobstore.apple.com
-HOST-SUFFIX,s3-external-1.amazonaws.com
-HOST,genius-download-2.itunes.apple.com
-HOST,ld-8.itunes.apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,s3-external-1.amazonaws.com
+DOMAIN,genius-download-2.itunes.apple.com
+DOMAIN,ld-8.itunes.apple.com
 # > PicaComic
-HOST-SUFFIX,tipatipa.xyz
-HOST-SUFFIX,wakamoment.tk
-HOST-SUFFIX,wikawika.xyz
+DOMAIN-SUFFIX,tipatipa.xyz
+DOMAIN-SUFFIX,wakamoment.tk
+DOMAIN-SUFFIX,wikawika.xyz
 
 # Global
 # > Amazon

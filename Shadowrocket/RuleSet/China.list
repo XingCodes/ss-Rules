@@ -1,23 +1,23 @@
 # China Area Network
 # China Complete
 # > Alibaba
-HOST-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alipayobjects.com
 # > Bilibili
-HOST-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.com
 # > Bytedance
-HOST-SUFFIX,bytecdn.com
-HOST-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytecdn.com
+DOMAIN-SUFFIX,byteimg.com
 # > Douyu
-HOST-SUFFIX,douyuscdn.com
+DOMAIN-SUFFIX,douyuscdn.com
 # > Huya
-HOST-SUFFIX,msstatic.com
+DOMAIN-SUFFIX,msstatic.com
 # > Tencent
-HOST-SUFFIX,smtcdns.com
-HOST-SUFFIX,smtcdns.net
-HOST-SUFFIX,tencentpay.com
-HOST-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,smtcdns.com
+DOMAIN-SUFFIX,smtcdns.net
+DOMAIN-SUFFIX,tencentpay.com
+DOMAIN-SUFFIX,wechatpay.com
 # > other
-HOST-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,miaopai.com
 
 # > 360
 DOMAIN-SUFFIX,qhres.com
