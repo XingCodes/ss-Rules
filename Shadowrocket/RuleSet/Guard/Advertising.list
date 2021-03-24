@@ -386,7 +386,6 @@ DOMAIN,ads.weilitoutiao.net
 DOMAIN,adsapi.manhuaren.com
 DOMAIN,adsdk.dmzj.com
 DOMAIN,adserver.pandora.com
-DOMAIN,adservice.tohsoft.com
 DOMAIN,adshow.58.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv.bandi.so
@@ -505,7 +504,6 @@ DOMAIN,exp.360in.com
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagservices.com
@@ -652,7 +650,6 @@ DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 # > Tencent Music (TME)
 DOMAIN,ad.tencentmusic.com
-DOMAIN,adserviceretry.kugou.com
 DOMAIN,ads.service.kugou.com
 DOMAIN,adsfile.bssdlbig.kugou.com
 DOMAIN,g.koowo.com
