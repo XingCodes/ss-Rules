@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,tencentpay.com
 DOMAIN-SUFFIX,wechatpay.com
 # > other
+DOMAIN-SUFFIX,cowtransfer.com
 DOMAIN-SUFFIX,miaopai.com
 
 # > 360

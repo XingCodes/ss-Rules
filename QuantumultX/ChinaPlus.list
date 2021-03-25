@@ -15,4 +15,5 @@ HOST-SUFFIX,smtcdns.net,DIRECT
 HOST-SUFFIX,tencentpay.com,DIRECT
 HOST-SUFFIX,wechatpay.com,DIRECT
 # > other
+HOST-SUFFIX,cowtransfer.com,DIRECT
 HOST-SUFFIX,miaopai.com,DIRECT
