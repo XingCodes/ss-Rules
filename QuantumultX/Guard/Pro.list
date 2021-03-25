@@ -3,6 +3,8 @@
 HOST-SUFFIX,cloudflareinsights.com,REJECT
 HOST-SUFFIX,ctobsnssdk.com,REJECT
 HOST-SUFFIX,flurry.com,REJECT
+HOST-SUFFIX,getui.com,REJECT
+HOST-SUFFIX,getui.net,REJECT
 HOST-SUFFIX,gridsum.com,REJECT
 HOST-SUFFIX,gridsumdissector.cn,REJECT
 HOST-SUFFIX,gridsumdissector.com,REJECT
