@@ -1,6 +1,7 @@
 # > Alibaba
 HOST-SUFFIX,alicloudccp.com,DIRECT
 HOST-SUFFIX,alipayobjects.com,DIRECT
+HOST-SUFFIX,aliyundrive.com,DIRECT
 # > Bilibili
 HOST-SUFFIX,bilivideo.com,DIRECT
 # > Bytedance

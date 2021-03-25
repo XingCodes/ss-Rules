@@ -2,6 +2,7 @@ payload:
   # > Alibaba
   - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,aliyundrive.com
   # > Bilibili
   - DOMAIN-SUFFIX,bilivideo.com
   # > Bytedance
