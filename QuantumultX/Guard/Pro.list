@@ -3,8 +3,6 @@
 HOST-SUFFIX,cloudflareinsights.com,REJECT
 HOST-SUFFIX,ctobsnssdk.com,REJECT
 HOST-SUFFIX,flurry.com,REJECT
-HOST-SUFFIX,getui.com,REJECT
-HOST-SUFFIX,getui.net,REJECT
 HOST-SUFFIX,gridsum.com,REJECT
 HOST-SUFFIX,gridsumdissector.cn,REJECT
 HOST-SUFFIX,gridsumdissector.com,REJECT
@@ -162,12 +160,6 @@ HOST,vipauth.hpplay.cn,REJECT
 HOST,cc.dace.hupu.com,REJECT
 HOST,ccdace.hupu.com,REJECT
 HOST,shence.hupu.com,REJECT
-
-# (J)
-# > Jpush
-HOST-SUFFIX,jiguang.cn,REJECT
-HOST-SUFFIX,jpush.cn,REJECT
-HOST-SUFFIX,jpush.io,REJECT
 
 # (K)
 # > KuaiShou
