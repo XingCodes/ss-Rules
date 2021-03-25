@@ -1,6 +1,7 @@
 # China Area Network
 # China Complete
 # > Alibaba
+DOMAIN-SUFFIX,alicloudccp.com
 DOMAIN-SUFFIX,alipayobjects.com
 # > Bilibili
 DOMAIN-SUFFIX,bilivideo.com

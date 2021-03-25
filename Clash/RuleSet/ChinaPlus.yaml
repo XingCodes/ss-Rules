@@ -1,5 +1,6 @@
 payload:
   # > Alibaba
+  - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,alipayobjects.com
   # > Bilibili
   - DOMAIN-SUFFIX,bilivideo.com
@@ -23,4 +24,5 @@ payload:
   # > other
   - DOMAIN-SUFFIX,2q10.com
   - DOMAIN-SUFFIX,hbooker.com
+  - DOMAIN-SUFFIX,cowtransfer.com
   - DOMAIN-SUFFIX,miaopai.com

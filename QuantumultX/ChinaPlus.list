@@ -1,4 +1,5 @@
 # > Alibaba
+HOST-SUFFIX,alicloudccp.com,DIRECT
 HOST-SUFFIX,alipayobjects.com,DIRECT
 # > Bilibili
 HOST-SUFFIX,bilivideo.com,DIRECT
