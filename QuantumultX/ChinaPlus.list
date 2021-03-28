@@ -19,3 +19,5 @@ HOST-SUFFIX,wechatpay.com,DIRECT
 # > other
 HOST-SUFFIX,cowtransfer.com,DIRECT
 HOST-SUFFIX,miaopai.com,DIRECT
+
+HOST,cut.nostopgo.com,DIRECT

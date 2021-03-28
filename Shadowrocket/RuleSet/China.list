@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,cowtransfer.com
 DOMAIN-SUFFIX,miaopai.com
 
+DOMAIN,cut.nostopgo.com,DIRECT
+
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com
