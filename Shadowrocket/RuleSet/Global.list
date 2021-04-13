@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,instagram.cn
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN-SUFFIX,s3-external-1.amazonaws.com
 DOMAIN,genius-download-2.itunes.apple.com
+DOMAIN,genius.itunes.apple.com,PROXY
 DOMAIN,ld-8.itunes.apple.com
 # > PicaComic
 DOMAIN-SUFFIX,tipatipa.xyz

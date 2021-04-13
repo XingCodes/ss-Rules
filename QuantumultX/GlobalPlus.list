@@ -9,6 +9,7 @@ HOST-SUFFIX,instagram.cn,PROXY
 HOST-SUFFIX,blobstore.apple.com,PROXY
 HOST-SUFFIX,s3-external-1.amazonaws.com,PROXY
 HOST,genius-download-2.itunes.apple.com,PROXY
+HOST,genius.itunes.apple.com,PROXY
 HOST,ld-8.itunes.apple.com,PROXY
 # > PicaComic
 HOST-SUFFIX,tipatipa.xyz,PROXY
