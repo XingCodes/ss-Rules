@@ -1,6 +1,8 @@
 # https://raw.githubusercontent.com/XingCodes/ss-Rules/master/QuantumultX/Guard/Advertising.list
 # Advertising
 # > General
+HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pglstatp-toutiao.com,REJECT
 HOST,net.rayjump.com,REJECT
 
 # > Google
@@ -13,6 +15,14 @@ HOST-SUFFIX,googletagservices.com,REJECT
 HOST,ads.youtube.com,REJECT
 HOST-SUFFIX,googletagmanager.com,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
+
+# > Tencent
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,l.qq.com,REJECT
+HOST,pgdt.ugdtimg.com,REJECT
+HOST,pgdt.gtimg.cn,REJECT
+HOST,pgdt.gtimg.com,REJECT
 
 # > nPlayer
 HOST,api.themoviedb.org,REJECT
