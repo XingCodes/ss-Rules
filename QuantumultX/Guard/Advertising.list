@@ -65,6 +65,11 @@ HOST,ads.youtube.com,REJECT
 HOST-SUFFIX,googletagmanager.com,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
 
+# > Hupu
+HOST,adx.hupu.com,REJECT
+HOST,adx-api.hupu.com,REJECT
+HOST,goblin.hupu.com,REJECT
+
 # > Microsoft
 HOST-SUFFIX,ads.msn.com,REJECT
 HOST-SUFFIX,ads1.msn.com,REJECT
