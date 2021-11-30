@@ -113,11 +113,11 @@ HOST,livep.l.t002.ottcn.com,REJECT
 HOST,pgdt.ugdtimg.com,REJECT
 HOST,pgdt.gtimg.cn,REJECT
 HOST,pgdt.gtimg.com,REJECT
-HOST,splashqqlive.gtimg.com
-HOST,vv.video.qq.com
-HOST,wa.gtimg.com
-HOST,wxsnsdy.wxs.qq.com
-HOST,wxsnsdythumb.wxs.qq.com
+HOST,splashqqlive.gtimg.com,REJECT
+HOST,vv.video.qq.com,REJECT
+HOST,wa.gtimg.com,REJECT
+HOST,wxsnsdy.wxs.qq.com,REJECT
+HOST,wxsnsdythumb.wxs.qq.com,REJECT
 # > Tencent Music (TME)
 HOST,ad.tencentmusic.com,REJECT
 HOST,adstats.tencentmusic.com,REJECT
