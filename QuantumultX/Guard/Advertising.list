@@ -107,6 +107,15 @@ HOST,sax.sina.com.cn,REJECT
 HOST,saxs.sina.com.cn,REJECT
 HOST,saxn.sina.com.cn,REJECT
 
+# > SOHU
+HOST-SUFFIX,ad.sohu.com,REJECT
+HOST-SUFFIX,ads.sohu.com,REJECT
+HOST-SUFFIX,aty.sohu.com,REJECT
+HOST,hui.sohu.com,REJECT
+# > Snapcha‪t‬
+HOST,ads.snapchat.com,REJECT
+HOST,adsapi.snapchat.com,REJECT
+
 # > Tencent
 HOST-SUFFIX,e.qq.com,REJECT
 HOST-SUFFIX,gdt.qq.com,REJECT
@@ -139,6 +148,12 @@ HOST,rich.kuwo.cn,REJECT
 # > nPlayer
 HOST,api.themoviedb.org,REJECT
 HOST,api.vungle.com,REJECT
+
+# > Xiaohongshu
+HOST,ads-img-qc.xhscdn.com,REJECT
+HOST,ads-video-al.xhscdn.com,REJECT
+HOST,ads-video-qc.xhscdn.com,REJECT
+HOST,t-ads.xiaohongshu.com,REJECT
 
 # > Zhihu
 USER-AGENT,AVOS*,REJECT
