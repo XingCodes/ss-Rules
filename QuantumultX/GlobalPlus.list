@@ -5,6 +5,7 @@ HOST-KEYWORD,hentai,PROXY
 HOST-SUFFIX,facebook.cn,PROXY
 HOST-SUFFIX,gmail.com,PROXY
 HOST-SUFFIX,instagram.cn,PROXY
+HOST-SUFFIX,ddxinwen.com,PROXY
 # > Apple Music
 HOST-SUFFIX,blobstore.apple.com,PROXY
 HOST-SUFFIX,s3-external-1.amazonaws.com,PROXY
