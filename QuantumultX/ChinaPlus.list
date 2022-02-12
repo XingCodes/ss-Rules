@@ -1,17 +1,84 @@
+HOST-SUFFIX,cn,DIRECT
+
 # > Alibaba
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alibabausercontent.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alikunlun.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIX,mxhichina.com,DIRECT
+HOST-SUFFIX,soku.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,xiami.com,DIRECT
+HOST-SUFFIX,xiami.net,DIRECT
 HOST-SUFFIX,alicloudccp.com,DIRECT
 HOST-SUFFIX,alipayobjects.com,DIRECT
 HOST-SUFFIX,aliyundrive.com,DIRECT
 # > Bilibili
+HOST-SUFFIX,acgvideo.com,DIRECT
+HOST-SUFFIX,biliapi.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilibili.tv,DIRECT
+HOST-SUFFIX,hdslb.com,DIRECT
 HOST-SUFFIX,bilivideo.com,DIRECT
 # > Bytedance
+HOST-SUFFIX,feiliao.com,DIRECT
+HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,snssdk.com,DIRECT
+HOST-SUFFIX,iesdouyin.com,DIRECT
+HOST-SUFFIX,toutiao.com,DIRECT
 HOST-SUFFIX,bytecdn.com,DIRECT
 HOST-SUFFIX,byteimg.com,DIRECT
 # > Douyu
 HOST-SUFFIX,douyuscdn.com,DIRECT
 # > Huya
 HOST-SUFFIX,msstatic.com,DIRECT
+# > iQiyi
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,iqiyipic.com,DIRECT
+HOST-SUFFIX,71.am,DIRECT
+# > JD
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jd.hk,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+# > NetEase
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,126.com,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,127.net,DIRECT
+HOST-SUFFIX,163yun.com,DIRECT
+HOST-SUFFIX,lofter.com,DIRECT
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,ydstatic.com,DIRECT
+HOST-SUFFIX,youdao.com,DIRECT
+# > Sina
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
 # > Tencent
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST-SUFFIX,idqqimg.com,DIRECT
+HOST-SUFFIX,igamecj.com,DIRECT
+HOST-SUFFIX,myapp.com,DIRECT
+HOST-SUFFIX,myqcloud.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,qqmail.com,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tencent-cloud.com,DIRECT
+HOST-SUFFIX,tencent-cloud.net,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+HOST,file-igamecj.akamaized.net,DIRECT
 HOST-SUFFIX,smtcdns.com,DIRECT
 HOST-SUFFIX,smtcdns.net,DIRECT
 HOST-SUFFIX,tencentpay.com,DIRECT
