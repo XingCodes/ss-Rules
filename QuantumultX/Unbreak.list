@@ -26,6 +26,7 @@ HOST,analytics.strava.com,DIRECT
 # > Tencent
 HOST,fairplay.l.qq.com,DIRECT
 HOST,livew.l.qq.com,DIRECT
+HOST,safebrowsing.urlsec.qq.com,DIRECT
 HOST,vd.l.qq.com,DIRECT
 # > Umeng
 HOST,msg.umeng.com,DIRECT
