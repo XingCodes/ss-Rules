@@ -1,9 +1,6 @@
 # > General
-USER-AGENT,archero*,DIRECT
-USER-AGENT,coffeecorp*,DIRECT
-USER-AGENT,Coffee%20Corp*,DIRECT
-USER-AGENT,restaurant-mobile*,DIRECT
 HOST,app.adjust.com,DIRECT
+HOST,app.appsflyer.com,DIRECT
 HOST,bdtj.tagtic.cn,DIRECT
 # > Alibaba
 HOST,log.mmstat.com,DIRECT
@@ -12,11 +9,7 @@ HOST,sycm.mmstat.com,DIRECT
 HOST-SUFFIX,googletraveladservices.com,DIRECT
 HOST,clientservices.googleapis.com,DIRECT
 HOST,safebrowsing.googleapis.com,DIRECT
-HOST,translate.googleapis.com,DIRECT
 HOST,update.googleapis.com,DIRECT
-# >> Google Fonts API
-HOST,fonts.googleapis.com,DIRECT
-HOST,fonts.gstatic.com,DIRECT
 # >> Paramount+
 HOST,pubads.g.doubleclick.net,DIRECT
 # > Strava
