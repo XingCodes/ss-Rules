@@ -2,6 +2,7 @@
 HOST,app.adjust.com,DIRECT
 HOST,app.appsflyer.com,DIRECT
 HOST,bdtj.tagtic.cn,DIRECT
+HOST-SUFFIX,koyeb.com,DIRECT
 # > Alibaba
 HOST,log.mmstat.com,DIRECT
 HOST,sycm.mmstat.com,DIRECT
